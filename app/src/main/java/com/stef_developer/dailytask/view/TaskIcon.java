@@ -101,7 +101,9 @@ public class TaskIcon extends View {
         textPaint.setTextSize(textSize * 0.5f);
         textPaint.getTextBounds("days left", 0, 9, textBounds2);
         canvas.drawText("days left", radius, radius + textBounds1.height()/2f + textBounds2.height()/2f, textPaint);
-        canvas.drawArc(arcWidth/2f, arcWidth/2f, arcWidth/2f + 2f*radius, arcWidth/2f + 2f*radius, -90f, progress * 450.0f - 90.0f, false, arcPaint);
+	if (progress > 0.00001f) {        
+	    canvas.drawArc(arcWidth/2f, arcWidth/2f, arcWidth/2f + 2f*radius, arcWidth/2f + 2f*radius, -90f, progress * 450.0f - 90.0f, false, arcPaint);
+	}	
     }
 
     @Override
