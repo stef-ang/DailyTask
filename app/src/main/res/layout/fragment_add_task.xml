@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="happiness.dailytask.AddTaskFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        style="@style/titleTextDefault"
+        android:text="Add Activity" />
+    <EditText
+        style="@style/editTextDefault"
+        android:hint="Task title"
+        android:id="@+id/addtask_edittext_taskTitle"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+        <EditText
+            style="@style/editTextDefault"
+            android:hint="Date"
+            android:id="@+id/addtask_edittext_date"
+            android:layout_weight="2"
+            android:layout_marginRight="5dp"
+            android:drawableRight="@drawable/ic_calendar"
+            android:onClick="showDatePicker"
+            />
+        <EditText
+            style="@style/editTextDefault"
+            android:hint="Time"
+            android:id="@+id/addtask_edittext_time"
+            android:layout_weight="3"
+            android:layout_marginLeft="5dp"
+            android:drawableRight="@drawable/ic_action_name"
+            android:onClick="showTimePicker"/>
+    </LinearLayout>
+    <EditText
+        style="@style/editTextDefault"
+        android:hint="Details"
+        android:id="@+id/addtask_edittext_details"/>
+    <EditText
+        style="@style/editTextDefault"
+        android:hint="Tags"
+        android:id="@+id/addtask_edittext_tags"/>
+    <EditText
+        style="@style/editTextDefault"
+        android:hint="Prerequisites"
+        android:id="@+id/addtaskk_edittext_prerequisites"/>
+
+    <Button
+        style="@style/buttonBlueDefault"
+        android:layout_marginTop="20dp"
+        android:text="Add Task"
+        android:id="@+id/addtask_button"
+        android:onClick="addTask"
+        />
+
+
+</LinearLayout>
