@@ -1,0 +1,3994 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="MenuSamping.svg">
+  <defs
+     id="defs4">
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter3985">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3987" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3989" />
+      <feGaussianBlur
+         in="composite"
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur3991" />
+      <feOffset
+         dx="1.2"
+         dy="5"
+         result="offset"
+         id="feOffset3993" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3995" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3985-1">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3987-7" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3989-4" />
+      <feGaussianBlur
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur3991-0" />
+      <feOffset
+         dx="1.2"
+         dy="5"
+         result="offset"
+         id="feOffset3993-9" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3995-4" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3985-8">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3987-2" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3989-45" />
+      <feGaussianBlur
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur3991-5" />
+      <feOffset
+         dx="1.2"
+         dy="5"
+         result="offset"
+         id="feOffset3993-1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3995-7" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3985-8-1">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3987-2-5" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3989-45-2" />
+      <feGaussianBlur
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur3991-5-7" />
+      <feOffset
+         dx="1.2"
+         dy="5"
+         result="offset"
+         id="feOffset3993-1-6" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3995-7-1" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3985-8-1-2">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3987-2-5-3" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3989-45-2-2" />
+      <feGaussianBlur
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur3991-5-7-2" />
+      <feOffset
+         dx="1.2"
+         dy="5"
+         result="offset"
+         id="feOffset3993-1-6-1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3995-7-1-6" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3985-8-1-5">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3987-2-5-7" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3989-45-2-6" />
+      <feGaussianBlur
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur3991-5-7-1" />
+      <feOffset
+         dx="1.2"
+         dy="5"
+         result="offset"
+         id="feOffset3993-1-6-8" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3995-7-1-9" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3985-7">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3987-9" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3989-5" />
+      <feGaussianBlur
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur3991-4" />
+      <feOffset
+         dx="1.2"
+         dy="5"
+         result="offset"
+         id="feOffset3993-3" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3995-1" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3985-3">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3987-3" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3989-41" />
+      <feGaussianBlur
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur3991-1" />
+      <feOffset
+         dx="1.2"
+         dy="5"
+         result="offset"
+         id="feOffset3993-38" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3995-74" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3985-79">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3987-31" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3989-9" />
+      <feGaussianBlur
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur3991-8" />
+      <feOffset
+         dx="1.2"
+         dy="5"
+         result="offset"
+         id="feOffset3993-6" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3995-5" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3985-2">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3987-8" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3989-6" />
+      <feGaussianBlur
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur3991-02" />
+      <feOffset
+         dx="1.2"
+         dy="5"
+         result="offset"
+         id="feOffset3993-4" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3995-8" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3985-2-5">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3987-8-0" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3989-6-9" />
+      <feGaussianBlur
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur3991-02-0" />
+      <feOffset
+         dx="1.2"
+         dy="5"
+         result="offset"
+         id="feOffset3993-4-0" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3995-8-6" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter3378">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3380" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3382" />
+      <feGaussianBlur
+         in="composite"
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur3384" />
+      <feOffset
+         dx="1.4"
+         dy="5.9"
+         result="offset"
+         id="feOffset3386" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3388" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter3416">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3418" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3420" />
+      <feGaussianBlur
+         in="composite"
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur3422" />
+      <feOffset
+         dx="1.4"
+         dy="6"
+         result="offset"
+         id="feOffset3424" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3426" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3378-1">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3380-7" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3382-4" />
+      <feGaussianBlur
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur3384-0" />
+      <feOffset
+         dx="1.4"
+         dy="5.9"
+         result="offset"
+         id="feOffset3386-9" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3388-4" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter3747">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3749" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3751" />
+      <feGaussianBlur
+         in="composite"
+         stdDeviation="1"
+         result="blur"
+         id="feGaussianBlur3753" />
+      <feOffset
+         dx="3"
+         dy="5.5"
+         result="offset"
+         id="feOffset3755" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3757" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3747-1">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3749-7" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3751-4" />
+      <feGaussianBlur
+         stdDeviation="1"
+         result="blur"
+         id="feGaussianBlur3753-0" />
+      <feOffset
+         dx="3"
+         dy="5.5"
+         result="offset"
+         id="feOffset3755-9" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3757-4" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3378-18">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3380-9" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3382-2" />
+      <feGaussianBlur
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur3384-7" />
+      <feOffset
+         dx="1.4"
+         dy="5.9"
+         result="offset"
+         id="feOffset3386-95" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3388-43" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3747-12">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3749-3" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3751-3" />
+      <feGaussianBlur
+         stdDeviation="1"
+         result="blur"
+         id="feGaussianBlur3753-4" />
+      <feOffset
+         dx="3"
+         dy="5.5"
+         result="offset"
+         id="feOffset3755-1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3757-1" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3378-13">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3380-8" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3382-7" />
+      <feGaussianBlur
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur3384-4" />
+      <feOffset
+         dx="1.4"
+         dy="5.9"
+         result="offset"
+         id="feOffset3386-2" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3388-7" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3747-1-6">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3749-7-6" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3751-4-1" />
+      <feGaussianBlur
+         stdDeviation="1"
+         result="blur"
+         id="feGaussianBlur3753-0-8" />
+      <feOffset
+         dx="3"
+         dy="5.5"
+         result="offset"
+         id="feOffset3755-9-4" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3757-4-9" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3747-1-6-6">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3749-7-6-3" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3751-4-1-6" />
+      <feGaussianBlur
+         stdDeviation="1"
+         result="blur"
+         id="feGaussianBlur3753-0-8-1" />
+      <feOffset
+         dx="3"
+         dy="5.5"
+         result="offset"
+         id="feOffset3755-9-4-5" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3757-4-9-4" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3378-13-2">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3380-8-0" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3382-7-9" />
+      <feGaussianBlur
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur3384-4-7" />
+      <feOffset
+         dx="1.4"
+         dy="5.9"
+         result="offset"
+         id="feOffset3386-2-3" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3388-7-7" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter4558">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood4560" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite4562" />
+      <feGaussianBlur
+         in="composite"
+         stdDeviation="4.2"
+         result="blur"
+         id="feGaussianBlur4564" />
+      <feOffset
+         dx="9.5"
+         dy="15"
+         result="offset"
+         id="feOffset4566" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite4568" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3416-1">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3418-7" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3420-4" />
+      <feGaussianBlur
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur3422-0" />
+      <feOffset
+         dx="1.4"
+         dy="6"
+         result="offset"
+         id="feOffset3424-9" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3426-4" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter4381">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood4383" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite4385" />
+      <feGaussianBlur
+         in="composite"
+         stdDeviation="4.2"
+         result="blur"
+         id="feGaussianBlur4387" />
+      <feOffset
+         dx="4.5"
+         dy="7"
+         result="offset"
+         id="feOffset4389" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite4391" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter4381-6">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood4383-2" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite4385-9" />
+      <feGaussianBlur
+         stdDeviation="4.2"
+         result="blur"
+         id="feGaussianBlur4387-7" />
+      <feOffset
+         dx="4.5"
+         dy="7"
+         result="offset"
+         id="feOffset4389-6" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite4391-3" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3416-1-7">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3418-7-7" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3420-4-3" />
+      <feGaussianBlur
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur3422-0-6" />
+      <feOffset
+         dx="1.4"
+         dy="6"
+         result="offset"
+         id="feOffset3424-9-1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3426-4-1" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3747-1-6-6-9">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3749-7-6-3-8" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3751-4-1-6-6" />
+      <feGaussianBlur
+         stdDeviation="1"
+         result="blur"
+         id="feGaussianBlur3753-0-8-1-9" />
+      <feOffset
+         dx="3"
+         dy="5.5"
+         result="offset"
+         id="feOffset3755-9-4-5-0" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3757-4-9-4-1" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3378-13-2-2">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3380-8-0-3" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3382-7-9-7" />
+      <feGaussianBlur
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur3384-4-7-2" />
+      <feOffset
+         dx="1.4"
+         dy="5.9"
+         result="offset"
+         id="feOffset3386-2-3-0" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3388-7-7-3" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3747-1-5">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3749-7-0" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3751-4-7" />
+      <feGaussianBlur
+         stdDeviation="1"
+         result="blur"
+         id="feGaussianBlur3753-0-9" />
+      <feOffset
+         dx="3"
+         dy="5.5"
+         result="offset"
+         id="feOffset3755-9-6" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3757-4-8" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3747-1-6-1">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3749-7-6-7" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3751-4-1-9" />
+      <feGaussianBlur
+         stdDeviation="1"
+         result="blur"
+         id="feGaussianBlur3753-0-8-2" />
+      <feOffset
+         dx="3"
+         dy="5.5"
+         result="offset"
+         id="feOffset3755-9-4-7" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3757-4-9-5" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3378-1-5">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3380-7-2" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3382-4-5" />
+      <feGaussianBlur
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur3384-0-2" />
+      <feOffset
+         dx="1.4"
+         dy="5.9"
+         result="offset"
+         id="feOffset3386-9-0" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3388-4-7" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3378-13-5">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3380-8-9" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3382-7-7" />
+      <feGaussianBlur
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur3384-4-5" />
+      <feOffset
+         dx="1.4"
+         dy="5.9"
+         result="offset"
+         id="feOffset3386-2-2" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3388-7-1" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3747-4">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3749-71" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3751-38" />
+      <feGaussianBlur
+         stdDeviation="1"
+         result="blur"
+         id="feGaussianBlur3753-7" />
+      <feOffset
+         dx="3"
+         dy="5.5"
+         result="offset"
+         id="feOffset3755-4" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3757-5" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3747-12-8">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3749-3-1" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3751-3-4" />
+      <feGaussianBlur
+         stdDeviation="1"
+         result="blur"
+         id="feGaussianBlur3753-4-9" />
+      <feOffset
+         dx="3"
+         dy="5.5"
+         result="offset"
+         id="feOffset3755-1-8" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3757-1-3" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3378-8">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3380-5" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3382-6" />
+      <feGaussianBlur
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur3384-8" />
+      <feOffset
+         dx="1.4"
+         dy="5.9"
+         result="offset"
+         id="feOffset3386-5" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3388-3" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3378-18-9">
+      <feFlood
+         flood-opacity="0.5"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3380-9-0" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3382-2-6" />
+      <feGaussianBlur
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur3384-7-4" />
+      <feOffset
+         dx="1.4"
+         dy="5.9"
+         result="offset"
+         id="feOffset3386-95-7" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3388-43-9" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter5774">
+      <feFlood
+         flood-opacity="0.772549"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood5776" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite5778" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="4.16667"
+         result="blur"
+         id="feGaussianBlur5780" />
+      <feOffset
+         dx="3.6"
+         dy="11.5"
+         result="offset"
+         id="feOffset5782" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite5784" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter5834">
+      <feFlood
+         flood-opacity="0.772549"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood5836" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite5838" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="2.1"
+         result="blur"
+         id="feGaussianBlur5840" />
+      <feOffset
+         dx="2.1"
+         dy="3.125"
+         result="offset"
+         id="feOffset5842" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite5844" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter5846">
+      <feFlood
+         flood-opacity="0.772549"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood5848" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite5850" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="2.1"
+         result="blur"
+         id="feGaussianBlur5852" />
+      <feOffset
+         dx="2.1"
+         dy="3.1"
+         result="offset"
+         id="feOffset5854" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite5856" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="1405.2823"
+     inkscape:cy="1049.489"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer9"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Background">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3553"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Roboto Medium;font-style:normal;font-weight:bold;font-size:24px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Roboto Medium;font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion3555"><rect
+           id="rect3557"
+           width="214.28572"
+           height="40"
+           x="-722.85718"
+           y="240.93359"
+           style="font-size:24px;-inkscape-font-specification:Roboto Medium;font-family:Roboto Medium" /></flowRegion><flowPara
+         id="flowPara3559" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3561"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto Light;-inkscape-font-specification:Roboto Light"
+       transform="translate(965.7143,-17.142857)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3563"><rect
+           id="rect3565"
+           width="240"
+           height="48.57143"
+           x="-720"
+           y="240.93359" /></flowRegion><flowPara
+         id="flowPara3567"
+         style="fill:#000000">Deadline</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3771"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto Light;-inkscape-font-specification:Roboto Light"
+       transform="translate(965.7143,-17.142857)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3773"><rect
+           id="rect3775"
+           width="140.41121"
+           height="145.46198"
+           x="-434.3656"
+           y="169.48885" /></flowRegion><flowPara
+         id="flowPara3777">.</flowPara><flowPara
+         id="flowPara3779">.</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3401"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Roboto Light;font-style:normal;font-weight:bold;font-size:24px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Roboto Light;font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion3403"><rect
+           id="rect3405"
+           width="134.28572"
+           height="50"
+           x="258.57144"
+           y="315.93359" /></flowRegion><flowPara
+         id="flowPara3407" /></flowRoot>  </g>
+  <g
+     inkscape:label="ScreenBackground"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <rect
+       style="fill:#e6e6e6;fill-opacity:1;stroke:none"
+       id="rect2985"
+       width="665.71429"
+       height="1077.1483"
+       x="48.571415"
+       y="-1046.6533"
+       transform="scale(1,-1)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Items"
+     style="display:inline">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;display:inline;filter:url(#filter3378-18)"
+       id="rect4582-3"
+       width="666.70068"
+       height="95.964493"
+       x="-889.0545"
+       y="137.8009"
+       transform="matrix(0.98055556,0,0,1.9938597,930.32738,-168.34909)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;filter:url(#filter3378)"
+       id="rect4582"
+       width="666.70068"
+       height="95.964493"
+       x="-889.0545"
+       y="137.8009"
+       transform="matrix(0.98055556,0,0,1.9938597,930.16316,25.142693)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4611"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(0,175.19972)"><flowRegion
+         id="flowRegion4613"><rect
+           id="rect4615"
+           width="136.37059"
+           height="114.65231"
+           x="251.52798"
+           y="157.8721" /></flowRegion><flowPara
+         id="flowPara4617" /></flowRoot>    <rect
+       style="fill:#ff2a2a;fill-opacity:1;stroke:none;display:inline;filter:url(#filter3747-12)"
+       id="rect3577-87"
+       width="18.182747"
+       height="189.90868"
+       x="-915.19824"
+       y="141.14366"
+       transform="matrix(1,0,0,1.00537,963.87852,-39.212658)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ffd42a;fill-opacity:1;stroke:none;filter:url(#filter3747)"
+       id="rect3577"
+       width="18.182747"
+       height="189.90868"
+       x="-915.19824"
+       y="141.14366"
+       transform="matrix(1,0,0,1.00537,965.7143,154.27911)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;display:inline;filter:url(#filter3378-13)"
+       id="rect4582-7"
+       width="666.70068"
+       height="95.964493"
+       x="-889.0545"
+       y="137.8009"
+       transform="matrix(0.98055556,0,0,1.9938597,930.25103,219.202)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;filter:url(#filter3378-1)"
+       id="rect4582-8"
+       width="666.70068"
+       height="95.964493"
+       x="-889.0545"
+       y="137.8009"
+       transform="matrix(0.98333333,0,0,1.9938597,931.03944,413.41246)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.56172839,0,0,0.56172839,-30.202811,656.91928)"
+       sodipodi:type="arc"
+       style="fill:#2a7fff;fill-opacity:1;stroke:none"
+       id="path4609-4-3"
+       sodipodi:cx="315.71429"
+       sodipodi:cy="218.07646"
+       sodipodi:rx="115.71429"
+       sodipodi:ry="115.71429"
+       d="m 315.7143,102.36217 a 115.71429,115.71429 0 0 1 115.71428,115.71429 l -115.71429,0 z"
+       sodipodi:start="4.712389"
+       sodipodi:end="6.2831853"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.51851851,0,0,0.51851851,-16.560831,666.34234)"
+       sodipodi:type="arc"
+       style="fill:#55ff55;fill-opacity:1;stroke:none"
+       id="path4609-4"
+       sodipodi:cx="315.71429"
+       sodipodi:cy="218.07646"
+       sodipodi:rx="115.71429"
+       sodipodi:ry="115.71429"
+       d="m 431.42858,218.07646 a 115.71429,115.71429 0 1 1 -231.42857,0 115.71429,115.71429 0 1 1 231.42857,0 z"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3545"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto Medium;-inkscape-font-specification:Roboto Medium"
+       transform="translate(984.28573,151.48542)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3547"><rect
+           id="rect3549"
+           width="394.28571"
+           height="68.571426"
+           x="-740"
+           y="168.07646"
+           style="font-family:Roboto Medium;-inkscape-font-specification:Roboto Medium" /></flowRegion><flowPara
+         id="flowPara3551"
+         style="font-size:40px">Demo MPPL</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3569"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto Light;-inkscape-font-specification:Roboto Light"
+       transform="translate(954.28573,130.914)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3571"><rect
+           id="rect3573"
+           width="345.71429"
+           height="60.000004"
+           x="-708.57141"
+           y="252.36217" /></flowRegion><flowPara
+         id="flowPara4342">March 15, 2015 -- 10:30 AM</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3092-8"
+       style="font-size:31.71589279px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto Light;-inkscape-font-specification:Roboto Light"
+       transform="matrix(0.7567184,0,0,0.7567184,-109.25923,566.62471)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3094-2"><rect
+           id="rect3096-4"
+           width="240.07834"
+           height="123.22399"
+           x="219.45564"
+           y="249.79597"
+           style="font-size:31.71589279px" /></flowRegion><flowPara
+         id="flowPara3098-5"
+         style="font-size:63.43178558px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:80.00000119%;text-anchor:middle;fill:#ffffff;font-family:Roboto Medium;-inkscape-font-specification:'Roboto Medium,'">14 </flowPara><flowPara
+         style="font-size:26.42991066px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-align:center;line-height:80.00000119%;text-anchor:middle;fill:#ffffff;font-family:Roboto Light;-inkscape-font-specification:Roboto Light"
+         id="flowPara3184-5"><flowSpan
+   style="font-size:26.42991066px;font-family:Roboto Medium;-inkscape-font-specification:Roboto Medium"
+   id="flowSpan3194-1">days</flowSpan> left</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3545-7"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto Medium;-inkscape-font-specification:Roboto Medium"
+       transform="translate(982.84319,540.22268)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3547-1"><rect
+           id="rect3549-1"
+           width="394.28571"
+           height="68.571426"
+           x="-740"
+           y="168.07646"
+           style="font-family:Roboto Medium;-inkscape-font-specification:Roboto Medium" /></flowRegion><flowPara
+         id="flowPara3551-5"
+         style="font-size:40px">UTS KIJ</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3545-4"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Roboto Medium;-inkscape-font-specification:Roboto Medium"
+       transform="translate(982.44995,-48.006347)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3547-2"><rect
+           id="rect3549-7"
+           width="434.6918"
+           height="61.500359"
+           x="-740"
+           y="168.07646"
+           style="font-family:Roboto Medium;-inkscape-font-specification:Roboto Medium" /></flowRegion><flowPara
+         id="flowPara3551-7"
+         style="font-size:40px">Tugas DP</flowPara></flowRoot>    <path
+       transform="matrix(0.56172839,0,0,0.56172839,-31.631412,267.91928)"
+       sodipodi:type="arc"
+       style="fill:#5599ff;fill-opacity:1;stroke:none"
+       id="path4609-42"
+       sodipodi:cx="315.71429"
+       sodipodi:cy="218.07646"
+       sodipodi:rx="115.71429"
+       sodipodi:ry="115.71429"
+       d="M 315.7143,102.36217 A 115.71429,115.71429 0 1 1 200.00001,218.07646 l 115.71428,0 z"
+       sodipodi:start="4.712389"
+       sodipodi:end="9.424778"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3569-9"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Roboto Light;-inkscape-font-specification:Roboto Light"
+       transform="translate(952.44994,-66.577769)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3571-3"><rect
+           id="rect3573-1"
+           width="450.77017"
+           height="58.989853"
+           x="-708.57141"
+           y="252.36217" /></flowRegion><flowPara
+         id="flowPara4342-9">March 12, 2015 -- 1:30 PM <flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto Medium;-inkscape-font-specification:'Roboto Medium,'"
+   id="flowSpan3824">(5 hours left)</flowSpan></flowPara></flowRoot>    <path
+       transform="matrix(0.51851851,0,0,0.51851851,-17.989412,277.34234)"
+       sodipodi:type="arc"
+       style="fill:#ffcc00;fill-opacity:1;stroke:none"
+       id="path4609"
+       sodipodi:cx="315.71429"
+       sodipodi:cy="218.07646"
+       sodipodi:rx="115.71429"
+       sodipodi:ry="115.71429"
+       d="m 431.42858,218.07646 a 115.71429,115.71429 0 1 1 -231.42857,0 115.71429,115.71429 0 1 1 231.42857,0 z"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3092-2"
+       style="font-size:31.71589279px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto Light;-inkscape-font-specification:Roboto Light"
+       transform="matrix(0.7567184,0,0,0.7567184,-110.5867,178.18471)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3094-21"><rect
+           id="rect3096-6"
+           width="240.07834"
+           height="123.22399"
+           x="219.45564"
+           y="249.79597"
+           style="font-size:31.71589279px" /></flowRegion><flowPara
+         id="flowPara3098-8"
+         style="font-size:63.43178558px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:80.00000119%;text-anchor:middle;fill:#ffffff;font-family:Roboto Medium;-inkscape-font-specification:'Roboto Medium,'">3 </flowPara><flowPara
+         style="font-size:26.42991066px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-align:center;line-height:80.00000119%;text-anchor:middle;fill:#ffffff;font-family:Roboto Light;-inkscape-font-specification:Roboto Light"
+         id="flowPara3184-57"><flowSpan
+   style="font-size:26.42991066px;font-family:Roboto Medium;-inkscape-font-specification:Roboto Medium"
+   id="flowSpan3194-6">days</flowSpan> left</flowPara></flowRoot>    <path
+       transform="matrix(0.56172839,0,0,0.56172839,-33.467202,72.4275)"
+       sodipodi:type="arc"
+       style="fill:#5599ff;fill-opacity:1;stroke:none;display:inline"
+       id="path4609-42-8"
+       sodipodi:cx="315.71429"
+       sodipodi:cy="218.07646"
+       sodipodi:rx="115.71429"
+       sodipodi:ry="115.71429"
+       d="m 431.42858,218.07646 a 115.71429,115.71429 0 1 1 -231.42857,0 115.71429,115.71429 0 1 1 231.42857,0 z"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.51851851,0,0,0.51851851,-19.825192,81.85056)"
+       sodipodi:type="arc"
+       style="fill:#ff2a2a;fill-opacity:1;stroke:none;display:inline"
+       id="path4609-6"
+       sodipodi:cx="315.71429"
+       sodipodi:cy="218.07646"
+       sodipodi:rx="115.71429"
+       sodipodi:ry="115.71429"
+       d="m 431.42858,218.07646 a 115.71429,115.71429 0 1 1 -231.42857,0 115.71429,115.71429 0 1 1 231.42857,0 z"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3092-2-5"
+       style="font-size:31.71589279px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Roboto Light;-inkscape-font-specification:Roboto Light"
+       transform="matrix(0.7567184,0,0,0.7567184,-112.4225,-17.307058)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3094-21-0"><rect
+           id="rect3096-6-2"
+           width="240.07834"
+           height="123.22399"
+           x="219.45564"
+           y="249.79597"
+           style="font-size:31.71589279px" /></flowRegion><flowPara
+         id="flowPara3098-8-8"
+         style="font-size:63.43178558px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:80.00000119%;text-anchor:middle;fill:#ffffff;font-family:Roboto Medium;-inkscape-font-specification:'Roboto Medium,'">0 </flowPara><flowPara
+         style="font-size:26.42991066px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-align:center;line-height:80.00000119%;text-anchor:middle;fill:#ffffff;font-family:Roboto Light;-inkscape-font-specification:Roboto Light"
+         id="flowPara3184-57-6"><flowSpan
+   style="font-family:Roboto Medium;-inkscape-font-specification:Roboto Medium"
+   id="flowSpan3822">days</flowSpan> left</flowPara></flowRoot>    <g
+       id="g3456"
+       transform="translate(-2,-72.392859)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="3.9795918"
+         rx="2.4853799"
+         y="311.64789"
+         x="245.00002"
+         height="27.857143"
+         width="60.714283"
+         id="rect3399"
+         style="fill:#e6e6e6;fill-opacity:1;stroke:none" />
+      <flowRoot
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:Roboto Light;-inkscape-font-specification:Roboto Light"
+         id="flowRoot3409"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3411"><rect
+             style="fill:#333333"
+             y="315.2193"
+             x="252.14287"
+             height="31.428574"
+             width="96.428566"
+             id="rect3413" /></flowRegion><flowPara
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#808080;font-family:Roboto Medium;-inkscape-font-specification:'Roboto Medium,'"
+           id="flowPara3415">Kuliah</flowPara></flowRoot>    </g>
+    <g
+       id="g3449"
+       transform="translate(-3.428571,-72.035712)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="3.9795918"
+         rx="2.4853799"
+         y="311.29074"
+         x="315.35715"
+         height="27.857143"
+         width="60.714283"
+         id="rect3399-1"
+         style="fill:#e6e6e6;fill-opacity:1;stroke:none;display:inline" />
+      <flowRoot
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;display:inline;font-family:Roboto Light;-inkscape-font-specification:Roboto Light"
+         id="flowRoot3409-7"
+         xml:space="preserve"
+         transform="translate(70.357129,-0.35714725)"><flowRegion
+           id="flowRegion3411-4"><rect
+             style="fill:#333333"
+             y="315.2193"
+             x="252.14287"
+             height="31.428574"
+             width="96.428566"
+             id="rect3413-0" /></flowRegion><flowPara
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#808080;font-family:Roboto Medium;-inkscape-font-specification:'Roboto Medium,'"
+           id="flowPara3415-9">PAA 2</flowPara></flowRoot>    </g>
+    <g
+       style="display:inline"
+       id="g3456-4"
+       transform="translate(-0.53571913,118.21428)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="3.9795918"
+         rx="2.4853799"
+         y="311.64789"
+         x="245.00002"
+         height="27.857143"
+         width="60.714283"
+         id="rect3399-8"
+         style="fill:#e6e6e6;fill-opacity:1;stroke:none" />
+      <flowRoot
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:Roboto Light;-inkscape-font-specification:Roboto Light"
+         id="flowRoot3409-8"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3411-2"><rect
+             style="fill:#333333"
+             y="315.2193"
+             x="252.14287"
+             height="31.428574"
+             width="96.428566"
+             id="rect3413-4" /></flowRegion><flowPara
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#808080;font-family:Roboto Medium;-inkscape-font-specification:'Roboto Medium,'"
+           id="flowPara3415-5">Kuliah</flowPara></flowRoot>    </g>
+    <g
+       style="display:inline"
+       id="g3449-5"
+       transform="translate(-1.9642891,118.57143)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="3.9795918"
+         rx="2.4853799"
+         y="311.29074"
+         x="315.35715"
+         height="27.857143"
+         width="60.714283"
+         id="rect3399-1-1"
+         style="fill:#e6e6e6;fill-opacity:1;stroke:none;display:inline" />
+      <flowRoot
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;display:inline;font-family:Roboto Light;-inkscape-font-specification:Roboto Light"
+         id="flowRoot3409-7-7"
+         xml:space="preserve"
+         transform="translate(70.357129,-0.35714725)"><flowRegion
+           id="flowRegion3411-4-1"><rect
+             style="fill:#333333"
+             y="315.2193"
+             x="252.14287"
+             height="31.428574"
+             width="96.428566"
+             id="rect3413-0-1" /></flowRegion><flowPara
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#808080;font-family:Roboto Medium;-inkscape-font-specification:'Roboto Medium,'"
+           id="flowPara3415-9-5">MPPL</flowPara></flowRoot>    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3569-2"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto Light;-inkscape-font-specification:Roboto Light"
+       transform="translate(950.92997,516.84155)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3571-7"><rect
+           id="rect3573-6"
+           width="221.42857"
+           height="61.428574"
+           x="-708.57141"
+           y="252.36217" /></flowRegion><flowPara
+         id="flowPara3575-1">March 26, 2015</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3545-9"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Roboto Medium;-inkscape-font-specification:Roboto Medium"
+       transform="translate(984.37363,345.54473)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3547-3"><rect
+           id="rect3549-19"
+           width="394.28571"
+           height="68.571426"
+           x="-740"
+           y="168.07646"
+           style="font-family:Roboto Medium;-inkscape-font-specification:Roboto Medium" /></flowRegion><flowPara
+         id="flowPara3551-8"
+         style="font-size:40px">Futsal</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3569-6"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Roboto Light;-inkscape-font-specification:Roboto Light"
+       transform="translate(954.37363,324.97331)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3571-5"><rect
+           id="rect3573-0"
+           width="345.71429"
+           height="60.000004"
+           x="-708.57141"
+           y="252.36217" /></flowRegion><flowPara
+         id="flowPara4342-2">March 18, 2015 -- 7:00 PM</flowPara></flowRoot>    <path
+       transform="matrix(0.51851851,0,0,0.51851851,-17.901515,471.40165)"
+       sodipodi:type="arc"
+       style="fill:#bcd35f;fill-opacity:1;stroke:none;display:inline"
+       id="path4609-0"
+       sodipodi:cx="315.71429"
+       sodipodi:cy="218.07646"
+       sodipodi:rx="115.71429"
+       sodipodi:ry="115.71429"
+       d="m 431.42858,218.07646 a 115.71429,115.71429 0 1 1 -231.42857,0 115.71429,115.71429 0 1 1 231.42857,0 z"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3092-2-2"
+       style="font-size:31.71589279px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Roboto Light;-inkscape-font-specification:Roboto Light"
+       transform="matrix(0.7567184,0,0,0.7567184,-110.4988,372.24402)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3094-21-4"><rect
+           id="rect3096-6-8"
+           width="240.07834"
+           height="123.22399"
+           x="219.45564"
+           y="249.79597"
+           style="font-size:31.71589279px" /></flowRegion><flowPara
+         id="flowPara3098-8-6"
+         style="font-size:63.43178558px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:80.00000119%;text-anchor:middle;fill:#ffffff;font-family:Roboto Medium;-inkscape-font-specification:'Roboto Medium,'">6 </flowPara><flowPara
+         style="font-size:26.42991066px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-align:center;line-height:80.00000119%;text-anchor:middle;fill:#ffffff;font-family:Roboto Light;-inkscape-font-specification:Roboto Light"
+         id="flowPara3184-57-5"><flowSpan
+   style="font-size:26.42991066px;font-family:Roboto Medium;-inkscape-font-specification:Roboto Medium"
+   id="flowSpan3194-6-09">days</flowSpan> left</flowPara></flowRoot>    <g
+       style="display:inline"
+       id="g3456-4-0"
+       transform="translate(-0.4478153,312.27359)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="3.9795918"
+         rx="2.4853799"
+         y="311.64789"
+         x="245.00002"
+         height="27.857143"
+         width="79.999992"
+         id="rect3399-8-0"
+         style="fill:#e6e6e6;fill-opacity:1;stroke:none" />
+      <flowRoot
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:Roboto Light;-inkscape-font-specification:Roboto Light"
+         id="flowRoot3409-8-6"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3411-2-1"><rect
+             style="fill:#333333"
+             y="315.2193"
+             x="252.14287"
+             height="31.428574"
+             width="96.428566"
+             id="rect3413-4-3" /></flowRegion><flowPara
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#808080;font-family:Roboto Medium;-inkscape-font-specification:'Roboto Medium,'"
+           id="flowPara3415-5-8">Olahraga</flowPara></flowRoot>    </g>
+    <rect
+       style="fill:#bcd35f;fill-opacity:1;stroke:none;display:inline;filter:url(#filter3747-1-6)"
+       id="rect3577-8-6"
+       width="18.182747"
+       height="189.90868"
+       x="-915.19824"
+       y="141.14366"
+       transform="matrix(1,0,0,1.00537,966.39258,348.71062)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#55ff55;fill-opacity:1;stroke:none;filter:url(#filter3747-1)"
+       id="rect3577-8"
+       width="18.182747"
+       height="189.90868"
+       x="-915.19824"
+       y="141.14366"
+       transform="matrix(1,0,0,1.00537,967.14289,542.77889)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       style="display:inline"
+       id="g3456-6"
+       transform="translate(0.673208,505.43538)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="3.9795918"
+         rx="2.4853799"
+         y="311.64789"
+         x="245.00002"
+         height="27.857143"
+         width="60.714283"
+         id="rect3399-18"
+         style="fill:#e6e6e6;fill-opacity:1;stroke:none" />
+      <flowRoot
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:Roboto Light;-inkscape-font-specification:Roboto Light"
+         id="flowRoot3409-9"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3411-27"><rect
+             style="fill:#333333"
+             y="315.2193"
+             x="252.14287"
+             height="31.428574"
+             width="96.428566"
+             id="rect3413-9" /></flowRegion><flowPara
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#808080;font-family:Roboto Medium;-inkscape-font-specification:'Roboto Medium,'"
+           id="flowPara3415-54">Kuliah</flowPara></flowRoot>    </g>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;display:inline;filter:url(#filter3378-13-2)"
+       id="rect4582-7-2"
+       width="666.70068"
+       height="95.964493"
+       x="-889.0545"
+       y="137.8009"
+       transform="matrix(0.98055556,0,0,1.9938597,930.04167,608.22236)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g3591"
+       transform="translate(5.4285714,112)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="3.9795918"
+         rx="2.4853799"
+         y="705.08325"
+         x="309.17322"
+         height="27.857143"
+         width="41.521385"
+         id="rect3399-1-12"
+         style="fill:#e6e6e6;fill-opacity:1;stroke:none;display:inline" />
+      <flowRoot
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;display:inline;font-family:Roboto Light;-inkscape-font-specification:Roboto Light"
+         id="flowRoot3409-7-3"
+         xml:space="preserve"
+         transform="translate(66.173196,393.43538)"><flowRegion
+           id="flowRegion3411-4-3"><rect
+             style="fill:#333333"
+             y="315.2193"
+             x="252.14287"
+             height="31.428574"
+             width="96.428566"
+             id="rect3413-0-4" /></flowRegion><flowPara
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#808080;font-family:Roboto Medium;-inkscape-font-specification:'Roboto Medium,'"
+           id="flowPara3415-9-1">KIJ</flowPara></flowRoot>    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto Light;-inkscape-font-specification:Roboto Light"
+       x="823.27435"
+       y="514.58032"
+       id="text3816"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3818"
+         x="823.27435"
+         y="514.58032">t</tspan></text>
+    <rect
+       style="fill:#55ff55;fill-opacity:1;stroke:none;display:inline;filter:url(#filter3747-1-6-6)"
+       id="rect3577-8-6-6"
+       width="18.182747"
+       height="189.90868"
+       x="-915.19824"
+       y="141.14366"
+       transform="matrix(1,0,0,1.00537,968.18322,737.73098)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.51851851,0,0,0.51851851,-16.400826,864.45337)"
+       sodipodi:type="arc"
+       style="fill:#55ff55;fill-opacity:1;stroke:none;display:inline"
+       id="path4609-4-1"
+       sodipodi:cx="315.71429"
+       sodipodi:cy="218.07646"
+       sodipodi:rx="115.71429"
+       sodipodi:ry="115.71429"
+       d="m 431.42858,218.07646 a 115.71429,115.71429 0 1 1 -231.42857,0 115.71429,115.71429 0 1 1 231.42857,0 z"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3092-8-3"
+       style="font-size:31.71589279px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Roboto Light;-inkscape-font-specification:Roboto Light"
+       transform="matrix(0.7567184,0,0,0.7567184,-110.7569,765.46972)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3094-2-5"><rect
+           id="rect3096-4-9"
+           width="240.07834"
+           height="123.22399"
+           x="219.45564"
+           y="249.79597"
+           style="font-size:31.71589279px" /></flowRegion><flowPara
+         id="flowPara3098-5-9"
+         style="font-size:63.43178558px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:80.00000119%;text-anchor:middle;fill:#ffffff;font-family:Roboto Medium;-inkscape-font-specification:'Roboto Medium,'">17 </flowPara><flowPara
+         style="font-size:26.42991066px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-align:center;line-height:80.00000119%;text-anchor:middle;fill:#ffffff;font-family:Roboto Light;-inkscape-font-specification:Roboto Light"
+         id="flowPara3184-5-8"><flowSpan
+   style="font-size:26.42991066px;font-family:Roboto Medium;-inkscape-font-specification:Roboto Medium"
+   id="flowSpan3194-1-1">days</flowSpan> left</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3545-7-6"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Roboto Medium;-inkscape-font-specification:Roboto Medium"
+       transform="translate(983.00316,738.33371)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3547-1-5"><rect
+           id="rect3549-1-7"
+           width="394.28571"
+           height="68.571426"
+           x="-740"
+           y="168.07646"
+           style="font-family:Roboto Medium;-inkscape-font-specification:Roboto Medium" /></flowRegion><flowPara
+         id="flowPara3551-5-5"
+         style="font-size:40px">Wisata Kuliner</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3569-2-4"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Roboto Light;-inkscape-font-specification:Roboto Light"
+       transform="translate(951.08996,714.95258)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3571-7-1"><rect
+           id="rect3573-6-2"
+           width="221.42857"
+           height="61.428574"
+           x="-708.57141"
+           y="252.36217" /></flowRegion><flowPara
+         id="flowPara3575-1-0">March 26, 2015</flowPara></flowRoot>    <g
+       style="display:inline"
+       id="g3456-6-0"
+       transform="translate(0.8332169,703.54641)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="3.9795918"
+         rx="2.4853799"
+         y="311.64789"
+         x="245.00002"
+         height="27.857143"
+         width="60.714283"
+         id="rect3399-18-1"
+         style="fill:#e6e6e6;fill-opacity:1;stroke:none" />
+      <flowRoot
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:Roboto Light;-inkscape-font-specification:Roboto Light"
+         id="flowRoot3409-9-4"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3411-27-6"><rect
+             style="fill:#333333"
+             y="315.2193"
+             x="252.14287"
+             height="31.428574"
+             width="96.428566"
+             id="rect3413-9-0" /></flowRegion><flowPara
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#808080;font-family:Roboto Medium;-inkscape-font-specification:'Roboto Medium,'"
+           id="flowPara3415-54-7">Kuliah</flowPara></flowRoot>    </g>
+    <g
+       style="display:inline"
+       id="g3591-1"
+       transform="translate(5.5885799,310.11103)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="3.9795918"
+         rx="2.4853799"
+         y="705.08325"
+         x="309.17322"
+         height="27.857143"
+         width="41.521385"
+         id="rect3399-1-12-7"
+         style="fill:#e6e6e6;fill-opacity:1;stroke:none;display:inline" />
+      <flowRoot
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;display:inline;font-family:Roboto Light;-inkscape-font-specification:Roboto Light"
+         id="flowRoot3409-7-3-7"
+         xml:space="preserve"
+         transform="translate(66.173196,393.43538)"><flowRegion
+           id="flowRegion3411-4-3-7"><rect
+             style="fill:#333333"
+             y="315.2193"
+             x="252.14287"
+             height="31.428574"
+             width="96.428566"
+             id="rect3413-0-4-7" /></flowRegion><flowPara
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#808080;font-family:Roboto Medium;-inkscape-font-specification:'Roboto Medium,'"
+           id="flowPara3415-9-1-3">KIJ</flowPara></flowRoot>    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Scroll"
+     style="opacity:0.66750004;display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="Overlay"
+     style="opacity:0.65500004;display:inline">
+    <rect
+       style="fill:#1a1a1a;fill-opacity:1;stroke:none"
+       id="rect3315"
+       width="666.70068"
+       height="963.68555"
+       x="46.467018"
+       y="92.717262"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="ActionBar"
+     style="display:inline">
+    <rect
+       style="fill:#00b0dc;fill-opacity:1;stroke:none;filter:url(#filter3416-1)"
+       id="rect3755"
+       width="668.72095"
+       height="126.65775"
+       x="45.477188"
+       y="-33.180157"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g4145"
+       transform="translate(0,21.785714)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="7.7278318"
+         x="77.360016"
+         height="2.3044105"
+         width="25.19068"
+         id="rect4115"
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff" />
+      <rect
+         transform="matrix(0.70746344,-0.70674994,0.70674994,0.70746344,0,0)"
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.8388707"
+         id="rect4135"
+         width="17.726784"
+         height="2.3044105"
+         x="46.898197"
+         y="59.133957" />
+      <rect
+         y="46.433964"
+         x="59.228405"
+         height="2.3044105"
+         width="17.726784"
+         id="rect4143"
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.8388707"
+         transform="matrix(0.70746344,0.70674994,0.70674994,-0.70746344,0,0)" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3757"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(1024.4525,7.5078418)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3759"><rect
+           id="rect3761"
+           width="512.85712"
+           height="70"
+           x="-892.85712"
+           y="5.2193251" /></flowRegion><flowPara
+         id="flowPara3763"
+         style="fill:#ffffff">Menu</flowPara></flowRoot>  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer8"
+     inkscape:label="MenuFragment"
+     style="display:inline">
+    <rect
+       style="fill:#216778;fill-opacity:1;stroke:none;filter:url(#filter4381)"
+       id="rect3318"
+       width="464.09604"
+       height="955.60437"
+       x="46.467018"
+       y="94.717262" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="MenuItems">
+    <rect
+       style="fill:#00aad4;fill-opacity:1;stroke:none"
+       id="rect3352"
+       width="463.04974"
+       height="117.90617"
+       x="46.689396"
+       y="98.337311"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4394"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:125%;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(12.791412,31.747584)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion4396"><rect
+           id="rect4398"
+           width="342.85715"
+           height="64.285713"
+           x="122.85714"
+           y="105.21932"
+           style="font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium'" /></flowRegion><flowPara
+         id="flowPara4400"
+         style="font-size:36px;fill:#dbe3db">Task List</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4394-5"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:125%;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(14.832022,147.36525)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion4396-5"><rect
+           id="rect4398-1"
+           width="342.85715"
+           height="64.285713"
+           x="122.85714"
+           y="105.21932"
+           style="font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium'" /></flowRegion><flowPara
+         style="font-size:36px;fill:#dbe3db"
+         id="flowPara4460">Task Report</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4394-7"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:125%;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(13.022439,257.10758)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion4396-6"><rect
+           id="rect4398-14"
+           width="342.85715"
+           height="64.285713"
+           x="122.85714"
+           y="105.21932"
+           style="font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium'" /></flowRegion><flowPara
+         style="font-size:36px;fill:#dbe3db"
+         id="flowPara4490">Settings</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#241c1c;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 44.501755,333.38899 464.670175,0"
+       id="path4148-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#241c1c;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 46.664915,441.93361 464.670175,0"
+       id="path4148-1-4-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4394-7-9"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:125%;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(8.4398866,375.89259)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion4396-6-4"><rect
+           id="rect4398-14-8"
+           width="342.85715"
+           height="64.285713"
+           x="122.85714"
+           y="105.21932"
+           style="font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium'" /></flowRegion><flowPara
+         style="font-size:36px;fill:#dbe3db"
+         id="flowPara4238">Logout</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#241c1c;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 45.563384,559.80374 464.670176,0"
+       id="path4148-1-4-0-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g4"
+       transform="matrix(0.01753341,0,0,-0.01753341,74.862053,398.4866)"
+       style="fill:#ffffff"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         style="fill:#ffffff"
+         inkscape:connector-curvature="0"
+         id="path6"
+         d="m 384,64 q 0,26 -19,45 -19,19 -45,19 -26,0 -45,-19 -19,-19 -19,-45 0,-26 19,-45 19,-19 45,-19 26,0 45,19 19,19 19,45 z m 644,420 -682,-682 q -37,-37 -90,-37 -52,0 -91,37 L 59,-90 Q 21,-54 21,0 21,53 59,91 L 740,772 Q 779,674 854.5,598.5 930,523 1028,484 Z m 634,435 q 0,-39 -23,-106 Q 1592,679 1474.5,595.5 1357,512 1216,512 1031,512 899.5,643.5 768,775 768,960 q 0,185 131.5,316.5 131.5,131.5 316.5,131.5 58,0 121.5,-16.5 63.5,-16.5 107.5,-46.5 16,-11 16,-28 0,-17 -16,-28 l -293,-169 0,-224 193,-107 q 5,3 79,48.5 74,45.5 135.5,81 61.5,35.5 70.5,35.5 15,0 23.5,-10 8.5,-10 8.5,-25 z" />
+    </g>
+    <g
+       id="g4626"
+       transform="matrix(-0.28061568,0,0,0.28061568,106.2956,490.67579)"
+       style="fill:#ffffff"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         id="g4584"
+         style="fill:#ffffff">
+        <path
+           id="path4586"
+           d="m 86,28.074 0,-20.7 c 0,-3.3 -2.699,-6 -6,-6 l -74,0 c -3.3,0 -6,2.7 -6,6 l 0,3.9 0,78.2 0,2.701 c 0,2.199 1.3,4.299 3.2,5.299 l 45.6,23.601 c 2,1 4.4,-0.399 4.4,-2.7 l 0,-23 26.8,0 c 3.301,0 6,-2.699 6,-6 l 0,-32.8 -12,0 0,23.8 c 0,1.7 -1.3,3 -3,3 l -17.7,0 0,-30.8 0,-19.5 0,-0.6 c 0,-2.2 -1.3,-4.3 -3.2,-5.3 l -26.9,-13.8 47.8,0 c 1.7,0 3,1.3 3,3 l 0,11.8 12,0 0,-0.101 z"
+           inkscape:connector-curvature="0"
+           style="fill:#ffffff" />
+        <path
+           id="path4588"
+           d="m 101.4,18.273 19.5,19.5 c 2.5,2.5 2.5,6.2 0,8.7 l -19.5,19.5 c -2.5,2.5 -6.301,2.601 -8.801,0.101 -2.399,-2.399 -2.1,-6.4 0.201,-8.8 l 8.799,-8.7 -34.099,0 c -1.699,0 -3.4,-0.7 -4.5,-2 -2.8,-3 -2.1,-8.3 1.5,-10.3 0.9,-0.5 2,-0.8 3,-0.8 l 34.1,0 c 0,0 -8.699,-8.7 -8.799,-8.7 -2.301,-2.3 -2.601,-6.4 -0.201,-8.7 2.4,-2.4 6.3,-2.301 8.8,0.199 z"
+           inkscape:connector-curvature="0"
+           style="fill:#ffffff" />
+      </g>
+      <g
+         id="g4590"
+         style="fill:#ffffff" />
+      <g
+         id="g4592"
+         style="fill:#ffffff" />
+      <g
+         id="g4594"
+         style="fill:#ffffff" />
+      <g
+         id="g4596"
+         style="fill:#ffffff" />
+      <g
+         id="g4598"
+         style="fill:#ffffff" />
+      <g
+         id="g4600"
+         style="fill:#ffffff" />
+      <g
+         id="g4602"
+         style="fill:#ffffff" />
+      <g
+         id="g4604"
+         style="fill:#ffffff" />
+      <g
+         id="g4606"
+         style="fill:#ffffff" />
+      <g
+         id="g4608"
+         style="fill:#ffffff" />
+      <g
+         id="g4610"
+         style="fill:#ffffff" />
+      <g
+         id="g4612"
+         style="fill:#ffffff" />
+      <g
+         id="g4614"
+         style="fill:#ffffff" />
+      <g
+         id="g4616"
+         style="fill:#ffffff" />
+      <g
+         id="g4618"
+         style="fill:#ffffff" />
+    </g>
+    <g
+       id="g4836"
+       transform="matrix(0.06992478,0,0,0.06992478,79.82541,142.20616)"
+       style="fill:#ffffff;display:inline"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         id="g4778"
+         style="fill:#ffffff">
+        <g
+           id="g4780"
+           style="fill:#ffffff">
+          <g
+             id="g4782"
+             style="fill:#ffffff">
+            <path
+               id="path4784"
+               d="m 410.428,34.738 h -76.405 l 5.155,23.852 c 0.634,2.961 0.603,5.934 0.271,8.859 H 394.07 V 452.98 H 91.588 V 67.449 h 54.637 c -0.332,-2.941 -0.348,-5.914 0.285,-8.891 l 5.156,-23.82 H 75.248 c -9.031,0 -16.34,7.324 -16.34,16.354 v 418.243 c 0,9.016 7.309,16.354 16.34,16.354 h 335.18 c 9.031,0 16.354,-7.341 16.354,-16.354 V 51.093 c 0.001,-9.031 -7.323,-16.355 -16.354,-16.355 z"
+               inkscape:connector-curvature="0"
+               style="fill:#ffffff" />
+            <path
+               id="path4786"
+               d="m 355.568,152.949 h -111.71 c -9.047,0 -16.355,7.324 -16.355,16.34 0,9.035 7.309,16.355 16.355,16.355 h 111.71 c 9.047,0 16.354,-7.32 16.354,-16.355 0.002,-9.016 -7.307,-16.34 -16.354,-16.34 z"
+               inkscape:connector-curvature="0"
+               style="fill:#ffffff" />
+            <path
+               id="path4788"
+               d="m 355.568,253.254 h -111.71 c -9.047,0 -16.355,7.323 -16.355,16.354 0,9.021 7.309,16.357 16.355,16.357 h 111.71 c 9.047,0 16.354,-7.34 16.354,-16.357 0.002,-9.031 -7.307,-16.354 -16.354,-16.354 z"
+               inkscape:connector-curvature="0"
+               style="fill:#ffffff" />
+            <path
+               id="path4790"
+               d="m 119.556,156.792 c -6.898,5.82 -7.786,16.137 -1.965,23.047 l 23.855,28.27 c 3.117,3.699 7.688,5.805 12.496,5.805 0.398,0 0.792,-0.016 1.203,-0.047 5.219,-0.379 9.949,-3.258 12.703,-7.719 l 42.914,-69.477 c 4.746,-7.688 2.375,-17.75 -5.312,-22.492 -7.688,-4.777 -17.75,-2.375 -22.497,5.313 l -31.066,50.273 -9.301,-11.012 c -5.823,-6.91 -16.119,-7.797 -23.03,-1.961 z"
+               inkscape:connector-curvature="0"
+               style="fill:#ffffff" />
+            <path
+               id="path4792"
+               d="m 158.72,245.094 c -13.554,0 -24.535,10.978 -24.535,24.517 0,13.543 10.98,24.52 24.535,24.52 13.543,0 24.52,-10.977 24.52,-24.52 0,-13.541 -10.977,-24.517 -24.52,-24.517 z"
+               inkscape:connector-curvature="0"
+               style="fill:#ffffff" />
+            <path
+               id="path4794"
+               d="m 355.568,351.359 h -111.71 c -9.047,0 -16.355,7.309 -16.355,16.358 0,9.017 7.309,16.34 16.355,16.34 h 111.71 c 9.047,0 16.354,-7.323 16.354,-16.34 0.002,-9.05 -7.307,-16.358 -16.354,-16.358 z"
+               inkscape:connector-curvature="0"
+               style="fill:#ffffff" />
+            <path
+               id="path4796"
+               d="m 158.72,343.199 c -13.554,0 -24.535,10.977 -24.535,24.52 0,13.539 10.98,24.521 24.535,24.521 13.543,0 24.52,-10.979 24.52,-24.521 0,-13.543 -10.977,-24.52 -24.52,-24.52 z"
+               inkscape:connector-curvature="0"
+               style="fill:#ffffff" />
+            <path
+               id="path4798"
+               d="m 173.463,75.613 h 138.73 c 3.401,0 6.613,-1.521 8.746,-4.176 2.137,-2.629 2.961,-6.105 2.229,-9.43 L 311.686,8.859 C 310.564,3.687 305.994,0 300.708,0 H 184.963 c -5.281,0 -9.852,3.688 -10.977,8.859 l -11.5,53.148 c -0.695,3.324 0.125,6.801 2.247,9.43 2.135,2.656 5.347,4.176 8.73,4.176 z"
+               inkscape:connector-curvature="0"
+               style="fill:#ffffff" />
+          </g>
+        </g>
+      </g>
+      <g
+         id="g4800"
+         style="fill:#ffffff" />
+      <g
+         id="g4802"
+         style="fill:#ffffff" />
+      <g
+         id="g4804"
+         style="fill:#ffffff" />
+      <g
+         id="g4806"
+         style="fill:#ffffff" />
+      <g
+         id="g4808"
+         style="fill:#ffffff" />
+      <g
+         id="g4810"
+         style="fill:#ffffff" />
+      <g
+         id="g4812"
+         style="fill:#ffffff" />
+      <g
+         id="g4814"
+         style="fill:#ffffff" />
+      <g
+         id="g4816"
+         style="fill:#ffffff" />
+      <g
+         id="g4818"
+         style="fill:#ffffff" />
+      <g
+         id="g4820"
+         style="fill:#ffffff" />
+      <g
+         id="g4822"
+         style="fill:#ffffff" />
+      <g
+         id="g4824"
+         style="fill:#ffffff" />
+      <g
+         id="g4826"
+         style="fill:#ffffff" />
+      <g
+         id="g4828"
+         style="fill:#ffffff" />
+    </g>
+    <g
+       id="g5069"
+       transform="translate(0.53349118,-122.22845)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="matrix(0.81308203,0.05959921,-0.05959921,0.81308203,90.358238,72.720847)"
+         sodipodi:end="4.0142573"
+         sodipodi:start="0"
+         d="m 51.071428,390.57648 a 18.928572,18.928572 0 0 1 -14.563342,18.41835 18.928572,18.928572 0 0 1 -21.280419,-9.92323 18.928572,18.928572 0 0 1 4.748139,-22.99525 l 12.167051,14.50013 z"
+         sodipodi:ry="18.928572"
+         sodipodi:rx="18.928572"
+         sodipodi:cy="390.57648"
+         sodipodi:cx="32.142857"
+         id="path4345"
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <circle
+         style="fill:none;stroke:#ffffff;stroke-width:0.80000001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         id="path4414"
+         transform="matrix(0.79660641,-0.1734148,0.1734148,0.79660641,-0.12416967,86.645258)"
+         cx="32.142857"
+         cy="390.57648"
+         r="18.928572" />
+      <g
+         style="display:inline;fill:#ffffff"
+         transform="matrix(0.03192412,0,0,0.03192412,106.11469,399.19772)"
+         id="g4836-5">
+        <g
+           style="fill:#ffffff"
+           id="g4778-2">
+          <g
+             style="fill:#ffffff"
+             id="g4780-7">
+            <g
+               style="fill:#ffffff"
+               id="g4782-6">
+              <path
+                 style="fill:#ffffff"
+                 inkscape:connector-curvature="0"
+                 d="m 410.428,34.738 -76.405,0 5.155,23.852 c 0.634,2.961 0.603,5.934 0.271,8.859 l 54.621,0 0,385.531 -302.482,0 0,-385.531 54.637,0 c -0.332,-2.941 -0.348,-5.914 0.285,-8.891 l 5.156,-23.82 -76.418,0 c -9.031,0 -16.34,7.324 -16.34,16.354 l 0,418.243 c 0,9.016 7.309,16.354 16.34,16.354 l 335.18,0 c 9.031,0 16.354,-7.341 16.354,-16.354 l 0,-418.242 c 0.001,-9.031 -7.323,-16.355 -16.354,-16.355 z"
+                 id="path4784-1" />
+              <path
+                 style="fill:#ffffff"
+                 inkscape:connector-curvature="0"
+                 d="m 355.568,152.949 -111.71,0 c -9.047,0 -16.355,7.324 -16.355,16.34 0,9.035 7.309,16.355 16.355,16.355 l 111.71,0 c 9.047,0 16.354,-7.32 16.354,-16.355 0.002,-9.016 -7.307,-16.34 -16.354,-16.34 z"
+                 id="path4786-4" />
+              <path
+                 style="fill:#ffffff"
+                 inkscape:connector-curvature="0"
+                 d="m 355.568,253.254 -111.71,0 c -9.047,0 -16.355,7.323 -16.355,16.354 0,9.021 7.309,16.357 16.355,16.357 l 111.71,0 c 9.047,0 16.354,-7.34 16.354,-16.357 0.002,-9.031 -7.307,-16.354 -16.354,-16.354 z"
+                 id="path4788-2" />
+              <path
+                 style="fill:#ffffff"
+                 inkscape:connector-curvature="0"
+                 d="m 119.556,156.792 c -6.898,5.82 -7.786,16.137 -1.965,23.047 l 23.855,28.27 c 3.117,3.699 7.688,5.805 12.496,5.805 0.398,0 0.792,-0.016 1.203,-0.047 5.219,-0.379 9.949,-3.258 12.703,-7.719 l 42.914,-69.477 c 4.746,-7.688 2.375,-17.75 -5.312,-22.492 -7.688,-4.777 -17.75,-2.375 -22.497,5.313 l -31.066,50.273 -9.301,-11.012 c -5.823,-6.91 -16.119,-7.797 -23.03,-1.961 z"
+                 id="path4790-3" />
+              <path
+                 style="fill:#ffffff"
+                 inkscape:connector-curvature="0"
+                 d="m 158.72,245.094 c -13.554,0 -24.535,10.978 -24.535,24.517 0,13.543 10.98,24.52 24.535,24.52 13.543,0 24.52,-10.977 24.52,-24.52 0,-13.541 -10.977,-24.517 -24.52,-24.517 z"
+                 id="path4792-2" />
+              <path
+                 style="fill:#ffffff"
+                 inkscape:connector-curvature="0"
+                 d="m 355.568,351.359 -111.71,0 c -9.047,0 -16.355,7.309 -16.355,16.358 0,9.017 7.309,16.34 16.355,16.34 l 111.71,0 c 9.047,0 16.354,-7.323 16.354,-16.34 0.002,-9.05 -7.307,-16.358 -16.354,-16.358 z"
+                 id="path4794-2" />
+              <path
+                 style="fill:#ffffff"
+                 inkscape:connector-curvature="0"
+                 d="m 158.72,343.199 c -13.554,0 -24.535,10.977 -24.535,24.52 0,13.539 10.98,24.521 24.535,24.521 13.543,0 24.52,-10.979 24.52,-24.521 0,-13.543 -10.977,-24.52 -24.52,-24.52 z"
+                 id="path4796-1" />
+              <path
+                 style="fill:#ffffff"
+                 inkscape:connector-curvature="0"
+                 d="m 173.463,75.613 138.73,0 c 3.401,0 6.613,-1.521 8.746,-4.176 2.137,-2.629 2.961,-6.105 2.229,-9.43 L 311.686,8.859 C 310.564,3.687 305.994,0 300.708,0 L 184.963,0 c -5.281,0 -9.852,3.688 -10.977,8.859 l -11.5,53.148 c -0.695,3.324 0.125,6.801 2.247,9.43 2.135,2.656 5.347,4.176 8.73,4.176 z"
+                 id="path4798-6" />
+            </g>
+          </g>
+        </g>
+        <g
+           style="fill:#ffffff"
+           id="g4800-8" />
+        <g
+           style="fill:#ffffff"
+           id="g4802-5" />
+        <g
+           style="fill:#ffffff"
+           id="g4804-7" />
+        <g
+           style="fill:#ffffff"
+           id="g4806-6" />
+        <g
+           style="fill:#ffffff"
+           id="g4808-1" />
+        <g
+           style="fill:#ffffff"
+           id="g4810-8" />
+        <g
+           style="fill:#ffffff"
+           id="g4812-9" />
+        <g
+           style="fill:#ffffff"
+           id="g4814-2" />
+        <g
+           style="fill:#ffffff"
+           id="g4816-7" />
+        <g
+           style="fill:#ffffff"
+           id="g4818-9" />
+        <g
+           style="fill:#ffffff"
+           id="g4820-5" />
+        <g
+           style="fill:#ffffff"
+           id="g4822-4" />
+        <g
+           style="fill:#ffffff"
+           id="g4824-3" />
+        <g
+           style="fill:#ffffff"
+           id="g4826-1" />
+        <g
+           style="fill:#ffffff"
+           id="g4828-2" />
+      </g>
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3561-2"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:125%;font-family:'Roboto Light';-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(2392.3589,-70.851707)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3563-6"><rect
+           id="rect3565-3"
+           width="240"
+           height="48.57143"
+           x="-720"
+           y="240.93359" /></flowRegion><flowPara
+         id="flowPara3567-3"
+         style="fill:#000000">Deadline</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3771-9"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:125%;font-family:'Roboto Light';-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(2392.3589,-70.851707)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3773-9"><rect
+           id="rect3775-0"
+           width="140.41121"
+           height="145.46198"
+           x="-434.3656"
+           y="169.48885" /></flowRegion><flowPara
+         id="flowPara3777-4">.</flowPara><flowPara
+         id="flowPara3779-1">.</flowPara></flowRoot>    <rect
+       style="display:inline;fill:#e6e6e6;fill-opacity:1;stroke:none"
+       id="rect2985-9"
+       width="665.71429"
+       height="1077.1483"
+       x="1475.2159"
+       y="-992.94446"
+       transform="scale(1,-1)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;filter:url(#filter3378-18-9)"
+       id="rect4582-3-8"
+       width="666.70068"
+       height="95.964493"
+       x="-889.0545"
+       y="137.8009"
+       transform="matrix(0.98055556,0,0,1.9938597,2356.972,-222.05795)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;filter:url(#filter3378-8)"
+       id="rect4582-6"
+       width="666.70068"
+       height="95.964493"
+       x="-889.0545"
+       y="137.8009"
+       transform="matrix(0.98055556,0,0,1.9938597,2356.8077,-28.566157)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="display:inline;fill:#ff2a2a;fill-opacity:1;stroke:none;filter:url(#filter3747-12-8)"
+       id="rect3577-87-4"
+       width="18.182747"
+       height="189.90868"
+       x="-915.19824"
+       y="141.14366"
+       transform="matrix(1,0,0,1.00537,2390.5231,-92.921517)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="display:inline;fill:#ffd42a;fill-opacity:1;stroke:none;filter:url(#filter3747-4)"
+       id="rect3577-4"
+       width="18.182747"
+       height="189.90868"
+       x="-915.19824"
+       y="141.14366"
+       transform="matrix(1,0,0,1.00537,2392.3589,100.57025)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;filter:url(#filter3378-13-5)"
+       id="rect4582-7-9"
+       width="666.70068"
+       height="95.964493"
+       x="-889.0545"
+       y="137.8009"
+       transform="matrix(0.98055556,0,0,1.9938597,2356.8956,165.49314)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;filter:url(#filter3378-1-5)"
+       id="rect4582-8-0"
+       width="666.70068"
+       height="95.964493"
+       x="-889.0545"
+       y="137.8009"
+       transform="matrix(0.98333333,0,0,1.9938597,2357.684,359.7036)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="display:inline;fill:#2a7fff;fill-opacity:1;stroke:none"
+       id="path4609-4-3-4"
+       sodipodi:cx="1573.7875"
+       sodipodi:cy="725.71021"
+       sodipodi:rx="65"
+       sodipodi:ry="65"
+       d="m 1573.7875,660.71021 a 65,65 0 0 1 65,64.99999 l -65,10e-6 z"
+       sodipodi:start="4.712389"
+       sodipodi:end="6.2831853"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <circle
+       r="60"
+       cy="725.71021"
+       cx="1573.7875"
+       style="display:inline;fill:#55ff55;fill-opacity:1;stroke:none"
+       id="path4609-4-7"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3545-45"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:125%;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(2410.9303,97.776563)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3547-26"><rect
+           id="rect3549-3"
+           width="394.28571"
+           height="68.571426"
+           x="-740"
+           y="168.07646"
+           style="font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium'" /></flowRegion><flowPara
+         id="flowPara3551-2"
+         style="font-size:40px">Demo MPPL</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3569-0"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:125%;font-family:'Roboto Light';-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(2380.9303,77.205143)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3571-54"><rect
+           id="rect3573-7"
+           width="345.71429"
+           height="60.000004"
+           x="-708.57141"
+           y="252.36217" /></flowRegion><flowPara
+         id="flowPara4342-5">March 15, 2015 -- 10:30 AM</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3092-8-2"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:31.71589279px;line-height:125%;font-family:'Roboto Light';-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.7567184,0,0,0.7567184,1317.3853,512.91585)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3094-2-4"><rect
+           id="rect3096-4-0"
+           width="240.07834"
+           height="123.22399"
+           x="219.45564"
+           y="249.79597"
+           style="font-size:31.71589279px" /></flowRegion><flowPara
+         id="flowPara3098-5-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:63.43178558px;line-height:80.00000119%;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium,';text-align:center;text-anchor:middle;fill:#ffffff">14 </flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-size:26.42991066px;line-height:80.00000119%;font-family:'Roboto Light';-inkscape-font-specification:'Roboto Light';text-align:center;text-anchor:middle;fill:#ffffff"
+         id="flowPara3184-5-87"><flowSpan
+   style="font-size:26.42991066px;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium'"
+   id="flowSpan3194-1-15">days</flowSpan> left</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3545-7-60"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:125%;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(2409.4878,486.51382)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3547-1-2"><rect
+           id="rect3549-1-1"
+           width="394.28571"
+           height="68.571426"
+           x="-740"
+           y="168.07646"
+           style="font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium'" /></flowRegion><flowPara
+         id="flowPara3551-5-6"
+         style="font-size:40px">UTS KIJ</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3545-4-0"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:125%;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(2409.0945,-101.7152)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3547-2-1"><rect
+           id="rect3549-7-9"
+           width="434.6918"
+           height="61.500359"
+           x="-740"
+           y="168.07646"
+           style="font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium'" /></flowRegion><flowPara
+         id="flowPara3551-7-2"
+         style="font-size:40px">Tugas DP</flowPara></flowRoot>    <path
+       sodipodi:type="arc"
+       style="display:inline;fill:#5599ff;fill-opacity:1;stroke:none"
+       id="path4609-42-4"
+       sodipodi:cx="1572.3589"
+       sodipodi:cy="336.71017"
+       sodipodi:rx="65"
+       sodipodi:ry="65"
+       d="m 1572.3589,271.71017 a 65,65 0 0 1 60.0522,40.12558 65,65 0 0 1 -14.0903,70.83637 65,65 0 0 1 -70.8363,14.09022 65,65 0 0 1 -40.1256,-60.05217 l 65,0 z"
+       sodipodi:start="4.712389"
+       sodipodi:end="3.1415927"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3569-9-5"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:125%;font-family:'Roboto Light';-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(2379.0945,-120.28663)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3571-3-6"><rect
+           id="rect3573-1-0"
+           width="450.77017"
+           height="58.989853"
+           x="-708.57141"
+           y="252.36217" /></flowRegion><flowPara
+         id="flowPara4342-9-3">March 12, 2015 -- 1:30 PM <flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium,'"
+   id="flowSpan3824-6">(5 hours left)</flowSpan></flowPara></flowRoot>    <circle
+       r="60"
+       cy="336.71017"
+       cx="1572.3589"
+       style="display:inline;fill:#ffcc00;fill-opacity:1;stroke:none"
+       id="path4609-41"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3092-2-26"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:31.71589279px;line-height:125%;font-family:'Roboto Light';-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.7567184,0,0,0.7567184,1316.0578,124.47585)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3094-21-7"><rect
+           id="rect3096-6-4"
+           width="240.07834"
+           height="123.22399"
+           x="219.45564"
+           y="249.79597"
+           style="font-size:31.71589279px" /></flowRegion><flowPara
+         id="flowPara3098-8-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:63.43178558px;line-height:80.00000119%;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium,';text-align:center;text-anchor:middle;fill:#ffffff">3 </flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-size:26.42991066px;line-height:80.00000119%;font-family:'Roboto Light';-inkscape-font-specification:'Roboto Light';text-align:center;text-anchor:middle;fill:#ffffff"
+         id="flowPara3184-57-54"><flowSpan
+   style="font-size:26.42991066px;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium'"
+   id="flowSpan3194-6-1">days</flowSpan> left</flowPara></flowRoot>    <circle
+       r="65"
+       cy="141.21838"
+       cx="1570.5231"
+       style="display:inline;fill:#5599ff;fill-opacity:1;stroke:none"
+       id="path4609-42-8-1"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <circle
+       r="60"
+       cy="141.21838"
+       cx="1570.5231"
+       style="display:inline;fill:#ff2a2a;fill-opacity:1;stroke:none"
+       id="path4609-6-3"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3092-2-5-2"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:31.71589279px;line-height:125%;font-family:'Roboto Light';-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.7567184,0,0,0.7567184,1314.222,-71.015917)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3094-21-0-5"><rect
+           id="rect3096-6-2-7"
+           width="240.07834"
+           height="123.22399"
+           x="219.45564"
+           y="249.79597"
+           style="font-size:31.71589279px" /></flowRegion><flowPara
+         id="flowPara3098-8-8-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:63.43178558px;line-height:80.00000119%;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium,';text-align:center;text-anchor:middle;fill:#ffffff">0 </flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-size:26.42991066px;line-height:80.00000119%;font-family:'Roboto Light';-inkscape-font-specification:'Roboto Light';text-align:center;text-anchor:middle;fill:#ffffff"
+         id="flowPara3184-57-6-5"><flowSpan
+   style="font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium'"
+   id="flowSpan3822-6">days</flowSpan> left</flowPara></flowRoot>    <g
+       style="display:inline"
+       id="g3456-7"
+       transform="translate(1424.6445,-126.10172)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="3.9795918"
+         rx="2.4853799"
+         y="311.64789"
+         x="245.00002"
+         height="27.857143"
+         width="60.714283"
+         id="rect3399-7"
+         style="fill:#e6e6e6;fill-opacity:1;stroke:none" />
+      <flowRoot
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:125%;font-family:'Roboto Light';-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none"
+         id="flowRoot3409-5"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3411-22"><rect
+             style="fill:#333333"
+             y="315.2193"
+             x="252.14287"
+             height="31.428574"
+             width="96.428566"
+             id="rect3413-6" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium,';fill:#808080"
+           id="flowPara3415-2">Kuliah</flowPara></flowRoot>    </g>
+    <g
+       style="display:inline"
+       id="g3449-8"
+       transform="translate(1423.216,-125.74457)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="3.9795918"
+         rx="2.4853799"
+         y="311.29074"
+         x="315.35715"
+         height="27.857143"
+         width="60.714283"
+         id="rect3399-1-7"
+         style="display:inline;fill:#e6e6e6;fill-opacity:1;stroke:none" />
+      <flowRoot
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:125%;font-family:'Roboto Light';-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;display:inline;fill:#333333;fill-opacity:1;stroke:none"
+         id="flowRoot3409-7-8"
+         xml:space="preserve"
+         transform="translate(70.357129,-0.35714725)"><flowRegion
+           id="flowRegion3411-4-2"><rect
+             style="fill:#333333"
+             y="315.2193"
+             x="252.14287"
+             height="31.428574"
+             width="96.428566"
+             id="rect3413-0-5" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium,';fill:#808080"
+           id="flowPara3415-9-7">PAA 2</flowPara></flowRoot>    </g>
+    <g
+       style="display:inline"
+       id="g3456-4-1"
+       transform="translate(1426.1088,64.505423)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="3.9795918"
+         rx="2.4853799"
+         y="311.64789"
+         x="245.00002"
+         height="27.857143"
+         width="60.714283"
+         id="rect3399-8-4"
+         style="fill:#e6e6e6;fill-opacity:1;stroke:none" />
+      <flowRoot
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:125%;font-family:'Roboto Light';-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none"
+         id="flowRoot3409-8-1"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3411-2-6"><rect
+             style="fill:#333333"
+             y="315.2193"
+             x="252.14287"
+             height="31.428574"
+             width="96.428566"
+             id="rect3413-4-35" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium,';fill:#808080"
+           id="flowPara3415-5-5">Kuliah</flowPara></flowRoot>    </g>
+    <g
+       style="display:inline"
+       id="g3449-5-4"
+       transform="translate(1424.6802,64.862573)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="3.9795918"
+         rx="2.4853799"
+         y="311.29074"
+         x="315.35715"
+         height="27.857143"
+         width="60.714283"
+         id="rect3399-1-1-2"
+         style="display:inline;fill:#e6e6e6;fill-opacity:1;stroke:none" />
+      <flowRoot
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:125%;font-family:'Roboto Light';-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;display:inline;fill:#333333;fill-opacity:1;stroke:none"
+         id="flowRoot3409-7-7-9"
+         xml:space="preserve"
+         transform="translate(70.357129,-0.35714725)"><flowRegion
+           id="flowRegion3411-4-1-8"><rect
+             style="fill:#333333"
+             y="315.2193"
+             x="252.14287"
+             height="31.428574"
+             width="96.428566"
+             id="rect3413-0-1-3" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium,';fill:#808080"
+           id="flowPara3415-9-5-9">MPPL</flowPara></flowRoot>    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3569-2-7"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:125%;font-family:'Roboto Light';-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(2377.5745,463.13269)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3571-7-9"><rect
+           id="rect3573-6-8"
+           width="221.42857"
+           height="61.428574"
+           x="-708.57141"
+           y="252.36217" /></flowRegion><flowPara
+         id="flowPara3575-1-2">March 26, 2015</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3545-9-0"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:125%;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(2411.0182,291.83587)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3547-3-7"><rect
+           id="rect3549-19-0"
+           width="394.28571"
+           height="68.571426"
+           x="-740"
+           y="168.07646"
+           style="font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium'" /></flowRegion><flowPara
+         id="flowPara3551-8-0"
+         style="font-size:40px">Futsal</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3569-6-0"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:125%;font-family:'Roboto Light';-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(2381.0182,271.26445)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3571-5-2"><rect
+           id="rect3573-0-3"
+           width="345.71429"
+           height="60.000004"
+           x="-708.57141"
+           y="252.36217" /></flowRegion><flowPara
+         id="flowPara4342-2-0">March 18, 2015 -- 7:00 PM</flowPara></flowRoot>    <circle
+       r="60"
+       cy="530.76953"
+       cx="1572.4468"
+       style="display:inline;fill:#bcd35f;fill-opacity:1;stroke:none"
+       id="path4609-0-1"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3092-2-2-1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:31.71589279px;line-height:125%;font-family:'Roboto Light';-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.7567184,0,0,0.7567184,1316.1457,318.53516)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3094-21-4-5"><rect
+           id="rect3096-6-8-7"
+           width="240.07834"
+           height="123.22399"
+           x="219.45564"
+           y="249.79597"
+           style="font-size:31.71589279px" /></flowRegion><flowPara
+         id="flowPara3098-8-6-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:63.43178558px;line-height:80.00000119%;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium,';text-align:center;text-anchor:middle;fill:#ffffff">6 </flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-size:26.42991066px;line-height:80.00000119%;font-family:'Roboto Light';-inkscape-font-specification:'Roboto Light';text-align:center;text-anchor:middle;fill:#ffffff"
+         id="flowPara3184-57-5-4"><flowSpan
+   style="font-size:26.42991066px;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium'"
+   id="flowSpan3194-6-09-7">days</flowSpan> left</flowPara></flowRoot>    <g
+       style="display:inline"
+       id="g3456-4-0-0"
+       transform="translate(1426.1967,258.56473)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="3.9795918"
+         rx="2.4853799"
+         y="311.64789"
+         x="245.00002"
+         height="27.857143"
+         width="79.999992"
+         id="rect3399-8-0-1"
+         style="fill:#e6e6e6;fill-opacity:1;stroke:none" />
+      <flowRoot
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:125%;font-family:'Roboto Light';-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none"
+         id="flowRoot3409-8-6-8"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3411-2-1-2"><rect
+             style="fill:#333333"
+             y="315.2193"
+             x="252.14287"
+             height="31.428574"
+             width="96.428566"
+             id="rect3413-4-3-7" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium,';fill:#808080"
+           id="flowPara3415-5-8-5">Olahraga</flowPara></flowRoot>    </g>
+    <rect
+       style="display:inline;fill:#bcd35f;fill-opacity:1;stroke:none;filter:url(#filter3747-1-6-1)"
+       id="rect3577-8-6-7"
+       width="18.182747"
+       height="189.90868"
+       x="-915.19824"
+       y="141.14366"
+       transform="matrix(1,0,0,1.00537,2393.0371,295.00176)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="display:inline;fill:#55ff55;fill-opacity:1;stroke:none;filter:url(#filter3747-1-5)"
+       id="rect3577-8-0"
+       width="18.182747"
+       height="189.90868"
+       x="-915.19824"
+       y="141.14366"
+       transform="matrix(1,0,0,1.00537,2393.7875,489.07003)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       style="display:inline"
+       id="g3456-6-9"
+       transform="translate(1427.3177,451.72652)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="3.9795918"
+         rx="2.4853799"
+         y="311.64789"
+         x="245.00002"
+         height="27.857143"
+         width="60.714283"
+         id="rect3399-18-5"
+         style="fill:#e6e6e6;fill-opacity:1;stroke:none" />
+      <flowRoot
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:125%;font-family:'Roboto Light';-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none"
+         id="flowRoot3409-9-9"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3411-27-2"><rect
+             style="fill:#333333"
+             y="315.2193"
+             x="252.14287"
+             height="31.428574"
+             width="96.428566"
+             id="rect3413-9-01" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium,';fill:#808080"
+           id="flowPara3415-54-3">Kuliah</flowPara></flowRoot>    </g>
+    <rect
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;filter:url(#filter3378-13-2-2)"
+       id="rect4582-7-2-0"
+       width="666.70068"
+       height="95.964493"
+       x="-889.0545"
+       y="137.8009"
+       transform="matrix(0.98055556,0,0,1.9938597,2356.6862,554.5135)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       style="display:inline"
+       id="g3591-7"
+       transform="translate(1432.0731,58.291143)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="3.9795918"
+         rx="2.4853799"
+         y="705.08325"
+         x="309.17322"
+         height="27.857143"
+         width="41.521385"
+         id="rect3399-1-12-6"
+         style="display:inline;fill:#e6e6e6;fill-opacity:1;stroke:none" />
+      <flowRoot
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:125%;font-family:'Roboto Light';-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;display:inline;fill:#333333;fill-opacity:1;stroke:none"
+         id="flowRoot3409-7-3-8"
+         xml:space="preserve"
+         transform="translate(66.173196,393.43538)"><flowRegion
+           id="flowRegion3411-4-3-2"><rect
+             style="fill:#333333"
+             y="315.2193"
+             x="252.14287"
+             height="31.428574"
+             width="96.428566"
+             id="rect3413-0-4-4" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium,';fill:#808080"
+           id="flowPara3415-9-1-8">KIJ</flowPara></flowRoot>    </g>
+    <rect
+       style="display:inline;fill:#55ff55;fill-opacity:1;stroke:none;filter:url(#filter3747-1-6-6-9)"
+       id="rect3577-8-6-6-1"
+       width="18.182747"
+       height="189.90868"
+       x="-915.19824"
+       y="141.14366"
+       transform="matrix(1,0,0,1.00537,2394.8278,684.02212)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <circle
+       r="60"
+       cy="923.82117"
+       cx="1573.9474"
+       style="display:inline;fill:#55ff55;fill-opacity:1;stroke:none"
+       id="path4609-4-1-3"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3092-8-3-8"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:31.71589279px;line-height:125%;font-family:'Roboto Light';-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.7567184,0,0,0.7567184,1315.8876,711.76086)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3094-2-5-2"><rect
+           id="rect3096-4-9-7"
+           width="240.07834"
+           height="123.22399"
+           x="219.45564"
+           y="249.79597"
+           style="font-size:31.71589279px" /></flowRegion><flowPara
+         id="flowPara3098-5-9-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:63.43178558px;line-height:80.00000119%;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium,';text-align:center;text-anchor:middle;fill:#ffffff">17 </flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-size:26.42991066px;line-height:80.00000119%;font-family:'Roboto Light';-inkscape-font-specification:'Roboto Light';text-align:center;text-anchor:middle;fill:#ffffff"
+         id="flowPara3184-5-8-1"><flowSpan
+   style="font-size:26.42991066px;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium'"
+   id="flowSpan3194-1-1-9">days</flowSpan> left</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3545-7-6-9"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:125%;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(2409.6477,684.62485)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3547-1-5-4"><rect
+           id="rect3549-1-7-4"
+           width="394.28571"
+           height="68.571426"
+           x="-740"
+           y="168.07646"
+           style="font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium'" /></flowRegion><flowPara
+         id="flowPara3551-5-5-9"
+         style="font-size:40px">Wisata Kuliner</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3569-2-4-8"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:125%;font-family:'Roboto Light';-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(2377.7345,661.24372)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3571-7-1-2"><rect
+           id="rect3573-6-2-0"
+           width="221.42857"
+           height="61.428574"
+           x="-708.57141"
+           y="252.36217" /></flowRegion><flowPara
+         id="flowPara3575-1-0-0">March 26, 2015</flowPara></flowRoot>    <g
+       style="display:inline"
+       id="g3456-6-0-5"
+       transform="translate(1427.4778,649.83755)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="3.9795918"
+         rx="2.4853799"
+         y="311.64789"
+         x="245.00002"
+         height="27.857143"
+         width="60.714283"
+         id="rect3399-18-1-9"
+         style="fill:#e6e6e6;fill-opacity:1;stroke:none" />
+      <flowRoot
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:125%;font-family:'Roboto Light';-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none"
+         id="flowRoot3409-9-4-1"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3411-27-6-3"><rect
+             style="fill:#333333"
+             y="315.2193"
+             x="252.14287"
+             height="31.428574"
+             width="96.428566"
+             id="rect3413-9-0-6" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium,';fill:#808080"
+           id="flowPara3415-54-7-3">Kuliah</flowPara></flowRoot>    </g>
+    <g
+       style="display:inline"
+       id="g3591-1-0"
+       transform="translate(1432.2332,256.40217)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="3.9795918"
+         rx="2.4853799"
+         y="705.08325"
+         x="309.17322"
+         height="27.857143"
+         width="41.521385"
+         id="rect3399-1-12-7-1"
+         style="display:inline;fill:#e6e6e6;fill-opacity:1;stroke:none" />
+      <flowRoot
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:125%;font-family:'Roboto Light';-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;display:inline;fill:#333333;fill-opacity:1;stroke:none"
+         id="flowRoot3409-7-3-7-5"
+         xml:space="preserve"
+         transform="translate(66.173196,393.43538)"><flowRegion
+           id="flowRegion3411-4-3-7-1"><rect
+             style="fill:#333333"
+             y="315.2193"
+             x="252.14287"
+             height="31.428574"
+             width="96.428566"
+             id="rect3413-0-4-7-2" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium,';fill:#808080"
+           id="flowPara3415-9-1-3-4">KIJ</flowPara></flowRoot>    </g>
+    <rect
+       style="display:inline;opacity:0.65500004;fill:#1a1a1a;fill-opacity:1;stroke:none"
+       id="rect3315-0"
+       width="666.70068"
+       height="963.68555"
+       x="1473.1116"
+       y="39.008415"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="display:inline;fill:#00b0dc;fill-opacity:1;stroke:none;filter:url(#filter3416-1-7)"
+       id="rect3755-4"
+       width="668.72095"
+       height="126.65775"
+       x="1472.1217"
+       y="-86.889"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       style="display:inline"
+       id="g4145-9"
+       transform="translate(1426.6445,-31.923137)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="7.7278318"
+         x="77.360016"
+         height="2.3044105"
+         width="25.19068"
+         id="rect4115-8"
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff" />
+      <rect
+         transform="matrix(0.70746344,-0.70674994,0.70674994,0.70746344,0,0)"
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.8388707"
+         id="rect4135-6"
+         width="17.726784"
+         height="2.3044105"
+         x="46.898197"
+         y="59.133957" />
+      <rect
+         y="46.433964"
+         x="59.228405"
+         height="2.3044105"
+         width="17.726784"
+         id="rect4143-6"
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.8388707"
+         transform="matrix(0.70746344,0.70674994,0.70674994,-0.70746344,0,0)" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3757-1"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(2451.0971,-46.201017)"
+       inkscape:export-filename="C:\Users\Wik\Documents\Kuliah\IMK\rect4255.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3759-1"><rect
+           id="rect3761-8"
+           width="512.85712"
+           height="70"
+           x="-892.85712"
+           y="5.2193251" /></flowRegion><flowPara
+         id="flowPara3763-5"
+         style="fill:#ffffff">Menu</flowPara></flowRoot>    <rect
+       style="display:inline;fill:#216778;fill-opacity:1;stroke:none;filter:url(#filter4381-6)"
+       id="rect3318-7"
+       width="464.09604"
+       height="955.60437"
+       x="1473.1116"
+       y="41.008415"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#00aad4;fill-opacity:1;stroke:none"
+       id="rect3352-4"
+       width="463.04974"
+       height="117.90617"
+       x="1473.334"
+       y="44.628456"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4394-9"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:125%;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(1439.436,-21.961267)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion4396-66"><rect
+           id="rect4398-2"
+           width="342.85715"
+           height="64.285713"
+           x="122.85714"
+           y="105.21932"
+           style="font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium'" /></flowRegion><flowPara
+         id="flowPara4400-9"
+         style="font-size:36px;fill:#dbe3db">Task List</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4394-5-9"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:125%;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(1441.4766,93.656393)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion4396-5-0"><rect
+           id="rect4398-1-0"
+           width="342.85715"
+           height="64.285713"
+           x="122.85714"
+           y="105.21932"
+           style="font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium'" /></flowRegion><flowPara
+         style="font-size:36px;fill:#dbe3db"
+         id="flowPara4460-4">Task Report</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4394-7-2"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:125%;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(1439.667,203.39872)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion4396-6-5"><rect
+           id="rect4398-14-9"
+           width="342.85715"
+           height="64.285713"
+           x="122.85714"
+           y="105.21932"
+           style="font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium'" /></flowRegion><flowPara
+         style="font-size:36px;fill:#dbe3db"
+         id="flowPara4490-1">Settings</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#241c1c;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1471.1463,279.68013 464.6702,0"
+       id="path4148-1-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#241c1c;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1473.3095,388.22475 464.6702,0"
+       id="path4148-1-4-0-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4394-7-9-1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:125%;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(1435.0845,322.18373)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion4396-6-4-3"><rect
+           id="rect4398-14-8-8"
+           width="342.85715"
+           height="64.285713"
+           x="122.85714"
+           y="105.21932"
+           style="font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium'" /></flowRegion><flowPara
+         style="font-size:36px;fill:#dbe3db"
+         id="flowPara4238-6">Logout</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#241c1c;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1472.208,506.09488 464.6701,0"
+       id="path4148-1-4-0-2-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g4-4"
+       transform="matrix(0.01753341,0,0,-0.01753341,1501.5066,344.77774)"
+       style="fill:#ffffff"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         style="fill:#ffffff"
+         inkscape:connector-curvature="0"
+         id="path6-1"
+         d="m 384,64 q 0,26 -19,45 -19,19 -45,19 -26,0 -45,-19 -19,-19 -19,-45 0,-26 19,-45 19,-19 45,-19 26,0 45,19 19,19 19,45 z m 644,420 -682,-682 q -37,-37 -90,-37 -52,0 -91,37 L 59,-90 Q 21,-54 21,0 21,53 59,91 L 740,772 Q 779,674 854.5,598.5 930,523 1028,484 Z m 634,435 q 0,-39 -23,-106 Q 1592,679 1474.5,595.5 1357,512 1216,512 1031,512 899.5,643.5 768,775 768,960 q 0,185 131.5,316.5 131.5,131.5 316.5,131.5 58,0 121.5,-16.5 63.5,-16.5 107.5,-46.5 16,-11 16,-28 0,-17 -16,-28 l -293,-169 0,-224 193,-107 q 5,3 79,48.5 74,45.5 135.5,81 61.5,35.5 70.5,35.5 15,0 23.5,-10 8.5,-10 8.5,-25 z" />
+    </g>
+    <g
+       id="g4626-7"
+       transform="matrix(-0.28061568,0,0,0.28061568,1532.9402,436.96693)"
+       style="fill:#ffffff"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         id="g4584-0"
+         style="fill:#ffffff">
+        <path
+           id="path4586-7"
+           d="m 86,28.074 0,-20.7 c 0,-3.3 -2.699,-6 -6,-6 l -74,0 c -3.3,0 -6,2.7 -6,6 l 0,3.9 0,78.2 0,2.701 c 0,2.199 1.3,4.299 3.2,5.299 l 45.6,23.601 c 2,1 4.4,-0.399 4.4,-2.7 l 0,-23 26.8,0 c 3.301,0 6,-2.699 6,-6 l 0,-32.8 -12,0 0,23.8 c 0,1.7 -1.3,3 -3,3 l -17.7,0 0,-30.8 0,-19.5 0,-0.6 c 0,-2.2 -1.3,-4.3 -3.2,-5.3 l -26.9,-13.8 47.8,0 c 1.7,0 3,1.3 3,3 l 0,11.8 12,0 0,-0.101 z"
+           inkscape:connector-curvature="0"
+           style="fill:#ffffff" />
+        <path
+           id="path4588-6"
+           d="m 101.4,18.273 19.5,19.5 c 2.5,2.5 2.5,6.2 0,8.7 l -19.5,19.5 c -2.5,2.5 -6.301,2.601 -8.801,0.101 -2.399,-2.399 -2.1,-6.4 0.201,-8.8 l 8.799,-8.7 -34.099,0 c -1.699,0 -3.4,-0.7 -4.5,-2 -2.8,-3 -2.1,-8.3 1.5,-10.3 0.9,-0.5 2,-0.8 3,-0.8 l 34.1,0 c 0,0 -8.699,-8.7 -8.799,-8.7 -2.301,-2.3 -2.601,-6.4 -0.201,-8.7 2.4,-2.4 6.3,-2.301 8.8,0.199 z"
+           inkscape:connector-curvature="0"
+           style="fill:#ffffff" />
+      </g>
+      <g
+         id="g4590-2"
+         style="fill:#ffffff" />
+      <g
+         id="g4592-1"
+         style="fill:#ffffff" />
+      <g
+         id="g4594-6"
+         style="fill:#ffffff" />
+      <g
+         id="g4596-7"
+         style="fill:#ffffff" />
+      <g
+         id="g4598-9"
+         style="fill:#ffffff" />
+      <g
+         id="g4600-5"
+         style="fill:#ffffff" />
+      <g
+         id="g4602-6"
+         style="fill:#ffffff" />
+      <g
+         id="g4604-6"
+         style="fill:#ffffff" />
+      <g
+         id="g4606-5"
+         style="fill:#ffffff" />
+      <g
+         id="g4608-3"
+         style="fill:#ffffff" />
+      <g
+         id="g4610-8"
+         style="fill:#ffffff" />
+      <g
+         id="g4612-9"
+         style="fill:#ffffff" />
+      <g
+         id="g4614-5"
+         style="fill:#ffffff" />
+      <g
+         id="g4616-2"
+         style="fill:#ffffff" />
+      <g
+         id="g4618-4"
+         style="fill:#ffffff" />
+    </g>
+    <g
+       id="g4836-3"
+       transform="matrix(0.06992478,0,0,0.06992478,1506.47,88.497303)"
+       style="display:inline;fill:#ffffff"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         id="g4778-1"
+         style="fill:#ffffff">
+        <g
+           id="g4780-6"
+           style="fill:#ffffff">
+          <g
+             id="g4782-5"
+             style="fill:#ffffff">
+            <path
+               id="path4784-3"
+               d="m 410.428,34.738 -76.405,0 5.155,23.852 c 0.634,2.961 0.603,5.934 0.271,8.859 l 54.621,0 0,385.531 -302.482,0 0,-385.531 54.637,0 c -0.332,-2.941 -0.348,-5.914 0.285,-8.891 l 5.156,-23.82 -76.418,0 c -9.031,0 -16.34,7.324 -16.34,16.354 l 0,418.243 c 0,9.016 7.309,16.354 16.34,16.354 l 335.18,0 c 9.031,0 16.354,-7.341 16.354,-16.354 l 0,-418.242 c 0.001,-9.031 -7.323,-16.355 -16.354,-16.355 z"
+               inkscape:connector-curvature="0"
+               style="fill:#ffffff" />
+            <path
+               id="path4786-8"
+               d="m 355.568,152.949 -111.71,0 c -9.047,0 -16.355,7.324 -16.355,16.34 0,9.035 7.309,16.355 16.355,16.355 l 111.71,0 c 9.047,0 16.354,-7.32 16.354,-16.355 0.002,-9.016 -7.307,-16.34 -16.354,-16.34 z"
+               inkscape:connector-curvature="0"
+               style="fill:#ffffff" />
+            <path
+               id="path4788-6"
+               d="m 355.568,253.254 -111.71,0 c -9.047,0 -16.355,7.323 -16.355,16.354 0,9.021 7.309,16.357 16.355,16.357 l 111.71,0 c 9.047,0 16.354,-7.34 16.354,-16.357 0.002,-9.031 -7.307,-16.354 -16.354,-16.354 z"
+               inkscape:connector-curvature="0"
+               style="fill:#ffffff" />
+            <path
+               id="path4790-7"
+               d="m 119.556,156.792 c -6.898,5.82 -7.786,16.137 -1.965,23.047 l 23.855,28.27 c 3.117,3.699 7.688,5.805 12.496,5.805 0.398,0 0.792,-0.016 1.203,-0.047 5.219,-0.379 9.949,-3.258 12.703,-7.719 l 42.914,-69.477 c 4.746,-7.688 2.375,-17.75 -5.312,-22.492 -7.688,-4.777 -17.75,-2.375 -22.497,5.313 l -31.066,50.273 -9.301,-11.012 c -5.823,-6.91 -16.119,-7.797 -23.03,-1.961 z"
+               inkscape:connector-curvature="0"
+               style="fill:#ffffff" />
+            <path
+               id="path4792-3"
+               d="m 158.72,245.094 c -13.554,0 -24.535,10.978 -24.535,24.517 0,13.543 10.98,24.52 24.535,24.52 13.543,0 24.52,-10.977 24.52,-24.52 0,-13.541 -10.977,-24.517 -24.52,-24.517 z"
+               inkscape:connector-curvature="0"
+               style="fill:#ffffff" />
+            <path
+               id="path4794-8"
+               d="m 355.568,351.359 -111.71,0 c -9.047,0 -16.355,7.309 -16.355,16.358 0,9.017 7.309,16.34 16.355,16.34 l 111.71,0 c 9.047,0 16.354,-7.323 16.354,-16.34 0.002,-9.05 -7.307,-16.358 -16.354,-16.358 z"
+               inkscape:connector-curvature="0"
+               style="fill:#ffffff" />
+            <path
+               id="path4796-4"
+               d="m 158.72,343.199 c -13.554,0 -24.535,10.977 -24.535,24.52 0,13.539 10.98,24.521 24.535,24.521 13.543,0 24.52,-10.979 24.52,-24.521 0,-13.543 -10.977,-24.52 -24.52,-24.52 z"
+               inkscape:connector-curvature="0"
+               style="fill:#ffffff" />
+            <path
+               id="path4798-8"
+               d="m 173.463,75.613 138.73,0 c 3.401,0 6.613,-1.521 8.746,-4.176 2.137,-2.629 2.961,-6.105 2.229,-9.43 L 311.686,8.859 C 310.564,3.687 305.994,0 300.708,0 L 184.963,0 c -5.281,0 -9.852,3.688 -10.977,8.859 l -11.5,53.148 c -0.695,3.324 0.125,6.801 2.247,9.43 2.135,2.656 5.347,4.176 8.73,4.176 z"
+               inkscape:connector-curvature="0"
+               style="fill:#ffffff" />
+          </g>
+        </g>
+      </g>
+      <g
+         id="g4800-84"
+         style="fill:#ffffff" />
+      <g
+         id="g4802-1"
+         style="fill:#ffffff" />
+      <g
+         id="g4804-2"
+         style="fill:#ffffff" />
+      <g
+         id="g4806-0"
+         style="fill:#ffffff" />
+      <g
+         id="g4808-18"
+         style="fill:#ffffff" />
+      <g
+         id="g4810-86"
+         style="fill:#ffffff" />
+      <g
+         id="g4812-97"
+         style="fill:#ffffff" />
+      <g
+         id="g4814-4"
+         style="fill:#ffffff" />
+      <g
+         id="g4816-9"
+         style="fill:#ffffff" />
+      <g
+         id="g4818-2"
+         style="fill:#ffffff" />
+      <g
+         id="g4820-6"
+         style="fill:#ffffff" />
+      <g
+         id="g4822-40"
+         style="fill:#ffffff" />
+      <g
+         id="g4824-30"
+         style="fill:#ffffff" />
+      <g
+         id="g4826-18"
+         style="fill:#ffffff" />
+      <g
+         id="g4828-0"
+         style="fill:#ffffff" />
+    </g>
+    <g
+       id="g5069-4"
+       transform="translate(1427.178,-175.93731)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="matrix(0.81308203,0.05959921,-0.05959921,0.81308203,90.358238,72.720847)"
+         sodipodi:end="4.0142573"
+         sodipodi:start="0"
+         d="m 51.071428,390.57648 a 18.928572,18.928572 0 0 1 -14.563342,18.41835 18.928572,18.928572 0 0 1 -21.280419,-9.92323 18.928572,18.928572 0 0 1 4.748139,-22.99525 l 12.167051,14.50013 z"
+         sodipodi:ry="18.928572"
+         sodipodi:rx="18.928572"
+         sodipodi:cy="390.57648"
+         sodipodi:cx="32.142857"
+         id="path4345-2"
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <circle
+         style="fill:none;stroke:#ffffff;stroke-width:0.80000001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         id="path4414-0"
+         transform="matrix(0.79660641,-0.1734148,0.1734148,0.79660641,-0.12416967,86.645258)"
+         cx="32.142857"
+         cy="390.57648"
+         r="18.928572" />
+      <g
+         style="display:inline;fill:#ffffff"
+         transform="matrix(0.03192412,0,0,0.03192412,106.11469,399.19772)"
+         id="g4836-5-5">
+        <g
+           style="fill:#ffffff"
+           id="g4778-2-8">
+          <g
+             style="fill:#ffffff"
+             id="g4780-7-5">
+            <g
+               style="fill:#ffffff"
+               id="g4782-6-1">
+              <path
+                 style="fill:#ffffff"
+                 inkscape:connector-curvature="0"
+                 d="m 410.428,34.738 -76.405,0 5.155,23.852 c 0.634,2.961 0.603,5.934 0.271,8.859 l 54.621,0 0,385.531 -302.482,0 0,-385.531 54.637,0 c -0.332,-2.941 -0.348,-5.914 0.285,-8.891 l 5.156,-23.82 -76.418,0 c -9.031,0 -16.34,7.324 -16.34,16.354 l 0,418.243 c 0,9.016 7.309,16.354 16.34,16.354 l 335.18,0 c 9.031,0 16.354,-7.341 16.354,-16.354 l 0,-418.242 c 0.001,-9.031 -7.323,-16.355 -16.354,-16.355 z"
+                 id="path4784-1-8" />
+              <path
+                 style="fill:#ffffff"
+                 inkscape:connector-curvature="0"
+                 d="m 355.568,152.949 -111.71,0 c -9.047,0 -16.355,7.324 -16.355,16.34 0,9.035 7.309,16.355 16.355,16.355 l 111.71,0 c 9.047,0 16.354,-7.32 16.354,-16.355 0.002,-9.016 -7.307,-16.34 -16.354,-16.34 z"
+                 id="path4786-4-8" />
+              <path
+                 style="fill:#ffffff"
+                 inkscape:connector-curvature="0"
+                 d="m 355.568,253.254 -111.71,0 c -9.047,0 -16.355,7.323 -16.355,16.354 0,9.021 7.309,16.357 16.355,16.357 l 111.71,0 c 9.047,0 16.354,-7.34 16.354,-16.357 0.002,-9.031 -7.307,-16.354 -16.354,-16.354 z"
+                 id="path4788-2-7" />
+              <path
+                 style="fill:#ffffff"
+                 inkscape:connector-curvature="0"
+                 d="m 119.556,156.792 c -6.898,5.82 -7.786,16.137 -1.965,23.047 l 23.855,28.27 c 3.117,3.699 7.688,5.805 12.496,5.805 0.398,0 0.792,-0.016 1.203,-0.047 5.219,-0.379 9.949,-3.258 12.703,-7.719 l 42.914,-69.477 c 4.746,-7.688 2.375,-17.75 -5.312,-22.492 -7.688,-4.777 -17.75,-2.375 -22.497,5.313 l -31.066,50.273 -9.301,-11.012 c -5.823,-6.91 -16.119,-7.797 -23.03,-1.961 z"
+                 id="path4790-3-6" />
+              <path
+                 style="fill:#ffffff"
+                 inkscape:connector-curvature="0"
+                 d="m 158.72,245.094 c -13.554,0 -24.535,10.978 -24.535,24.517 0,13.543 10.98,24.52 24.535,24.52 13.543,0 24.52,-10.977 24.52,-24.52 0,-13.541 -10.977,-24.517 -24.52,-24.517 z"
+                 id="path4792-2-9" />
+              <path
+                 style="fill:#ffffff"
+                 inkscape:connector-curvature="0"
+                 d="m 355.568,351.359 -111.71,0 c -9.047,0 -16.355,7.309 -16.355,16.358 0,9.017 7.309,16.34 16.355,16.34 l 111.71,0 c 9.047,0 16.354,-7.323 16.354,-16.34 0.002,-9.05 -7.307,-16.358 -16.354,-16.358 z"
+                 id="path4794-2-9" />
+              <path
+                 style="fill:#ffffff"
+                 inkscape:connector-curvature="0"
+                 d="m 158.72,343.199 c -13.554,0 -24.535,10.977 -24.535,24.52 0,13.539 10.98,24.521 24.535,24.521 13.543,0 24.52,-10.979 24.52,-24.521 0,-13.543 -10.977,-24.52 -24.52,-24.52 z"
+                 id="path4796-1-8" />
+              <path
+                 style="fill:#ffffff"
+                 inkscape:connector-curvature="0"
+                 d="m 173.463,75.613 138.73,0 c 3.401,0 6.613,-1.521 8.746,-4.176 2.137,-2.629 2.961,-6.105 2.229,-9.43 L 311.686,8.859 C 310.564,3.687 305.994,0 300.708,0 L 184.963,0 c -5.281,0 -9.852,3.688 -10.977,8.859 l -11.5,53.148 c -0.695,3.324 0.125,6.801 2.247,9.43 2.135,2.656 5.347,4.176 8.73,4.176 z"
+                 id="path4798-6-9" />
+            </g>
+          </g>
+        </g>
+        <g
+           style="fill:#ffffff"
+           id="g4800-8-0" />
+        <g
+           style="fill:#ffffff"
+           id="g4802-5-0" />
+        <g
+           style="fill:#ffffff"
+           id="g4804-7-2" />
+        <g
+           style="fill:#ffffff"
+           id="g4806-6-5" />
+        <g
+           style="fill:#ffffff"
+           id="g4808-1-6" />
+        <g
+           style="fill:#ffffff"
+           id="g4810-8-1" />
+        <g
+           style="fill:#ffffff"
+           id="g4812-9-4" />
+        <g
+           style="fill:#ffffff"
+           id="g4814-2-8" />
+        <g
+           style="fill:#ffffff"
+           id="g4816-7-3" />
+        <g
+           style="fill:#ffffff"
+           id="g4818-9-4" />
+        <g
+           style="fill:#ffffff"
+           id="g4820-5-3" />
+        <g
+           style="fill:#ffffff"
+           id="g4822-4-5" />
+        <g
+           style="fill:#ffffff"
+           id="g4824-3-6" />
+        <g
+           style="fill:#ffffff"
+           id="g4826-1-8" />
+        <g
+           style="fill:#ffffff"
+           id="g4828-2-4" />
+      </g>
+    </g>
+    <rect
+       style="fill:#241f1c;fill-opacity:1;stroke:none"
+       id="rect3939-2"
+       width="1000.051"
+       height="137.38075"
+       x="1359.9745"
+       y="992.61267"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       style="display:inline"
+       id="g4145-9-7"
+       transform="translate(1586.4117,-66.487396)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="7.7278318"
+         x="77.360016"
+         height="2.3044105"
+         width="25.19068"
+         id="rect4115-8-4"
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff" />
+      <rect
+         transform="matrix(0.70746344,-0.70674994,0.70674994,0.70746344,0,0)"
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.8388707"
+         id="rect4135-6-4"
+         width="17.726784"
+         height="2.3044105"
+         x="46.898197"
+         y="59.133957" />
+      <rect
+         y="46.433964"
+         x="59.228405"
+         height="2.3044105"
+         width="17.726784"
+         id="rect4143-6-5"
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.8388707"
+         transform="matrix(0.70746344,0.70674994,0.70674994,-0.70746344,0,0)" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Covers"
+     style="opacity:1">
+    <rect
+       style="fill:#241f1c;fill-opacity:1;stroke:none"
+       id="rect3939"
+       width="1000.051"
+       height="137.38075"
+       x="-66.670067"
+       y="1046.3215" />
+    <rect
+       style="opacity:0.76999996;fill:#1a1a1a;fill-opacity:1;stroke:#808080;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5591"
+       width="674.28583"
+       height="952.85718"
+       x="1468.5714"
+       y="39.505047"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#808080;stroke-width:0.20758364;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter5774)"
+       id="rect5600"
+       width="528.47455"
+       height="409.9924"
+       x="1538.8501"
+       y="277.61978"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5602"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:125%;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(3.6221909,70.118944)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion5604"><rect
+           id="rect5606"
+           width="214.28571"
+           height="82.85714"
+           x="1554.2856"
+           y="218.07648" /></flowRegion><flowPara
+         id="flowPara5608"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Medium'">Logout</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5610"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:125%;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(22.424286,113.42424)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion5612"><rect
+           id="rect5614"
+           width="347.14285"
+           height="158.57143"
+           x="1602.8572"
+           y="270.93362" /></flowRegion><flowPara
+         id="flowPara5616"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:30px;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:center;text-anchor:middle">Are you sure you want to log out?</flowPara></flowRoot>    <g
+       id="g5647"
+       transform="translate(-13.131983,27.27414)"
+       style="filter:url(#filter5834)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="541.18256"
+         x="1577.479"
+         height="69.820969"
+         width="250.02094"
+         id="rect5618"
+         style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#808080;stroke-width:0.17902978;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <flowRoot
+         transform="translate(31.827362,49.331643)"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:125%;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot5620"
+         xml:space="preserve"><flowRegion
+           id="flowRegion5622"><rect
+             style="fill:#ffffff"
+             y="509.50504"
+             x="1588.5714"
+             height="50"
+             width="225.71428"
+             id="rect5624" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Medium'"
+           id="flowPara5626">Yes, log me out</flowPara></flowRoot>    </g>
+    <g
+       id="g5640"
+       transform="translate(-20.162441,28.284271)"
+       style="filter:url(#filter5846)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="opacity:1;fill:#006680;fill-opacity:1;stroke:#808080;stroke-width:0.17903243;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect5630"
+         width="184.30649"
+         height="69.820969"
+         x="1876.5284"
+         y="540.17242" />
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot5632"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:125%;font-family:'Roboto Medium';-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         transform="translate(364.34184,50.149636)"><flowRegion
+           id="flowRegion5634"><rect
+             id="rect5636"
+             width="225.71428"
+             height="50"
+             x="1588.5714"
+             y="509.50504"
+             style="fill:#ffffff" /></flowRegion><flowPara
+           id="flowPara5638"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Medium'">No</flowPara></flowRoot>    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer10"
+     inkscape:label="popup" />
+</svg>

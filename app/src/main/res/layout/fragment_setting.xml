@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.stef_developer.dailytask.addtask"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/titleTextDefault"
+        android:layout_gravity="left"
+        android:layout_marginLeft="15dp"
+        android:text="Account Setting"/>
+
+    <TextView
+        style="@style/labelDefault"
+        android:text="Email Account:"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="anggara.stefanus@gmail.com"
+        android:textColor="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:textSize="20sp"/>
+
+    <TextView
+        style="@style/labelDefault"
+        android:layout_marginTop="10dp"
+        android:text="Fullname :"/>
+
+    <EditText
+        style="@style/editTextDefault" />
+
+    <TextView
+        style="@style/labelDefault"
+        android:text="Password :"/>
+
+    <EditText
+        style="@style/editTextDefault"
+        android:hint="Old Password"/>
+
+    <EditText
+        style="@style/editTextDefault"
+        android:hint="New Password"/>
+
+    <EditText
+        style="@style/editTextDefault"
+        android:hint="Re-type Password"/>
+
+    <Button
+        style="@style/buttonBlueDefault"
+        android:layout_marginTop="20dp"
+        android:text="Save"/>
+
+</LinearLayout>
