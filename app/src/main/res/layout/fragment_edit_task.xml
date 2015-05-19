@@ -1,0 +1,79 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="happiness.dailytask.AddTaskFragment">
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <TextView
+            style="@style/labelSmall"
+            android:layout_marginTop="20dp"
+            android:text="Title"/>
+        <EditText
+            style="@style/editTextSmall"
+            android:hint="Kumpul Tugas DP"
+            android:id="@+id/edittask_edittext_taskTitle"/>
+        <TextView
+            style="@style/labelSmall"
+            android:layout_marginTop="20dp"
+            android:text="Date and Time"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="5">
+            <EditText
+                style="@style/editTextSmall"
+                android:hint="12 March 2015"
+                android:id="@+id/edittask_edittext_date"
+                android:layout_weight="2"
+                android:layout_marginRight="5dp"
+                android:drawableRight="@drawable/ic_calendar"
+                android:onClick="showDatePicker"
+                />
+            <EditText
+                style="@style/editTextSmall"
+                android:hint="1:30 PM"
+                android:id="@+id/edittask_edittext_time"
+                android:layout_weight="3"
+                android:layout_marginLeft="5dp"
+                android:drawableRight="@drawable/ic_action_name"
+                android:onClick="showTimePicker"/>
+        </LinearLayout>
+        <TextView
+            style="@style/labelSmall"
+            android:layout_marginTop="20dp"
+            android:text="Details"/>
+        <EditText
+            style="@style/editTextSmall"
+            android:hint="Mengumpulkan tugas DP pada saat kelas PAA 2"
+            android:id="@+id/edittask_edittext_details"/>
+        <TextView
+            style="@style/labelSmall"
+            android:layout_marginTop="20dp"
+            android:text="Tags"/>
+        <EditText
+            style="@style/editTextSmall"
+            android:hint="Tags"
+            android:id="@+id/addtask_edittext_tags"/>
+        <TextView
+            style="@style/labelSmall"
+            android:layout_marginTop="20dp"
+            android:text="Prerequisites"/>
+        <EditText
+            style="@style/editTextSmall"
+            android:hint="Prerequisites"
+            android:id="@+id/addtaskk_edittext_prerequisites"/>
+
+        <Button
+            style="@style/buttonBlueDefault"
+            android:layout_marginTop="20dp"
+            android:text="Add Task"
+            android:id="@+id/addtask_button"
+            android:onClick="addTask"
+            />
+    </LinearLayout>
+</ScrollView>
