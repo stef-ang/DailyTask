@@ -5,11 +5,9 @@
 
     <!-- TODO: Update blank fragment layout -->
 
-    <TextView
-        style="@style/titleTextDefault"
-        android:text="Add Activity" />
     <EditText
         style="@style/editTextDefault"
+        android:layout_marginTop="40dp"
         android:hint="Task title"
         android:id="@+id/addtask_edittext_taskTitle"/>
     <LinearLayout
@@ -50,7 +48,7 @@
 
     <Button
         style="@style/buttonBlueDefault"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         android:text="Add Task"
         android:id="@+id/addtask_button"
         android:onClick="addTask"
