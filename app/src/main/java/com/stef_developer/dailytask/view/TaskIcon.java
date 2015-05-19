@@ -5,6 +5,7 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Rect;
+import android.graphics.RectF;
 import android.graphics.Typeface;
 import android.view.View;
 
@@ -35,6 +36,11 @@ public class TaskIcon extends View {
         return (int)(dp * scale + 0.5f);
     }
 
+    private int sp2px(int sp) {
+        final float scaledDensity = getResources().getDisplayMetrics().scaledDensity;
+        return (int) (sp * scaledDensity);
+    }
+
     public int getColor() {
         if (color == -1) //undefined
         {
@@ -56,10 +62,10 @@ public class TaskIcon extends View {
     public TaskIcon(Context context, int days, float progress) {
         super(context);
         this.days = days;
-        this.progress = progress;
+        this.progress = (float)progress;
         this.color = -1;
-        radius = dp2px(50);
-        textSize = 80;
+        radius = dp2px(40);
+        textSize = sp2px(24);
         arcWidth = dp2px(4);
         init_paints();
     }
@@ -70,7 +76,7 @@ public class TaskIcon extends View {
         this.progress = progress;
         this.color = -1;
         this.radius = dp2px(radius);
-        textSize = radius/5*8;
+        textSize = radius/5*2;
         arcWidth = dp2px(Math.max(2, radius/12));
         init_paints();
     }
@@ -94,7 +100,9 @@ public class TaskIcon extends View {
         Rect textBounds1 = new Rect();
         Rect textBounds2 = new Rect();
         float spacing = 1.5f*arcWidth;
-        canvas.drawOval(spacing, spacing, arcWidth + 2*radius - spacing, arcWidth + 2*radius - spacing, ovalPaint);
+        RectF ovalRect = new RectF(spacing, spacing, arcWidth + 2*radius - spacing, arcWidth + 2*radius - spacing);
+        RectF arcRect = new RectF(arcWidth/2f, arcWidth/2f, arcWidth/2f + 2f*radius, arcWidth/2f + 2f*radius);
+        canvas.drawOval(ovalRect, ovalPaint);
         textPaint.setTextSize(textSize);
         textPaint.getTextBounds("0123456789", 0, 10, textBounds1);
         canvas.drawText(String.valueOf(days), radius, radius, textPaint);
@@ -102,7 +110,7 @@ public class TaskIcon extends View {
         textPaint.getTextBounds("days left", 0, 9, textBounds2);
         canvas.drawText("days left", radius, radius + textBounds1.height()/2f + textBounds2.height()/2f, textPaint);
 	if (progress > 0.00001f) {        
-	    canvas.drawArc(arcWidth/2f, arcWidth/2f, arcWidth/2f + 2f*radius, arcWidth/2f + 2f*radius, -90f, progress * 450.0f - 90.0f, false, arcPaint);
+	    canvas.drawArc(arcRect, -90f, progress * 450.0f - 90.0f, false, arcPaint);
 	}	
     }
 

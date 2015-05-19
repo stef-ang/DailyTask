@@ -4,8 +4,6 @@ import android.app.Activity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.content.Context;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Gravity;
@@ -15,9 +13,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
-import android.widget.ArrayAdapter;
-import android.widget.TextView;
+import android.widget.LinearLayout;
 
+import com.stef_developer.dailytask.view.TaskIcon;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationDrawerFragment.NavigationDrawerCallbacks {
@@ -37,7 +35,7 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mNavigationDrawerFragment = (NavigationDrawerFragment)
+        mNavigationDrawerFragment = (com.stef_developer.dailytask.NavigationDrawerFragment)
                 getSupportFragmentManager().findFragmentById(R.id.navigation_drawer);
         mTitle = getTitle();
 
@@ -45,6 +43,14 @@ public class MainActivity extends AppCompatActivity
         mNavigationDrawerFragment.setUp(
                 R.id.navigation_drawer,
                 (DrawerLayout) findViewById(R.id.drawer_layout));
+
+        TaskIcon taskIcon = new TaskIcon(this, 1, 0.70f);
+        ViewGroup taskbox = (ViewGroup)getChild(findViewById(R.id.taskbox), 1);
+        ViewGroup boxAtas = (ViewGroup)getChild(taskbox, 0);
+        LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+        layoutParams.gravity = Gravity.CENTER;
+        boxAtas.addView(taskIcon, 0, layoutParams);
+        boxAtas.invalidate();
     }
 
     @Override
@@ -144,6 +150,22 @@ public class MainActivity extends AppCompatActivity
             ((MainActivity) activity).onSectionAttached(
                     getArguments().getInt(ARG_SECTION_NUMBER));
         }
+    }
+
+    public void toggle(View view) {
+        ViewGroup viewGroup = (ViewGroup)getChild(findViewById(R.id.taskbox), 1);
+        ViewGroup viewGroup1 = (ViewGroup)getChild(viewGroup, 1);
+        if(viewGroup1.getVisibility() == View.GONE) {
+            viewGroup1.setVisibility(View.VISIBLE);
+        }
+        else if(viewGroup1.getVisibility() == View.VISIBLE) {
+            viewGroup1.setVisibility(View.GONE);
+        }
+    }
+
+    private View getChild(View view, int idx) {
+        ViewGroup viewGroup = (ViewGroup)view;
+        return viewGroup.getChildAt(idx);
     }
 
 }

@@ -4,28 +4,48 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="android:actionBarStyle">@style/MyActionBar</item>
-
-        <!-- Support library compatibility -->
         <item name="actionBarStyle">@style/MyActionBar</item>
     </style>
 
+    <!-- ActionBar styles -->
     <style name="MyActionBar"
         parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
-        <item name="android:background">@drawable/background</item>
-
-        <!-- Support library compatibility -->
-        <item name="background">@drawable/background</item>
+        <item name="android:background">@drawable/actionbar_background</item>
+        <item name="background">@drawable/actionbar_background</item>
+        <item name="android:logo">@android:color/transparent</item>
     </style>
 
-    <style name="CustomActionBarTheme"
-        parent="@android:style/Theme.Holo.Light.DarkActionBar">
-        <item name="android:actionBarStyle">@style/MyActionBar2</item>
+    <style name="taskbox">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:layout_marginTop">@dimen/taskbox_marginTop</item>
+        <item name="android:layout_marginBottom">@dimen/taskbox_marginBottom</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
     </style>
 
-    <!-- ActionBar styles -->
-    <style name="MyActionBar2"
-        parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
-        <item name="android:background">@drawable/background</item>
+    <style name="taskbox.leftBar">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">@dimen/taskbox.leftbar_layoutwidth</item>
+    </style>
+
+    <style name="taskbox.titletext">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="taskbox.descriptiontext">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="taskbox.button">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textSize">12sp</item>
     </style>
 
 </resources>
