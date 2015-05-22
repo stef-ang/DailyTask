@@ -1,11 +1,14 @@
 package com.stef_developer.dailytask;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -15,10 +18,16 @@ import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
 import android.widget.LinearLayout;
 
+import com.stef_developer.dailytask.fragments.NavigationDrawerFragment;
+import com.stef_developer.dailytask.fragments.Setting;
+import com.stef_developer.dailytask.fragments.TaskReport;
 import com.stef_developer.dailytask.view.TaskIcon;
 
 public class MainActivity extends AppCompatActivity
-        implements NavigationDrawerFragment.NavigationDrawerCallbacks {
+        implements NavigationDrawerFragment.NavigationDrawerCallbacks,
+        TaskReport.OnFragmentInteractionListener,
+        Setting.OnFragmentInteractionListener
+{
 
     /**
      * Fragment managing the behaviors, interactions and presentation of the navigation drawer.
@@ -35,7 +44,7 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mNavigationDrawerFragment = (com.stef_developer.dailytask.NavigationDrawerFragment)
+        mNavigationDrawerFragment = (NavigationDrawerFragment)
                 getSupportFragmentManager().findFragmentById(R.id.navigation_drawer);
         mTitle = getTitle();
 
@@ -54,12 +63,34 @@ public class MainActivity extends AppCompatActivity
     }
 
     @Override
+    public void onFragmentInteraction(Uri uri){
+
+    }
+
+    @Override
     public void onNavigationDrawerItemSelected(int position) {
         // update the main content by replacing fragments
         FragmentManager fragmentManager = getSupportFragmentManager();
-        fragmentManager.beginTransaction()
-                .replace(R.id.container, PlaceholderFragment.newInstance(position + 1))
-                .commit();
+        Log.d("POSITION: " + position, "");
+        if(position == 0) {
+            fragmentManager.beginTransaction()
+                    .replace(R.id.container, PlaceholderFragment.newInstance(position + 1))
+                    .commit();
+        }
+        else if(position == 1) {
+            fragmentManager.beginTransaction()
+                    .replace(R.id.container, TaskReport.newInstance("", ""))
+                    .commit();
+        }
+        else if(position == 2) {
+            fragmentManager.beginTransaction()
+                    .replace(R.id.container, Setting.newInstance("", ""))
+                    .commit();
+        }
+        else if(position == 3) {
+            Intent intent = new Intent(this, Login.class);
+            startActivity(intent);
+        }
     }
 
     public void onSectionAttached(int number) {
@@ -72,6 +103,9 @@ public class MainActivity extends AppCompatActivity
                 break;
             case 3:
                 mTitle = getString(R.string.title_section3);
+                break;
+            case 4:
+                mTitle = getString(R.string.title_section4);
                 break;
         }
     }

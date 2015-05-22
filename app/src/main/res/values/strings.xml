@@ -15,9 +15,10 @@
     <string name="title_activity_login">LoginActivity</string>
 
     <string name="hello_world">Hello world!</string>
-    <string name="title_section1">Fragment 1</string>
-    <string name="title_section2">Fragment 1</string>
-    <string name="title_section3">Fragment 1</string>
+    <string name="title_section1">Task List</string>
+    <string name="title_section2">Task Report</string>
+    <string name="title_section3">Settings</string>
+    <string name="title_section4">Logout</string>
 
     <string name="hint_username">Username</string>
     <string name="hint_password">Password</string>
