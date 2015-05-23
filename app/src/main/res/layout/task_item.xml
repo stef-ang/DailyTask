@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <!-- Boxutama -->
+    <LinearLayout
+        android:id="@+id/taskbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Bar -->
+        <ImageView
+            style="@style/taskbox.leftBar"
+            android:src="@android:color/holo_red_dark" />
+
+        <!--2 box container-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <!--box pertama-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@android:color/white"
+                android:elevation="2dp"
+                android:paddingBottom="10dp"
+                android:onClick="toggle">
+
+                <!-- place for lingkaran
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="LINGKARAN"/>
+                -->
+                <!--Textlist penjelasan tugas-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp">
+
+                    <TextView
+                        style="@style/taskbox.titletext"
+                        android:text="Kumpul Tugas MPPL"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Maret 12, 2015 -- 13:00 PM"
+                            android:layout_marginRight="5dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="(5 Hours left)"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kuliah"
+                            android:layout_margin="5dp"
+                            android:background="@android:color/darker_gray"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ujian"
+                            android:layout_margin="5dp"
+                            android:background="@android:color/darker_gray"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <!--end ofTextlist penjelasan tugas-->
+
+            </LinearLayout>
+            <!--end of boxpertama-->
+
+            <!--box kedua-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="vertical"
+                android:layout_marginTop="1dp"
+                android:elevation="2dp"
+                android:background="@android:color/white"
+                android:paddingBottom="15dp"
+                android:paddingTop="5dp">
+                <!--Deskripsi task-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mengumpulkan Tugas DP pada saat kelas PAA 2. Lokasi: IF-104."/>
+                    </LinearLayout>
+                </LinearLayout>
+                <!--End of deskripsi task-->
+
+                <!--Presquitis-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Prerequisites :"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    />
+                <!--Endof presquitis-->
+
+                <!--list presquitis-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="40dp">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="- Kerjakan Tugas Dynamic Programming"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="v"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="- Kerjakan DPPL"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="x"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <!--endof list presquitis-->
+
+                <!--tombol-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp">
+                    <Button
+                        style="@style/taskbox.button"
+                        android:text="Edit"
+                        android:background="#0088aa"/>
+                    <Button
+                        style="@style/taskbox.button"
+                        android:text="Delete"
+                        android:background="#ff0000"/>
+                    <Button
+                        style="@style/taskbox.button"
+                        android:text="Mark as..."
+                        android:background="#00d455"/>
+                </LinearLayout>
+                <!--endof tombol-->
+
+            </LinearLayout>
+            <!--endof boxkedua-->
+        </LinearLayout>
+        <!--endof 2box container-->
+    </LinearLayout>
+    <!--endof box utama-->
+</LinearLayout>

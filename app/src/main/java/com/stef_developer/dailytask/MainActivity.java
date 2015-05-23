@@ -20,13 +20,15 @@ import android.widget.LinearLayout;
 
 import com.stef_developer.dailytask.fragments.NavigationDrawerFragment;
 import com.stef_developer.dailytask.fragments.Setting;
+import com.stef_developer.dailytask.fragments.TaskList;
 import com.stef_developer.dailytask.fragments.TaskReport;
 import com.stef_developer.dailytask.view.TaskIcon;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationDrawerFragment.NavigationDrawerCallbacks,
         TaskReport.OnFragmentInteractionListener,
-        Setting.OnFragmentInteractionListener
+        Setting.OnFragmentInteractionListener,
+        TaskList.OnFragmentInteractionListener
 {
 
     /**
@@ -74,7 +76,7 @@ public class MainActivity extends AppCompatActivity
         Log.d("POSITION: " + position, "");
         if(position == 0) {
             fragmentManager.beginTransaction()
-                    .replace(R.id.container, PlaceholderFragment.newInstance(position + 1))
+                    .replace(R.id.container, TaskList.newInstance("", ""))
                     .commit();
         }
         else if(position == 1) {
