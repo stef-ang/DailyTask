@@ -2,4 +2,10 @@
 <resources>
     <color name="footer_login">#cccccc</color>
     <color name="transparent">#00000000</color>
+    <color name="button_red">#ff0000</color>
+    <color name="button_red_pressed">#aa0000</color>
+    <color name="button_blue">#0088aa</color>
+    <color name="button_blue_pressed">#006688</color>
+    <color name="button_green">#00d455</color>
+    <color name="button_green_pressed">#00b233</color>
 </resources>

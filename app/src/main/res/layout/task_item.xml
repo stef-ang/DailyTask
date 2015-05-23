@@ -49,6 +49,7 @@
 
                     <TextView
                         style="@style/taskbox.titletext"
+                        android:id="@+id/taskbox_title_textview"
                         android:text="Kumpul Tugas MPPL"/>
 
                     <LinearLayout
@@ -58,11 +59,13 @@
                         android:paddingBottom="5dp"
                         android:paddingTop="5dp">
                         <TextView
+                            android:id="@+id/taskbox_time_textview"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Maret 12, 2015 -- 13:00 PM"
                             android:layout_marginRight="5dp"/>
                         <TextView
+                            android:id="@+id/taskbox_hours_textview"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textStyle="bold"
@@ -70,6 +73,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/tags_layout"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:orientation="horizontal">
@@ -138,6 +142,7 @@
 
                 <!--list presquitis-->
                 <LinearLayout
+                    android:id="@+id/prerequisites_layout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
@@ -183,15 +188,15 @@
                     <Button
                         style="@style/taskbox.button"
                         android:text="Edit"
-                        android:background="#0088aa"/>
+                        android:background="@drawable/button_blue"/>
                     <Button
                         style="@style/taskbox.button"
                         android:text="Delete"
-                        android:background="#ff0000"/>
+                        android:background="@drawable/button_red"/>
                     <Button
                         style="@style/taskbox.button"
                         android:text="Mark as..."
-                        android:background="#00d455"/>
+                        android:background="@drawable/button_green"/>
                 </LinearLayout>
                 <!--endof tombol-->
 
