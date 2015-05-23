@@ -55,13 +55,17 @@ public class MainActivity extends AppCompatActivity
                 R.id.navigation_drawer,
                 (DrawerLayout) findViewById(R.id.drawer_layout));
 
-        TaskIcon taskIcon = new TaskIcon(this, 1, 0.70f);
-        ViewGroup taskbox = (ViewGroup)getChild(findViewById(R.id.taskbox), 1);
-        ViewGroup boxAtas = (ViewGroup)getChild(taskbox, 0);
-        LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
-        layoutParams.gravity = Gravity.CENTER;
-        boxAtas.addView(taskIcon, 0, layoutParams);
-        boxAtas.invalidate();
+//        TaskIcon taskIcon = new TaskIcon(this, 1, 0.70f);
+//        ViewGroup taskbox = (ViewGroup)getChild(findViewById(R.id.taskbox), 1);
+//        ViewGroup boxAtas = (ViewGroup)getChild(taskbox, 0);
+//        LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+//        layoutParams.gravity = Gravity.CENTER;
+//        boxAtas.addView(taskIcon, 0, layoutParams);
+//        boxAtas.invalidate();
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        fragmentManager.beginTransaction()
+                .replace(R.id.container, TaskList.newInstance("", ""))
+                .commit();
     }
 
     @Override
