@@ -9,6 +9,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="Pie Chart" />
+        android:text="Pie Chart"
+        android:onClick="openChart"/>
 
 </FrameLayout>

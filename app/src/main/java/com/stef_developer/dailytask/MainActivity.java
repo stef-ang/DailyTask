@@ -2,6 +2,7 @@ package com.stef_developer.dailytask;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.net.Uri;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
@@ -16,6 +17,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
+import android.widget.Button;
 import android.widget.LinearLayout;
 
 import com.stef_developer.dailytask.fragments.NavigationDrawerFragment;
@@ -23,6 +25,12 @@ import com.stef_developer.dailytask.fragments.Setting;
 import com.stef_developer.dailytask.fragments.TaskList;
 import com.stef_developer.dailytask.fragments.TaskReport;
 import com.stef_developer.dailytask.view.TaskIcon;
+
+import org.achartengine.ChartFactory;
+import org.achartengine.chart.PieChart;
+import org.achartengine.model.CategorySeries;
+import org.achartengine.renderer.DefaultRenderer;
+import org.achartengine.renderer.SimpleSeriesRenderer;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationDrawerFragment.NavigationDrawerCallbacks,
@@ -66,6 +74,21 @@ public class MainActivity extends AppCompatActivity
         fragmentManager.beginTransaction()
                 .replace(R.id.container, TaskList.newInstance("", ""))
                 .commit();
+
+//        Button btnChart = (Button)findViewById(R.id.btn_chart);
+//
+//        // Defining click event listener for the button btn_chart
+//        View.OnClickListener clickListener = new View.OnClickListener() {
+//
+//            @Override
+//            public void onClick(View v) {
+//                // Draw the Income vs Expense Chart
+//                openChart();
+//            }
+//        };
+//
+//        // Setting event click listener for the button btn_chart of the MainActivity layout
+//        btnChart.setOnClickListener(clickListener);
     }
 
     @Override
@@ -206,6 +229,50 @@ public class MainActivity extends AppCompatActivity
     private View getChild(View view, int idx) {
         ViewGroup viewGroup = (ViewGroup)view;
         return viewGroup.getChildAt(idx);
+    }
+
+    @Override
+    public void openChart(View view) {
+        // Pie Chart Section Names
+        String[] code = new String[] {
+                "Completed Task", "Uncompleted Task", "Failed Task"
+        };
+
+        // Pie Chart Section Value
+        double[] distribution = { 58, 26, 16 } ;
+
+        // Color of each Pie Chart Sections
+        int[] colors = { Color.GREEN, Color.YELLOW, Color.RED };
+
+        // Instantiating CategorySeries to plot Pie Chart
+        CategorySeries distributionSeries = new CategorySeries("Percentages completed Task :");
+        for(int i=0 ;i < distribution.length;i++){
+            // Adding a slice with its values and name to the Pie Chart
+            distributionSeries.add(code[i], distribution[i]);
+        }
+
+        // Instantiating a renderer for the Pie Chart
+        DefaultRenderer defaultRenderer  = new DefaultRenderer();
+        for(int i = 0 ;i<distribution.length;i++){
+            SimpleSeriesRenderer seriesRenderer = new SimpleSeriesRenderer();
+            seriesRenderer.setColor(colors[i]);
+            // Adding a renderer for a slice
+            defaultRenderer.addSeriesRenderer(seriesRenderer);
+        }
+
+        defaultRenderer.setChartTitle("Percentages completed Task :");
+        defaultRenderer.setChartTitleTextSize(20);
+        defaultRenderer.setZoomButtonsVisible(false);
+        defaultRenderer.setClickEnabled(true);
+        defaultRenderer.setDisplayValues(false);
+        defaultRenderer.setZoomEnabled(false);
+        defaultRenderer.setExternalZoomEnabled(false);
+        defaultRenderer.setLabelsColor(Color.BLACK);
+        defaultRenderer.setLabelsTextSize(18);
+        defaultRenderer.setClickEnabled(true);
+
+        PieChart pieChart = new PieChart(distributionSeries, defaultRenderer);
+        pieChart.draw();
     }
 
 }
