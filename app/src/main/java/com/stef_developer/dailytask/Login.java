@@ -23,7 +23,6 @@ public class Login extends AppCompatActivity {
     private EditText etEmail;
     private EditText etPassword;
 
-    private User user;
     private UserDAO userDAO;
 
     @Override
@@ -51,6 +50,7 @@ public class Login extends AppCompatActivity {
 
             if(userDAO.cekEmailPasswordByEmail(email, password)) {
                 Intent intent = new Intent(this, MainActivity.class);
+                intent.putExtra(Arguments.ARG_EMAIL, email);
                 startActivity(intent);
             }
             else {

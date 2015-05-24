@@ -14,8 +14,8 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">22sp</item>
         <item name="android:layout_marginTop">10dp</item>
-        <item name="android:layout_marginLeft">15dp</item>
-        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:layout_marginRight">25dp</item>
     </style>
     <style name="editTextSmall" parent="@style/editTextDefault">
         <item name="android:textSize">18sp</item>
@@ -27,7 +27,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">18sp</item>
-        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
     </style>
     <style name="labelSmall" parent="@style/labelDefault">
         <item name="android:textSize">14sp</item>

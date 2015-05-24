@@ -40,14 +40,10 @@
         android:inputType="textPassword"/>
     <Button
         android:id="@+id/btn_login"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
+        style="@style/buttonBlueDefault"
         android:layout_marginTop="80dp"
         android:layout_below="@id/et_password"
         android:text="@string/button_login"
-        android:textStyle="bold"
-        android:background="@android:color/holo_blue_dark"
         android:onClick="loginClick"
         />
 

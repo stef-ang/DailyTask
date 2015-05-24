@@ -71,6 +71,49 @@ public class UserDAO extends DailyTaskDBDAO {
         }
     }
 
+    public boolean cekUniqueEmail(String email) {
+        Cursor cursor = database.query(DataBaseHelper.USER_TABLE    // String table
+                , new String[] { DataBaseHelper.USER_EMAIL }
+                , DataBaseHelper.USER_EMAIL + " = ?"
+                , new String[] { email }
+                , null                                  // String groupBy
+                , null                                  // String having
+                , null);                                // String orderBy
+
+        if(cursor != null && cursor.getCount() > 0) {
+            return false;
+        }
+        else {
+            return true;
+        }
+    }
+
+    public User getUserByEmail(String email) {
+        User user;
+        Cursor cursor = database.query(DataBaseHelper.USER_TABLE    // String table
+                , new String[] {DataBaseHelper.ID_USER  // String[] columns
+                    , DataBaseHelper.USER_FULLNAME
+                    , DataBaseHelper.USER_EMAIL
+                    , DataBaseHelper.USER_PASSWORD}
+                , DataBaseHelper.USER_EMAIL + " = ?"
+                , new String[] { email }
+                , null                                  // String groupBy
+                , null                                  // String having
+                , null);
+        //kyknya ini method moveToNext ini cursornya dinext'in dulu baru eksekusi
+        if (cursor.moveToNext()) {
+            user = new User();
+            user.setId_user(cursor.getInt(0));
+            user.setFullname(cursor.getString(1));
+            user.setEmail(cursor.getString(2));
+            user.setPassword(cursor.getString(3));
+            return user;
+        }
+        else {
+            return null;
+        }
+    }
+
     // ane ganti ArrayList (sebelumnya List (lihat orginalnya di SQLiteMulti....))
     public ArrayList<User> getUsers(){
         ArrayList<User> users = new ArrayList<User>();

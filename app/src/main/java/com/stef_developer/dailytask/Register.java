@@ -45,29 +45,8 @@ public class Register extends AppCompatActivity {
     }
 
     public void registerClick(View view){
-        String password1, password2;
-
-        try {
-            password1 = etPassword.getText().toString();
-            password2 = etPassword2.getText().toString();
-        }
-        catch (Exception e){
-            Toast.makeText(getApplicationContext(),
-                    "Please fill password correctly!",
-                    Toast.LENGTH_LONG).show();
-            return;
-        }
-
-        if(!(password1.equals(password2))){
-            Toast.makeText(getApplicationContext(),
-                    "Password and Retype Password does not same\n" +
-                            "Please fill password correctly!",
-                    Toast.LENGTH_LONG).show();
-            return;
-        }
-
-        if(password1.isEmpty() ||
-                password2.isEmpty() ||
+        if(etPassword.getText().toString().isEmpty() ||
+                etPassword2.getText().toString().isEmpty() ||
                 etFullname.getText().toString().isEmpty() ||
                 etEmail.getText().toString().isEmpty()){
             Toast.makeText(getApplicationContext(),
@@ -76,11 +55,27 @@ public class Register extends AppCompatActivity {
             return;
         }
 
+        if(!(etPassword.getText().toString().equals(etPassword2.getText().toString()))){
+            Toast.makeText(getApplicationContext(),
+                    "Password and Retype Password does not same\n" +
+                            "Please fill password correctly!",
+                    Toast.LENGTH_LONG).show();
+            return;
+        }
+
+        if(!userDAO.cekUniqueEmail(etEmail.getText().toString())) {
+            Toast.makeText(getApplicationContext(),
+                    "Email have been used by another user\n" +
+                            "Please fill other email!",
+                    Toast.LENGTH_LONG).show();
+            return;
+        }
+
         newUser = new User();
         try {
             newUser.setFullname(etFullname.getText().toString());
             newUser.setEmail(etEmail.getText().toString());
-            newUser.setPassword(password1);
+            newUser.setPassword(etPassword.getText().toString());
         }
         catch (Exception e) {
             Toast.makeText(getApplicationContext(),
@@ -88,6 +83,7 @@ public class Register extends AppCompatActivity {
                     Toast.LENGTH_LONG).show();
             return;
         }
+        
 
         try {
             long result = userDAO.insert(newUser);

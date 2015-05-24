@@ -1,53 +1,74 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" tools:context="com.stef_developer.dailytask.addtask"
-    android:orientation="vertical">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.stef_developer.dailytask.addtask">
 
-    <TextView
-        style="@style/titleTextDefault"
-        android:layout_gravity="left"
-        android:layout_marginLeft="15dp"
-        android:text="Account Setting"/>
-
-    <TextView
-        style="@style/labelDefault"
-        android:text="Email Account:"/>
-
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="anggara.stefanus@gmail.com"
-        android:textColor="@android:color/holo_blue_dark"
-        android:gravity="center"
-        android:textSize="20sp"/>
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                style="@style/titleTextDefault"
+                android:layout_gravity="start"
+                android:layout_marginLeft="@dimen/margin_horizontal_header"
+                android:text="Account Setting"/>
 
-    <TextView
-        style="@style/labelDefault"
-        android:layout_marginTop="10dp"
-        android:text="Fullname :"/>
+            <TextView
+                style="@style/labelDefault"
+                android:text="Email Account:"/>
 
-    <EditText
-        style="@style/editTextDefault" />
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_horizontal_etLogin"
+                android:layout_marginRight="@dimen/margin_horizontal_etLogin"
+                android:text="anggara.stefanus@gmail.com"
+                android:textColor="@android:color/holo_blue_dark"
+                android:gravity="center"
+                android:textSize="20sp"/>
 
-    <TextView
-        style="@style/labelDefault"
-        android:text="Password :"/>
+            <TextView
+                style="@style/labelDefault"
+                android:layout_marginTop="10dp"
+                android:text="Fullname :"/>
 
-    <EditText
-        style="@style/editTextDefault"
-        android:hint="Old Password"/>
+            <EditText
+                android:id="@+id/et_fullname"
+                style="@style/editTextDefault" />
 
-    <EditText
-        style="@style/editTextDefault"
-        android:hint="New Password"/>
+            <TextView
+                style="@style/labelDefault"
+                android:text="Password :"/>
 
-    <EditText
-        style="@style/editTextDefault"
-        android:hint="Re-type Password"/>
+            <EditText
+                android:id="@+id/et_old_pwd"
+                android:inputType="textPassword"
+                style="@style/editTextDefault"
+                android:hint="Old Password"/>
 
-    <Button
-        style="@style/buttonBlueDefault"
-        android:layout_marginTop="20dp"
-        android:text="Save"/>
+            <EditText
+                android:id="@+id/et_new_pwd"
+                android:inputType="textPassword"
+                style="@style/editTextDefault"
+                android:hint="New Password"/>
 
+            <EditText
+                android:id="@+id/et_re_new_pwd"
+                android:inputType="textPassword"
+                style="@style/editTextDefault"
+                android:hint="Re-type Password"/>
+
+            <Button
+                android:id="@+id/btn_save"
+                style="@style/buttonBlueDefault"
+                android:layout_marginTop="20dp"
+                android:text="Save"/>
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

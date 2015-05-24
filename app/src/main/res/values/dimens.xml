@@ -8,6 +8,7 @@
     <dimen name="activityLogin_vertical_margin">0dp</dimen>
 
     <dimen name="margin_horizontal_etLogin">25dp</dimen>
+    <dimen name="margin_horizontal_header">40dp</dimen>
 
     <dimen name="footer_login_padding_horiz">20dp</dimen>
     <dimen name="footer_login_padding_verti">15dp</dimen>
