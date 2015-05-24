@@ -8,4 +8,5 @@
     <color name="button_blue_pressed">#006688</color>
     <color name="button_green">#00d455</color>
     <color name="button_green_pressed">#00b233</color>
+    <color name="spinner_filter_background">#0066ff</color>
 </resources>

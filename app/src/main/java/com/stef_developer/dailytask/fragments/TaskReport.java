@@ -1,14 +1,17 @@
 package com.stef_developer.dailytask.fragments;
 
 import android.app.Activity;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.FrameLayout;
+import android.widget.Spinner;
 
 import com.stef_developer.dailytask.R;
+import com.stef_developer.dailytask.view.TaskChart;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -66,6 +69,24 @@ public class TaskReport extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         final View view = inflater.inflate(R.layout.fragment_taskreport, container, false);
+
+        Spinner spinnerBulan = (Spinner) view.findViewById(R.id.bulan);
+        ArrayAdapter<CharSequence> spinnerBulanAdapter = ArrayAdapter.createFromResource(getActivity(),
+                R.array.bulan, android.R.layout.simple_spinner_item);
+        spinnerBulanAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinnerBulan.setAdapter(spinnerBulanAdapter);
+
+        Spinner spinnerTahun = (Spinner) view.findViewById(R.id.tahun);
+        ArrayAdapter<CharSequence> spinnerTahunAdapter = ArrayAdapter.createFromResource(getActivity(),
+                R.array.tahun, android.R.layout.simple_spinner_item);
+        spinnerTahunAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinnerTahun.setAdapter(spinnerTahunAdapter);
+
+        TaskChart taskChart = new TaskChart(getActivity());
+        FrameLayout.LayoutParams params = new FrameLayout.LayoutParams(FrameLayout.LayoutParams.MATCH_PARENT, FrameLayout.LayoutParams.WRAP_CONTENT);
+        ViewGroup viewGroup = (ViewGroup)view.findViewById(R.id.piechart);
+        viewGroup.addView(taskChart, params);
+
         return view;
     }
 
@@ -98,7 +119,6 @@ public class TaskReport extends Fragment {
      */
     public interface OnFragmentInteractionListener {
         // TODO: Update argument type and name
-        public void openChart(View view);
     }
 
 }
