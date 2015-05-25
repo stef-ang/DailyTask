@@ -95,6 +95,8 @@ public class Setting extends Fragment implements OnClickListener {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        ((MainActivity)getActivity()).setActionBarTitle("Setting");
+
         View view =  inflater.inflate(R.layout.fragment_setting, container, false);
 
         tv_email = (TextView) view.findViewById(R.id.tv_email);
@@ -206,5 +208,4 @@ public class Setting extends Fragment implements OnClickListener {
 //        // TODO: Update argument type and name
 //        public void onFragmentInteraction(Uri uri);
 //    }
-
 }
