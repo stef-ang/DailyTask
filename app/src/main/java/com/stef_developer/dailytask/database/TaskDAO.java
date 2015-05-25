@@ -34,6 +34,8 @@ public class TaskDAO extends DailyTaskDBDAO {
         values.put(DataBaseHelper.TASK_TITLE, task.getTask_title());
         values.put(DataBaseHelper.TASK_DATETIME, formatter.format(task.getDatetime()));
         values.put(DataBaseHelper.TASK_DETAILS, task.getDetails());
+        values.put(DataBaseHelper.TASK_STATUS, task.getStatus());
+
 
         return database.insert(DataBaseHelper.TASK_TABLE, null, values);
     }
@@ -44,6 +46,7 @@ public class TaskDAO extends DailyTaskDBDAO {
         values.put(DataBaseHelper.TASK_TITLE, task.getTask_title());
         values.put(DataBaseHelper.TASK_DATETIME, formatter.format(task.getDatetime()));
         values.put(DataBaseHelper.TASK_DETAILS, task.getDetails());
+        values.put(DataBaseHelper.TASK_STATUS, task.getStatus());
 
         long result = database.update(DataBaseHelper.TASK_TABLE,
                 values,
@@ -66,12 +69,13 @@ public class TaskDAO extends DailyTaskDBDAO {
                 new String[] {DataBaseHelper.ID_TASK,
                     DataBaseHelper.TASK_TITLE,
                     DataBaseHelper.TASK_DATETIME,
-                    DataBaseHelper.TASK_DETAILS},
+                    DataBaseHelper.TASK_DETAILS,
+                        DataBaseHelper.TASK_STATUS},
                 null,
                 null,
                 null,
                 null,
-                null);
+                DataBaseHelper.TASK_DATETIME + " ASC");
 
         while (cursor.moveToNext()) {
             Task task = new Task();
@@ -84,6 +88,7 @@ public class TaskDAO extends DailyTaskDBDAO {
                 task.setDatetime(null);
             }
             task.setDetails(cursor.getString(3));
+            task.setStatus(cursor.getInt(4));
 
             tasks.add(task);
         }
@@ -92,8 +97,9 @@ public class TaskDAO extends DailyTaskDBDAO {
 
     public ArrayList<Task> getPrerequisites(int taskId) {
         ArrayList<Task> tasks = new ArrayList<Task>();
-        String query = "SELECT " + DataBaseHelper.TASK_TITLE + " FROM " + DataBaseHelper.TASK_TABLE + " WHERE " +
-                DataBaseHelper.ID_TASK + " IN (SELECT " + DataBaseHelper.ID_TASK + "=" + taskId + ")" ;
+        String query = "SELECT * FROM " + DataBaseHelper.TASK_TABLE + " WHERE " +
+                DataBaseHelper.ID_TASK + " IN (SELECT " + DataBaseHelper.ID_TASK2 +
+                " FROM " + DataBaseHelper.TASK_PREREQUISITE_TABLE + " WHERE " + DataBaseHelper.ID_TASK1 + "=" + taskId + ")" ;
 
         Cursor cursor = database.rawQuery(query, null);
 

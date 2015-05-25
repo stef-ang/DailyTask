@@ -14,8 +14,8 @@
 
         <!-- Bar -->
         <ImageView
-            style="@style/taskbox.leftBar"
-            android:src="@android:color/holo_red_dark" />
+            android:id="@+id/taskbox_bar_imageview"
+            style="@style/taskbox.leftBar"/>
 
         <!--2 box container-->
         <LinearLayout
@@ -26,6 +26,7 @@
 
             <!--box pertama-->
             <LinearLayout
+                android:id="@+id/taskbox_upperbox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -141,36 +142,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:layout_marginLeft="40dp">
-                    <LinearLayout
-                        android:id="@+id/prerequisites_list"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
-                        android:orientation="horizontal">
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="- Kerjakan Tugas Dynamic Programming"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="v"/>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="- Kerjakan DPPL"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="x"/>
-                    </LinearLayout>
+                    android:layout_marginLeft="40dp"
+                    android:id="@+id/prerequisites_list">
+
                 </LinearLayout>
                 <!--endof list presquitis-->
 

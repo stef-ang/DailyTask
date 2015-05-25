@@ -9,9 +9,11 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
 
 import com.stef_developer.dailytask.MainActivity;
 import com.stef_developer.dailytask.R;
+import com.stef_developer.dailytask.adapter.TaskAdapter;
 import com.stef_developer.dailytask.database.TaskDAO;
 import com.stef_developer.dailytask.table_object.Task;
 
@@ -33,8 +35,9 @@ public class TaskList extends Fragment {
     private static final String TASK_LIST = "TASK_LIST";
 
     private TaskDAO taskDAO;
-
+    private View fragmentView;
     private ArrayList<Task> taskArrayList;
+    private TaskAdapter taskAdapter;
 
     private OnFragmentInteractionListener mListener;
 
@@ -53,14 +56,7 @@ public class TaskList extends Fragment {
     }
 
     public TaskList() {
-        try {
-            taskDAO = new TaskDAO(getActivity());
-            AsyncGetTask taskGetter = new AsyncGetTask(this.getActivity());
-            taskGetter.execute();
-        } catch (SQLException e) {
-            taskDAO = null;
-            e.printStackTrace();
-        }
+
     }
 
     @Override
@@ -76,8 +72,16 @@ public class TaskList extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         ((MainActivity)getActivity()).setActionBarTitle("Task List");
-
-        return inflater.inflate(R.layout.fragment_task_list, container, false);
+        fragmentView = inflater.inflate(R.layout.fragment_task_list, container, false);
+        try {
+            taskDAO = new TaskDAO(this.getActivity());
+            AsyncGetTask taskGetter = new AsyncGetTask(this.getActivity());
+            taskGetter.execute();
+        } catch (SQLException e) {
+            taskDAO = null;
+            e.printStackTrace();
+        }
+        return fragmentView;
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -104,6 +108,12 @@ public class TaskList extends Fragment {
         mListener = null;
     }
 
+    public void updateTaskList() {
+        ListView taskList = (ListView)fragmentView.findViewById(R.id.taskList);
+        taskList.setAdapter(taskAdapter);
+
+    }
+
     public interface OnFragmentInteractionListener {
         // TODO: Update argument type and name
         public void onFragmentInteraction(Uri uri);
@@ -127,6 +137,12 @@ public class TaskList extends Fragment {
         protected void onPostExecute(ArrayList<Task> taskList) {
             if (activityWeakRef.get() != null && !activityWeakRef.get().isFinishing()) {
                 taskArrayList =  taskList;
+                try {
+                    taskAdapter = new TaskAdapter(getActivity(), R.layout.task_item, taskArrayList.toArray(new Task[taskArrayList.size()]));
+                    updateTaskList();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
             }
         }
     }
