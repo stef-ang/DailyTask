@@ -41,23 +41,36 @@ public class Login extends AppCompatActivity {
     }
 
     public void loginClick(View view) {
-        String password;
-        String email;
-
         try {
-            password = etPassword.getText().toString();
-            email = etEmail.getText().toString();
-
-            if(userDAO.cekEmailPasswordByEmail(email, password)) {
-                Intent intent = new Intent(this, MainActivity.class);
-                intent.putExtra(Arguments.ARG_EMAIL, email);
-                startActivity(intent);
+            String password = etPassword.getText().toString();
+            String email = etEmail.getText().toString();
+            int passwordLength = password.length();
+            int emailLength = email.length();
+            Boolean fieldEmpty = false;
+            if(emailLength == 0) {
+                etEmail.setError("Please fill email field !");
+                etEmail.setFocusable(true);
+                etEmail.setFocusableInTouchMode(true);
+                fieldEmpty = true;
             }
-            else {
-                Toast.makeText(getApplicationContext(),
-                        "Login failed!\nPlease try again",
-                        Toast.LENGTH_LONG).show();
-                return;
+            if(passwordLength == 0) {
+                etPassword.setError("Please fill password field !");
+                etEmail.setFocusable(true);
+                etEmail.setFocusableInTouchMode(true);
+                fieldEmpty = true;
+            }
+            if(!fieldEmpty) {
+                if(userDAO.cekEmailPasswordByEmail(email, password)) {
+                    Intent intent = new Intent(this, MainActivity.class);
+                    intent.putExtra(Arguments.ARG_EMAIL, email);
+                    startActivity(intent);
+                }
+                else {
+                    Toast.makeText(getApplicationContext(),
+                            "Invalid username / password !",
+                            Toast.LENGTH_LONG).show();
+                    return;
+                }
             }
         }
         catch (Exception e) {

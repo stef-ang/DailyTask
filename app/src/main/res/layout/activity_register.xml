@@ -63,6 +63,7 @@
         android:text="@string/button_register"
         android:textStyle="bold"
         android:background="@android:color/holo_blue_dark"
-        android:onClick="registerClick"/>
+        android:onClick="registerClick"
+        android:textColor="@android:color/white"/>
 
 </RelativeLayout>
