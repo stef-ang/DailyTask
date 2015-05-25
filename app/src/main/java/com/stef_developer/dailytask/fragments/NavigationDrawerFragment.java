@@ -25,6 +25,11 @@ import android.widget.Toast;
 
 import com.stef_developer.dailytask.MainActivity;
 import com.stef_developer.dailytask.R;
+import com.stef_developer.dailytask.adapter.NavigationAdapter;
+import com.stef_developer.dailytask.view.NavigationMenu;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Fragment used for managing interactions for and presentation of a navigation drawer.
@@ -101,16 +106,13 @@ public class NavigationDrawerFragment extends Fragment {
                 selectItem(position);
             }
         });
-        mDrawerListView.setAdapter(new ArrayAdapter<String>(
-                getActionBar().getThemedContext(),
-                android.R.layout.simple_list_item_activated_1,
-                android.R.id.text1,
-                new String[]{
-                        getString(R.string.title_section1),
-                        getString(R.string.title_section2),
-                        getString(R.string.title_section3),
-                        getString(R.string.title_section4)
-                }));
+        List<NavigationMenu> navigationMenuList = new ArrayList<NavigationMenu>();
+        navigationMenuList.add(new NavigationMenu(R.drawable.ic_task, "Task List"));
+        navigationMenuList.add(new NavigationMenu(R.drawable.ic_report, "Task Report"));
+        navigationMenuList.add(new NavigationMenu(R.drawable.ic_setting, "Setting"));
+        navigationMenuList.add(new NavigationMenu(R.drawable.ic_logout, "Logout"));
+        NavigationAdapter navigationAdapter = new NavigationAdapter(getActivity(), navigationMenuList);
+        mDrawerListView.setAdapter(navigationAdapter);
         mDrawerListView.setItemChecked(mCurrentSelectedPosition, true);
         return mDrawerListView;
     }
@@ -233,17 +235,6 @@ public class NavigationDrawerFragment extends Fragment {
         super.onConfigurationChanged(newConfig);
         // Forward the new configuration the drawer toggle component.
         mDrawerToggle.onConfigurationChanged(newConfig);
-    }
-
-    @Override
-    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        // If the drawer is open, show the global app actions in the action bar. See also
-        // showGlobalContextActionBar, which controls the top-left area of the action bar.
-        if (mDrawerLayout != null && isDrawerOpen()) {
-            inflater.inflate(R.menu.global, menu);
-            showGlobalContextActionBar();
-        }
-        super.onCreateOptionsMenu(menu, inflater);
     }
 
     @Override
