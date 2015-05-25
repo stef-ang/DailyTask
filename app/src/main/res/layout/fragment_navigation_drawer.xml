@@ -2,5 +2,6 @@
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" android:choiceMode="singleChoice"
     android:divider="@android:color/transparent" android:dividerHeight="0dp"
-    android:background="#cccc"
+    android:background="#216778"
+    android:listSelector="#00aad4"
     tools:context="com.stef_developer.dailytask.fragments.NavigationDrawerFragment" />

@@ -1,11 +1,15 @@
 package com.stef_developer.dailytask.fragments;
 
+import android.annotation.TargetApi;
 import android.app.Activity;
+import android.graphics.Outline;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.ViewOutlineProvider;
 import android.widget.ArrayAdapter;
 import android.widget.FrameLayout;
 import android.widget.Spinner;
@@ -13,6 +17,8 @@ import android.widget.Spinner;
 import com.stef_developer.dailytask.MainActivity;
 import com.stef_developer.dailytask.R;
 import com.stef_developer.dailytask.view.TaskChart;
+
+import java.text.DateFormatSymbols;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -73,15 +79,13 @@ public class TaskReport extends Fragment {
         final View view = inflater.inflate(R.layout.fragment_taskreport, container, false);
 
         Spinner spinnerBulan = (Spinner) view.findViewById(R.id.bulan);
-        ArrayAdapter<CharSequence> spinnerBulanAdapter = ArrayAdapter.createFromResource(getActivity(),
-                R.array.bulan, android.R.layout.simple_spinner_item);
-        spinnerBulanAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        String[] bulan = new DateFormatSymbols().getMonths();
+        ArrayAdapter<String> spinnerBulanAdapter = new ArrayAdapter<String>(getActivity(), R.layout.spinner_item, bulan);
         spinnerBulan.setAdapter(spinnerBulanAdapter);
 
         Spinner spinnerTahun = (Spinner) view.findViewById(R.id.tahun);
-        ArrayAdapter<CharSequence> spinnerTahunAdapter = ArrayAdapter.createFromResource(getActivity(),
-                R.array.tahun, android.R.layout.simple_spinner_item);
-        spinnerTahunAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        String[] tahun = {"2015", "2016", "2017", "2018", "2019", "2020"};
+        ArrayAdapter<String> spinnerTahunAdapter = new ArrayAdapter<String>(getActivity(), R.layout.spinner_item, tahun);
         spinnerTahun.setAdapter(spinnerTahunAdapter);
 
         TaskChart taskChart = new TaskChart(getActivity());
