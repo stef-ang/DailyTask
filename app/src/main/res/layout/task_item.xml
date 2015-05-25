@@ -82,15 +82,10 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Kuliah"
+                            android:textSize="12sp"
                             android:layout_margin="5dp"
-                            android:background="@android:color/darker_gray"/>
+                            android:background="@drawable/tag_background"/>
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Ujian"
-                            android:layout_margin="5dp"
-                            android:background="@android:color/darker_gray"/>
                     </LinearLayout>
                 </LinearLayout>
                 <!--end ofTextlist penjelasan tugas-->
@@ -120,6 +115,7 @@
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
                         <TextView
+                            android:id="@+id/taskbox_details_textview"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Mengumpulkan Tugas DP pada saat kelas PAA 2. Lokasi: IF-104."/>
@@ -142,12 +138,12 @@
 
                 <!--list presquitis-->
                 <LinearLayout
-                    android:id="@+id/prerequisites_layout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:layout_marginLeft="40dp">
                     <LinearLayout
+                        android:id="@+id/prerequisites_list"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingTop="5dp"

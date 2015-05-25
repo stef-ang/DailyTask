@@ -89,4 +89,28 @@ public class TaskDAO extends DailyTaskDBDAO {
         }
         return tasks;
     }
+
+    public ArrayList<Task> getPrerequisites(int taskId) {
+        ArrayList<Task> tasks = new ArrayList<Task>();
+        String query = "SELECT " + DataBaseHelper.TASK_TITLE + " FROM " + DataBaseHelper.TASK_TABLE + " WHERE " +
+                DataBaseHelper.ID_TASK + " IN (SELECT " + DataBaseHelper.ID_TASK + "=" + taskId + ")" ;
+
+        Cursor cursor = database.rawQuery(query, null);
+
+        while (cursor.moveToNext()) {
+            Task task = new Task();
+            task.setId_task(cursor.getInt(0));
+            task.setTask_title(cursor.getString(1));
+            try {
+                task.setDatetime(formatter.parse(cursor.getString(2)));
+            }
+            catch (ParseException e) {
+                task.setDatetime(null);
+            }
+            task.setDetails(cursor.getString(3));
+
+            tasks.add(task);
+        }
+        return tasks;
+    }
 }
