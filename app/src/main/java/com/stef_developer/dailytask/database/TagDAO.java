@@ -75,6 +75,8 @@ public class TagDAO extends DailyTaskDBDAO {
     public ArrayList<Tag> getTagsByTask(int taskId) {
         ArrayList<Tag> tags = new ArrayList<Tag>();
 
+
+        //TODO: bikin query untuk nyari tag berdasarkan task, yg di bawah ini salah
         Cursor cursor = database.query(DataBaseHelper.TAG_TABLE,
                 new String[] { DataBaseHelper.ID_TAG,
                         DataBaseHelper.TAG_ISI},

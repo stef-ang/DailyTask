@@ -115,13 +115,14 @@ public class MainActivity extends AppCompatActivity
     }
 
     public void toggle(View view) {
-        ViewGroup viewGroup = (ViewGroup)getChild(findViewById(R.id.taskbox), 1);
-        ViewGroup viewGroup1 = (ViewGroup)getChild(viewGroup, 1);
-        if(viewGroup1.getVisibility() == View.GONE) {
-            viewGroup1.setVisibility(View.VISIBLE);
+        ViewGroup viewParent = (ViewGroup)view.getParent();
+        ViewGroup boxKedua = (ViewGroup)viewParent.getChildAt(1);
+
+        if(boxKedua.getVisibility() == View.GONE) {
+            boxKedua.setVisibility(View.VISIBLE);
         }
-        else if(viewGroup1.getVisibility() == View.VISIBLE) {
-            viewGroup1.setVisibility(View.GONE);
+        else if(boxKedua.getVisibility() == View.VISIBLE) {
+            boxKedua.setVisibility(View.GONE);
         }
     }
 

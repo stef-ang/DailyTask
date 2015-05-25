@@ -14,6 +14,7 @@ public class Task implements Parcelable {
     private String task_title;
     private Date datetime;
     private String details;
+    private int status;
 
     public Task() {
         super();
@@ -25,6 +26,24 @@ public class Task implements Parcelable {
         this.task_title = task_title;
         this.datetime = datetime;
         this.details = details;
+        this.status = 0;
+    }
+
+    public Task(int id_task, String task_title, Date datetime, String details, int status) {
+        super();
+        this.id_task = id_task;
+        this.task_title = task_title;
+        this.datetime = datetime;
+        this.details = details;
+        this.status = status;
+    }
+
+    public int getStatus() {
+        return status;
+    }
+
+    public void setStatus(int status) {
+        this.status = status;
     }
 
     public Task(String task_title, Date datetime, String details) {
@@ -32,6 +51,8 @@ public class Task implements Parcelable {
         this.task_title = task_title;
         this.datetime = datetime;
         this.details = details;
+        this.status = 0;
+
     }
 
     private Task(Parcel in){

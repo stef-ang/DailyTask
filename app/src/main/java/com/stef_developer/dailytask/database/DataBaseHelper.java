@@ -31,6 +31,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
     public static final String TASK_TITLE = "task_title";
     public static final String TASK_DATETIME = "datetime";
     public static final String TASK_DETAILS = "details";
+    public static final String TASK_STATUS = "status";
 
     // tag attributes
     public static final String ID_TAG = "id_tag";
@@ -58,7 +59,8 @@ public class DataBaseHelper extends SQLiteOpenHelper {
             + TASK_TABLE + "(" + ID_TASK + " INTEGER PRIMARY KEY AUTOINCREMENT,"
             + TASK_TITLE + " VARCHAR(255),"
             + TASK_DATETIME + " DATETIME,"
-            + TASK_DETAILS + " TEXT" + ")";
+            + TASK_DETAILS + " TEXT,"
+            + TASK_STATUS + " INTEGER" + ")";
 
     public static final String CREATE_USER_TASK_TABLE = "CREATE TABLE "
             + USER_TASK_TABLE + "(" + ID_USER_TASK + " INTEGER PRIMARY KEY AUTOINCREMENT,"
