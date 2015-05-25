@@ -75,16 +75,11 @@ public class TagDAO extends DailyTaskDBDAO {
     public ArrayList<Tag> getTagsByTask(int taskId) {
         ArrayList<Tag> tags = new ArrayList<Tag>();
 
+        String query = "SELECT * FROM " + DataBaseHelper.TAG_TABLE + " WHERE "
+                + DataBaseHelper.ID_TAG + " IN (SELECT " + DataBaseHelper.ID_TAG + " FROM " + DataBaseHelper.TASK_TAG_TABLE + " WHERE "
+                + DataBaseHelper.ID_TASK + "=" + taskId + ")";
 
-        //TODO: bikin query untuk nyari tag berdasarkan task, yg di bawah ini salah
-        Cursor cursor = database.query(DataBaseHelper.TAG_TABLE,
-                new String[] { DataBaseHelper.ID_TAG,
-                        DataBaseHelper.TAG_ISI},
-                DataBaseHelper.ID_TASK + "=?",
-                new String[]{String.valueOf(taskId)},
-                null,
-                null,
-                null);
+        Cursor cursor = database.rawQuery(query, null);
 
         while (cursor.moveToNext()) {
             Tag tag = new Tag();

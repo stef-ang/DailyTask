@@ -38,9 +38,9 @@ public class MainActivity2Activity extends Activity {
             SimpleDateFormat sdf = new SimpleDateFormat("d-M-yyyy H:m");
 
 
-            Task t1 = new Task(1, "Berkunjung ke rumah paman", sdf.parse("27-12-2015 13:00"), "Menyenangkan sekali", 0);
-            Task t2 = new Task(2, "Berkunjung ke restoran paman", sdf.parse("28-12-2015 13:00"), "Mengenyangkan sekali", 0);
-            Task t3 = new Task(3, "Beli Mobil", sdf.parse("11-11-2015 23:59"), "Supaya bisa ke rumah paman", 1);
+            Task t1 = new Task(1, "Berkunjung ke rumah paman", sdf.parse("28-05-2015 13:00"), "Menyenangkan sekali", 0);
+            Task t2 = new Task(2, "Berkunjung ke restoran paman", sdf.parse("29-06-2015 13:00"), "Mengenyangkan sekali", 0);
+            Task t3 = new Task(3, "Beli Mobil", sdf.parse("27-05-2015 23:59"), "Supaya bisa ke rumah paman", 1);
 
 
             Task_Prerequisite tp = new Task_Prerequisite(1, 1, 3);

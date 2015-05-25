@@ -123,16 +123,16 @@ public class TaskAdapter extends ArrayAdapter<Task> {
         //----------------------------------------------------------------------------------------
 
         //Fill the tags container
-//        holder.tagsList.removeAllViews();
-//        ArrayList<Tag> tags = tagDAO.getTagsByTask(taskArray[position].getId_task());
-//        for (Tag tag : tags) {
-//            TextView tv = new TextView(context);
-//            tv.setText(tag.getIsi_tag());
-//            tv.setTextSize(12);
-//            tv.setBackgroundResource(R.drawable.tag_background);
-//            tv.setLayoutParams(standardLayoutParams);
-//            holder.tagsList.addView(tv);
-//        }
+        holder.tagsList.removeAllViews();
+        ArrayList<Tag> tags = tagDAO.getTagsByTask(taskArray[position].getId_task());
+        for (Tag tag : tags) {
+            TextView tv = new TextView(context);
+            tv.setText(tag.getIsi_tag());
+            tv.setTextSize(12);
+            tv.setBackgroundResource(R.drawable.tag_background);
+            tv.setLayoutParams(standardLayoutParams);
+            holder.tagsList.addView(tv);
+        }
         //----------------------------------------------------------------------------------------
 
         //Populate prerequisites list
