@@ -10,6 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.FrameLayout;
 import android.widget.Spinner;
 
+import com.stef_developer.dailytask.MainActivity;
 import com.stef_developer.dailytask.R;
 import com.stef_developer.dailytask.view.TaskChart;
 
@@ -68,6 +69,7 @@ public class TaskReport extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        ((MainActivity)getActivity()).setActionBarTitle("Task Report");
         final View view = inflater.inflate(R.layout.fragment_taskreport, container, false);
 
         Spinner spinnerBulan = (Spinner) view.findViewById(R.id.bulan);

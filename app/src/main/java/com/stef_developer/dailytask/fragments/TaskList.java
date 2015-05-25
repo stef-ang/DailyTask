@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.stef_developer.dailytask.MainActivity;
 import com.stef_developer.dailytask.R;
 
 /**
@@ -66,6 +67,7 @@ public class TaskList extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        ((MainActivity)getActivity()).setActionBarTitle("Task List");
         return inflater.inflate(R.layout.fragment_task_list, container, false);
     }
 

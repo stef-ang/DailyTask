@@ -1,23 +1,14 @@
 package com.stef_developer.dailytask;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
-import android.support.v7.app.ActionBar;
-import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
-import android.widget.ArrayAdapter;
-import android.widget.Spinner;
-
 import com.stef_developer.dailytask.fragments.NavigationDrawerFragment;
 import com.stef_developer.dailytask.fragments.Setting;
 import com.stef_developer.dailytask.fragments.TaskList;
@@ -86,17 +77,17 @@ public class MainActivity extends AppCompatActivity
         Log.d("POSITION: " + position, "");
         if(position == 0) {
             fragmentManager.beginTransaction()
-                    .replace(R.id.container, TaskList.newInstance("", ""))
+                    .replace(R.id.container, TaskList.newInstance("", "")).addToBackStack("")
                     .commit();
         }
         else if(position == 1) {
             fragmentManager.beginTransaction()
-                    .replace(R.id.container, TaskReport.newInstance("", ""))
+                    .replace(R.id.container, TaskReport.newInstance("", "")).addToBackStack("")
                     .commit();
         }
         else if(position == 2) {
             fragmentManager.beginTransaction()
-                    .replace(R.id.container, Setting.newInstance(position + 1, eMail))
+                    .replace(R.id.container, Setting.newInstance(position + 1, eMail)).addToBackStack("")
                     .commit();
         }
         else if(position == 3) {
@@ -123,7 +114,27 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
-//    public void restoreActionBar() {
+    public void toggle(View view) {
+        ViewGroup viewGroup = (ViewGroup)getChild(findViewById(R.id.taskbox), 1);
+        ViewGroup viewGroup1 = (ViewGroup)getChild(viewGroup, 1);
+        if(viewGroup1.getVisibility() == View.GONE) {
+            viewGroup1.setVisibility(View.VISIBLE);
+        }
+        else if(viewGroup1.getVisibility() == View.VISIBLE) {
+            viewGroup1.setVisibility(View.GONE);
+        }
+    }
+
+    private View getChild(View view, int idx) {
+        ViewGroup viewGroup = (ViewGroup)view;
+        return viewGroup.getChildAt(idx);
+    }
+
+    public void setActionBarTitle(String title) {
+        getSupportActionBar().setTitle(title);
+    }
+
+    //    public void restoreActionBar() {
 //        ActionBar actionBar = getSupportActionBar();
 //        actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_STANDARD);
 //        actionBar.setDisplayShowTitleEnabled(true);
@@ -195,21 +206,5 @@ public class MainActivity extends AppCompatActivity
 //                    getArguments().getInt(ARG_SECTION_NUMBER));
 //        }
 //    }
-
-    public void toggle(View view) {
-        ViewGroup viewGroup = (ViewGroup)getChild(findViewById(R.id.taskbox), 1);
-        ViewGroup viewGroup1 = (ViewGroup)getChild(viewGroup, 1);
-        if(viewGroup1.getVisibility() == View.GONE) {
-            viewGroup1.setVisibility(View.VISIBLE);
-        }
-        else if(viewGroup1.getVisibility() == View.VISIBLE) {
-            viewGroup1.setVisibility(View.GONE);
-        }
-    }
-
-    private View getChild(View view, int idx) {
-        ViewGroup viewGroup = (ViewGroup)view;
-        return viewGroup.getChildAt(idx);
-    }
 
 }
