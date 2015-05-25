@@ -47,6 +47,7 @@ public class Setting extends Fragment implements OnClickListener {
     private EditText et_new_pwd;
     private EditText et_renew_pwd;
     private Button btn_save;
+    private boolean fieldEmpty;
 
     private WeakReference<Activity> activityWeakRef;
 
@@ -124,46 +125,51 @@ public class Setting extends Fragment implements OnClickListener {
     @Override
     public void onClick(View v) {
         if (v == btn_save) {
-            if(et_fullname.getText().toString().isEmpty() ||
-                    et_old_pwd.getText().toString().isEmpty() ||
-                    et_new_pwd.getText().toString().isEmpty() ||
-                    et_renew_pwd.getText().toString().isEmpty()){
-                Toast.makeText(activityWeakRef.get(),
-                        "Please do not columns empty!",
-                        Toast.LENGTH_LONG).show();
-                return;
-            }
+            String fullName = et_fullname.getText().toString();
+            int fullNameLength = fullName.length();
+            String oldPassword = et_old_pwd.getText().toString();
+            int oldPasswordLength = oldPassword.length();
+            String newPassword = et_new_pwd.getText().toString();
+            int newPasswordLength = et_new_pwd.length();
+            String retypeNewPassword = et_renew_pwd.getText().toString();
+            int retypeNewPasswordLength = retypeNewPassword.length();
 
-            Log.d("USER_PWD: " + user.getPassword(), "USER_PWD");
-            Log.d("OLD_PWD: " + et_old_pwd.getText().toString(), "OLD_PWD");
-            if(!user.getPassword().equals(et_old_pwd.getText().toString())) {
-                Toast.makeText(activityWeakRef.get(),
-                        "Sorry, old password is wrong!",
-                        Toast.LENGTH_LONG).show();
-                return;
-            }
-
-            if(!et_new_pwd.getText().toString().equals(et_renew_pwd.getText().toString())) {
-                Toast.makeText(activityWeakRef.get(),
-                        "Sorry, new password does not match!",
-                        Toast.LENGTH_LONG).show();
-                return;
-            }
-
-            user.setPassword(et_new_pwd.getText().toString());
-            try {
-                long result = userDAO.update(user);
-                if(result != -1) {
+            this.fieldEmpty = false;
+            checkEmpty(et_fullname, "Please fill Fullname field !");
+            checkEmpty(et_new_pwd, "Please fill New Password field !");
+            checkEmpty(et_old_pwd, "Please fill Old Password field !");
+            checkEmpty(et_renew_pwd, "Please fill Re-type Password field !");
+            if(!this.fieldEmpty) {
+                if(!user.getPassword().equals(et_old_pwd.getText().toString())) {
                     Toast.makeText(activityWeakRef.get(),
-                            "Setting Success",
+                            "Sorry, old password is wrong!",
                             Toast.LENGTH_LONG).show();
-                    et_old_pwd.setText("");
-                    et_new_pwd.setText("");
-                    et_renew_pwd.setText("");
+                    return;
                 }
-            }
-            catch (Exception e) {
-                e.printStackTrace();
+
+                if(!et_new_pwd.getText().toString().equals(et_renew_pwd.getText().toString())) {
+                    Toast.makeText(activityWeakRef.get(),
+                            "Sorry, new password does not match!",
+                            Toast.LENGTH_LONG).show();
+                    return;
+                }
+
+                user.setPassword(et_new_pwd.getText().toString());
+                user.setFullname(et_fullname.getText().toString());
+                try {
+                    long result = userDAO.update(user);
+                    if(result != -1) {
+                        Toast.makeText(activityWeakRef.get(),
+                                "Setting Success",
+                                Toast.LENGTH_LONG).show();
+                        et_old_pwd.setText("");
+                        et_new_pwd.setText("");
+                        et_renew_pwd.setText("");
+                    }
+                }
+                catch (Exception e) {
+                    e.printStackTrace();
+                }
             }
         }
     }
@@ -194,18 +200,18 @@ public class Setting extends Fragment implements OnClickListener {
 //        mListener = null;
     }
 
-//    /**
-//     * This interface must be implemented by activities that contain this
-//     * fragment to allow an interaction in this fragment to be communicated
-//     * to the activity and potentially other fragments contained in that
-//     * activity.
-//     * <p/>
-//     * See the Android Training lesson <a href=
-//     * "http://developer.android.com/training/basics/fragments/communicating.html"
-//     * >Communicating with Other Fragments</a> for more information.
-//     */
-//    public interface OnFragmentInteractionListener {
-//        // TODO: Update argument type and name
-//        public void onFragmentInteraction(Uri uri);
-//    }
+    public interface OnFragmentInteractionListener {
+        // TODO: Update argument type and name
+        public void updateSetting();
+    }
+
+    private void checkEmpty(TextView textView, String errorMessage) {
+        int length = textView.getText().toString().length();
+        if(length == 0) {
+            textView.setError(errorMessage);
+            textView.setFocusable(true);
+            textView.setFocusableInTouchMode(true);
+            this.fieldEmpty = true;
+        }
+    }
 }

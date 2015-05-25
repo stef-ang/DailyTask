@@ -1,74 +1,73 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.stef_developer.dailytask.addtask">
+    <TextView
+        style="@style/titleTextDefault"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="start"
+        android:text="Account Setting"/>
 
-    <ScrollView
+    <TextView
+        style="@style/labelDefault"
+        android:text="Email Account:" />
+
+    <TextView
+        android:id="@+id/tv_email"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-            <TextView
-                style="@style/titleTextDefault"
-                android:layout_gravity="start"
-                android:layout_marginLeft="@dimen/margin_horizontal_header"
-                android:text="Account Setting"/>
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_horizontal_etLogin"
+        android:layout_marginRight="@dimen/margin_horizontal_etLogin"
+        android:gravity="center"
+        android:text="anggara.stefanus@gmail.com"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp" />
 
-            <TextView
-                style="@style/labelDefault"
-                android:text="Email Account:"/>
+    <TextView
+        style="@style/labelDefault"
+        android:layout_marginTop="10dp"
+        android:text="Fullname :" />
 
-            <TextView
-                android:id="@+id/tv_email"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/margin_horizontal_etLogin"
-                android:layout_marginRight="@dimen/margin_horizontal_etLogin"
-                android:text="anggara.stefanus@gmail.com"
-                android:textColor="@android:color/holo_blue_dark"
-                android:gravity="center"
-                android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/et_fullname"
+        style="@style/editTextDefault" />
 
-            <TextView
-                style="@style/labelDefault"
-                android:layout_marginTop="10dp"
-                android:text="Fullname :"/>
+    <TextView
+        style="@style/labelDefault"
+        android:text="Password :" />
 
-            <EditText
-                android:id="@+id/et_fullname"
-                style="@style/editTextDefault" />
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="0dp"
+        android:id="@+id/et_old_pwd"
+        style="@style/editTextDefault"
+        android:hint="Old Password"
+        android:inputType="textPassword" />
 
-            <TextView
-                style="@style/labelDefault"
-                android:text="Password :"/>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="0dp"
+        android:id="@+id/et_new_pwd"
+        style="@style/editTextDefault"
+        android:hint="New Password"
+        android:inputType="textPassword" />
 
-            <EditText
-                android:id="@+id/et_old_pwd"
-                android:inputType="textPassword"
-                style="@style/editTextDefault"
-                android:hint="Old Password"/>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="0dp"
+        android:id="@+id/et_re_new_pwd"
+        style="@style/editTextDefault"
+        android:hint="Re-type Password"
+        android:inputType="textPassword" />
 
-            <EditText
-                android:id="@+id/et_new_pwd"
-                android:inputType="textPassword"
-                style="@style/editTextDefault"
-                android:hint="New Password"/>
-
-            <EditText
-                android:id="@+id/et_re_new_pwd"
-                android:inputType="textPassword"
-                style="@style/editTextDefault"
-                android:hint="Re-type Password"/>
-
-            <Button
-                android:id="@+id/btn_save"
-                style="@style/buttonBlueDefault"
-                android:layout_marginTop="20dp"
-                android:text="Save"/>
-        </LinearLayout>
-    </ScrollView>
+    <Button
+        android:id="@+id/btn_save"
+        style="@style/buttonBlueDefault"
+        android:layout_width="225dp"
+        android:layout_marginTop="20dp"
+        android:text="Save" />
 </LinearLayout>
