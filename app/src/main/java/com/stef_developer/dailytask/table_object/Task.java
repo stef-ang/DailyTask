@@ -15,6 +15,9 @@ public class Task implements Parcelable {
     private Date datetime;
     private String details;
     private int status;
+    public final static int UNFINISHED = 0;
+    public final static int FINISHED = 1;
+    public final static int FAILED = 2;
 
     public Task() {
         super();

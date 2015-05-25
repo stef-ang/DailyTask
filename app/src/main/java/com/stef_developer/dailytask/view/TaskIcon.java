@@ -82,7 +82,7 @@ public class TaskIcon extends View {
     }
 
     private void init_paints() {
-        textPaint = new Paint(Paint.LINEAR_TEXT_FLAG);
+        textPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         Typeface roboto = Typeface.create("Roboto", Typeface.NORMAL);
         textPaint.setTypeface(roboto);
         textPaint.setColor(Color.WHITE);

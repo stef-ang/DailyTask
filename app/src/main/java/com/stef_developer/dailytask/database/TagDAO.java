@@ -72,6 +72,24 @@ public class TagDAO extends DailyTaskDBDAO {
         return tags;
     }
 
+    public ArrayList<String> getTagsNameArray() {
+        ArrayList<String> tags = new ArrayList<>();
+
+        Cursor cursor = database.query(DataBaseHelper.TAG_TABLE,
+                new String[] { DataBaseHelper.TAG_ISI},
+                null,
+                null,
+                null,
+                null,
+                null);
+
+        while (cursor.moveToNext()) {
+            tags.add(cursor.getString(0));
+        }
+        return tags;
+
+    }
+
     public ArrayList<Tag> getTagsByTask(int taskId) {
         ArrayList<Tag> tags = new ArrayList<Tag>();
 

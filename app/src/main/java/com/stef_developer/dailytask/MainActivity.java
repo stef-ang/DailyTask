@@ -9,10 +9,12 @@ import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
+import com.stef_developer.dailytask.database.DatabaseSeeder;
 import com.stef_developer.dailytask.fragments.NavigationDrawerFragment;
 import com.stef_developer.dailytask.fragments.Setting;
 import com.stef_developer.dailytask.fragments.TaskList;
 import com.stef_developer.dailytask.fragments.TaskReport;
+
 
 public class MainActivity extends AppCompatActivity
         implements NavigationDrawerFragment.NavigationDrawerCallbacks,
@@ -30,9 +32,12 @@ public class MainActivity extends AppCompatActivity
      * Used to store the last screen title. For use in { restoreActionBar()}.
      */
     private CharSequence mTitle;
+    private DatabaseSeeder databaseSeeder;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        databaseSeeder = new DatabaseSeeder(this);
+        databaseSeeder.seed();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -52,13 +57,6 @@ public class MainActivity extends AppCompatActivity
                 R.id.navigation_drawer,
                 (DrawerLayout) findViewById(R.id.drawer_layout));
 
-//        TaskIcon taskIcon = new TaskIcon(this, 1, 0.70f);
-//        ViewGroup taskbox = (ViewGroup)getChild(findViewById(R.id.taskbox), 1);
-//        ViewGroup boxAtas = (ViewGroup)getChild(taskbox, 0);
-//        LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
-//        layoutParams.gravity = Gravity.CENTER;
-//        boxAtas.addView(taskIcon, 0, layoutParams);
-//        boxAtas.invalidate();
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction()
                 .replace(R.id.container, TaskList.newInstance())
@@ -129,6 +127,11 @@ public class MainActivity extends AppCompatActivity
     private View getChild(View view, int idx) {
         ViewGroup viewGroup = (ViewGroup)view;
         return viewGroup.getChildAt(idx);
+    }
+
+    public void addTask(View view) {
+        Intent intent = new Intent(this, AddTask.class);
+        startActivity(intent);
     }
 
     public void setActionBarTitle(String title) {
