@@ -56,4 +56,11 @@ public class Task_PrerequisiteDAO extends DailyTaskDBDAO {
                 WHERE_ID_EQUALS,
                 new String[] { String.valueOf(task_prerequisite.getId_task_prerequisite()) });
     }
+
+    public int clearPrerequisites(int taskId) {
+        return database.delete(DataBaseHelper.TASK_PREREQUISITE_TABLE,
+                DataBaseHelper.ID_TASK1 + "=" + taskId,
+                null);
+    }
+
 }

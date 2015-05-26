@@ -53,4 +53,10 @@ public class Task_TagDAO extends DailyTaskDBDAO {
                 WHERE_ID_EQUALS,
                 new String[] { String.valueOf(task_tag.getId_task_tag()) });
     }
+
+    public int clearTags(int taskId) {
+        return database.delete(DataBaseHelper.TASK_TAG_TABLE,
+                DataBaseHelper.ID_TASK + "=" + taskId,
+                null);
+    }
 }

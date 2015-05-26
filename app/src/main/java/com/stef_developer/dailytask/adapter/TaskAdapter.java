@@ -1,15 +1,24 @@
 package com.stef_developer.dailytask.adapter;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.stef_developer.dailytask.AddTask;
+import com.stef_developer.dailytask.EditTask;
+import com.stef_developer.dailytask.MainActivity;
 import com.stef_developer.dailytask.R;
 import com.stef_developer.dailytask.database.TagDAO;
 import com.stef_developer.dailytask.database.TaskDAO;
@@ -42,7 +51,7 @@ public class TaskAdapter extends ArrayAdapter<Task> {
     }
 
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public View getView(final int position, View convertView, ViewGroup parent) {
         //if (taskArray[position].getStatus() != 0)
         //    return null;
 
@@ -68,7 +77,53 @@ public class TaskAdapter extends ArrayAdapter<Task> {
             holder.tagsList = (LinearLayout)row.findViewById(R.id.tags_layout);
             holder.prerequisiteList = (LinearLayout)row.findViewById(R.id.prerequisites_list);
             holder.detailsView = (TextView)row.findViewById(R.id.taskbox_details_textview);
+            holder.editButton = (Button)row.findViewById(R.id.editbutton);
+            holder.deleteButton = (Button)row.findViewById(R.id.deletebutton);
+            holder.markAsButton = (Button)row.findViewById(R.id.markbutton);
 
+            holder.editButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(context, EditTask.class);
+                    intent.putExtra("id", taskArray[position].getId_task());
+                    context.startActivity(intent);
+                }
+            });
+
+            holder.deleteButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                     new AlertDialog.Builder(context)
+                            .setTitle("Delete Task")
+                            .setMessage(Html.fromHtml("Are you sure you want to delete task <b>" + taskArray[position].getTask_title() + "</b>"))
+                            .setPositiveButton(Html.fromHtml("<font color='#FF0000'>Yes, delete the Task</font>"), new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int which) {
+                                    try {
+                                        TaskDAO taskDAO = new TaskDAO(context);
+                                    } catch (SQLException e) {
+                                        e.printStackTrace();
+                                    }
+                                    Task task = new Task();
+                                    task.setId_task(taskArray[position].getId_task());
+                                    int res = taskDAO.delete(task);
+                                    if(res != -1) {
+                                        Toast.makeText(context,
+                                                "Delete Task Success",
+                                                Toast.LENGTH_LONG).show();
+                                        Intent intent = new Intent(context, MainActivity.class);
+                                        context.startActivity(intent);
+                                    }
+                                }
+                            })
+                            .setNegativeButton("No!", new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int which) {
+                                    // do nothing
+                                }
+                            })
+                            .setIcon(android.R.drawable.ic_dialog_alert)
+                            .show();
+                }
+            });
             row.setTag(holder);
         }
         else {
@@ -158,5 +213,8 @@ public class TaskAdapter extends ArrayAdapter<Task> {
         private TextView detailsView;
         private LinearLayout tagsList;
         private LinearLayout prerequisiteList;
+        private Button editButton;
+        private Button deleteButton;
+        private Button markAsButton;
     }
 }

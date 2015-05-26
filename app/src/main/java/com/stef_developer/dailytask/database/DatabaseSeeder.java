@@ -28,6 +28,7 @@ public class DatabaseSeeder {
             TaskDAO taskDAO;
             Task_PrerequisiteDAO prereqDAO;
             TagDAO tagDAO;
+            UserDAO userDAO = new UserDAO(this.activity);
             Task_TagDAO task_tagDAO;
             taskDAO = new TaskDAO(this.activity);
             prereqDAO = new Task_PrerequisiteDAO(this.activity);
@@ -52,6 +53,9 @@ public class DatabaseSeeder {
             taskDAO.insert(t1);
             taskDAO.insert(t2);
             taskDAO.insert(t3);
+
+            userDAO.insert(u1);
+
             prereqDAO.insert(tp);
             tagDAO.insert(tg1);
             tagDAO.insert(tg2);

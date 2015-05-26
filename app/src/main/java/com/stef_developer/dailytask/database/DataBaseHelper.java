@@ -32,6 +32,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
     public static final String TASK_DATETIME = "datetime";
     public static final String TASK_DETAILS = "details";
     public static final String TASK_STATUS = "status";
+    public static final String TASK_TAG = "tag";
 
     // tag attributes
     public static final String ID_TAG = "id_tag";

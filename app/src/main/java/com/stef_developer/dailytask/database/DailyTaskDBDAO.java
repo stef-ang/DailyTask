@@ -12,7 +12,7 @@ import java.sql.SQLException;
 public class DailyTaskDBDAO {
 
     protected SQLiteDatabase database;
-    private DataBaseHelper dbHelper;
+    protected DataBaseHelper dbHelper;
     private Context mContext;
 
     public DailyTaskDBDAO(Context context) throws SQLException {

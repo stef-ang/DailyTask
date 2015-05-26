@@ -108,4 +108,15 @@ public class TagDAO extends DailyTaskDBDAO {
         }
         return tags;
     }
+
+    public int findId(String tag) {
+        String query = "SELECT " + DataBaseHelper.ID_TAG + " FROM " + DataBaseHelper.TAG_TABLE + " WHERE " + DataBaseHelper.TAG_ISI
+                        + "='" + tag + "'";
+        Cursor cursor = database.rawQuery(query, null);
+        if (cursor.moveToNext()) {
+            return cursor.getInt(0);
+        }
+        else return -1;
+    }
+
 }

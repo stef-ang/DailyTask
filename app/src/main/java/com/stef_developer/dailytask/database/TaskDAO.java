@@ -20,7 +20,7 @@ import java.util.Locale;
  */
 public class TaskDAO extends DailyTaskDBDAO {
 
-    private static final String WHERE_ID_EQUALS = DataBaseHelper.ID_TASK + " =?";
+    private static final String WHERE_ID_EQUALS = DataBaseHelper.ID_TASK + " = ?";
 
     private static final SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm", Locale.US);
 
@@ -36,7 +36,7 @@ public class TaskDAO extends DailyTaskDBDAO {
         values.put(DataBaseHelper.TASK_DETAILS, task.getDetails());
         values.put(DataBaseHelper.TASK_STATUS, task.getStatus());
 
-
+        database = dbHelper.getWritableDatabase();
         return database.insert(DataBaseHelper.TASK_TABLE, null, values);
     }
 
@@ -51,7 +51,8 @@ public class TaskDAO extends DailyTaskDBDAO {
         long result = database.update(DataBaseHelper.TASK_TABLE,
                 values,
                 WHERE_ID_EQUALS,
-                new String[] {String.valueOf(task.getId_task()) });
+                new String[] {task.getId_task()+""});
+        System.out.println("Update Result: = " + result);
         Log.d("Update Result:", "=" + result);
         return result;
     }
@@ -95,6 +96,23 @@ public class TaskDAO extends DailyTaskDBDAO {
         return tasks;
     }
 
+    public ArrayList<String> getTasksArray() {
+        ArrayList<String> tasks = new ArrayList<>();
+        // http://developer.android.com/reference/android/database/sqlite/SQLiteDatabase.html
+        Cursor cursor = database.query(DataBaseHelper.TASK_TABLE,
+                new String[] {DataBaseHelper.TASK_TITLE},
+                null,
+                null,
+                null,
+                null,
+                DataBaseHelper.TASK_DATETIME + " DESC");
+
+        while (cursor.moveToNext()) {
+            tasks.add(cursor.getString(0));
+        }
+        return tasks;
+    }
+
     public ArrayList<Task> getPrerequisites(int taskId) {
         ArrayList<Task> tasks = new ArrayList<Task>();
         String query = "SELECT * FROM " + DataBaseHelper.TASK_TABLE + " WHERE " +
@@ -118,5 +136,44 @@ public class TaskDAO extends DailyTaskDBDAO {
             tasks.add(task);
         }
         return tasks;
+    }
+
+    public Task find(int id) {
+        Task task = new Task();
+        Cursor cursor = database.query(DataBaseHelper.TASK_TABLE,
+                new String[]{DataBaseHelper.ID_TASK,
+                        DataBaseHelper.TASK_TITLE,
+                        DataBaseHelper.TASK_DATETIME,
+                        DataBaseHelper.TASK_DETAILS,
+                        DataBaseHelper.TASK_STATUS},
+                DataBaseHelper.ID_TASK + " = ?",
+                new String[]{id + ""},
+                null,
+                null,
+                null);
+
+        while (cursor.moveToNext()) {
+            task.setId_task(cursor.getInt(0));
+            task.setTask_title(cursor.getString(1));
+            try {
+                task.setDatetime(formatter.parse(cursor.getString(2)));
+            }
+            catch (ParseException e) {
+                task.setDatetime(null);
+            }
+            task.setDetails(cursor.getString(3));
+            task.setStatus(cursor.getInt(4));
+        }
+        return task;
+    }
+
+    public int findId(String title) {
+        String query = "SELECT " + DataBaseHelper.ID_TASK + " FROM " + DataBaseHelper.TASK_TABLE + " WHERE " + DataBaseHelper.TASK_TITLE
+                + "='" + title + "'";
+        Cursor cursor = database.rawQuery(query, null);
+        if (cursor.moveToNext()) {
+            return cursor.getInt(0);
+        }
+        else return -1;
     }
 }
