@@ -134,7 +134,13 @@ public class TaskList extends Fragment {
         }
 
         @Override
-        protected void onPostExecute(ArrayList<Task> taskList) {
+        protected void onPostExecute(ArrayList<Task> taskList2) {
+            ArrayList<Task> taskList = new ArrayList<Task>();
+            for(Task task : taskList2) {
+                if(task.getStatus() == Task.UNFINISHED) {
+                    taskList.add(task);
+                }
+            }
             if (activityWeakRef.get() != null && !activityWeakRef.get().isFinishing()) {
                 taskArrayList =  taskList;
                 try {

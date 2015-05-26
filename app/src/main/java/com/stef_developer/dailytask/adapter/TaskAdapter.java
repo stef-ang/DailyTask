@@ -2,6 +2,7 @@ package com.stef_developer.dailytask.adapter;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -93,35 +94,108 @@ public class TaskAdapter extends ArrayAdapter<Task> {
             holder.deleteButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                     new AlertDialog.Builder(context)
-                            .setTitle("Delete Task")
-                            .setMessage(Html.fromHtml("Are you sure you want to delete task <b>" + taskArray[position].getTask_title() + "</b>"))
-                            .setPositiveButton(Html.fromHtml("<font color='#FF0000'>Yes, delete the Task</font>"), new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog, int which) {
-                                    try {
-                                        TaskDAO taskDAO = new TaskDAO(context);
-                                    } catch (SQLException e) {
-                                        e.printStackTrace();
-                                    }
-                                    Task task = new Task();
-                                    task.setId_task(taskArray[position].getId_task());
-                                    int res = taskDAO.delete(task);
-                                    if(res != -1) {
-                                        Toast.makeText(context,
-                                                "Delete Task Success",
-                                                Toast.LENGTH_LONG).show();
-                                        Intent intent = new Intent(context, MainActivity.class);
-                                        context.startActivity(intent);
-                                    }
+                    // custom dialog
+                    final Dialog dialog = new Dialog(context);
+                    dialog.setContentView(R.layout.dialog_deletetask);
+
+                    TextView textView = (TextView) dialog.findViewById(R.id.dialogDeleteTaskContent);
+                    textView.setText("Are you sure you want to delete the task '" +taskArray[position].getTask_title() + "'?");
+
+                    Button successBtn = (Button) dialog.findViewById(R.id.yesDeleteBtn);
+                    successBtn.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            try {
+                                TaskDAO taskDAO = new TaskDAO(context);
+                            } catch (SQLException e) {
+                                e.printStackTrace();
+                            }
+                            Task task = new Task();
+                            task.setId_task(taskArray[position].getId_task());
+                            int res = taskDAO.delete(task);
+                            if(res != -1) {
+                                Toast.makeText(context,
+                                        "Delete Task Success",
+                                        Toast.LENGTH_LONG).show();
+                                Intent intent = new Intent(context, MainActivity.class);
+                                context.startActivity(intent);
+                            }
+                        }
+                    });
+
+                    Button failedBtn = (Button) dialog.findViewById(R.id.noDeleteBtn);
+                    failedBtn.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            dialog.dismiss();
+                        }
+                    });
+                    dialog.show();
+                }
+            });
+
+            holder.markAsButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    // custom dialog
+                    final Dialog dialog = new Dialog(context);
+                    dialog.setContentView(R.layout.dialog_marktask);
+
+                    TextView textView = (TextView) dialog.findViewById(R.id.dialogMarkTaskContent);
+                    textView.setText("Marking task '" + taskArray[position].getTask_title() + "'");
+
+                    Button successBtn = (Button) dialog.findViewById(R.id.markSuccessButton);
+                    successBtn.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            TaskDAO taskDAO = null;
+                            try {
+                                taskDAO = new TaskDAO(context);
+                            } catch (SQLException e) {
+                                e.printStackTrace();
+                            }
+                            long res = taskDAO.updateStatus(taskArray[position].getId_task(), Task.FINISHED);
+                            if(res != -1) {
+                                Toast.makeText(context,
+                                        "Task has been marked as Success",
+                                        Toast.LENGTH_LONG).show();
+                                Intent intent = new Intent(context, MainActivity.class);
+                                context.startActivity(intent);
+                            }
+                        }
+                    });
+
+                    Button failedBtn = (Button) dialog.findViewById(R.id.markFailedButton);
+                    failedBtn.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            TaskDAO taskDAO = null;
+                            try {
+                                taskDAO = new TaskDAO(context);
+                            } catch (SQLException e) {
+                                e.printStackTrace();
+                            }
+                            long res = taskDAO.updateStatus(taskArray[position].getId_task(), Task.FAILED);
+                            if (res != -1) {
+                                if (res != -1) {
+                                    Toast.makeText(context,
+                                            "Task has been marked as Failed",
+                                            Toast.LENGTH_LONG).show();
+                                    Intent intent = new Intent(context, MainActivity.class);
+                                    context.startActivity(intent);
                                 }
-                            })
-                            .setNegativeButton("No!", new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog, int which) {
-                                    // do nothing
-                                }
-                            })
-                            .setIcon(android.R.drawable.ic_dialog_alert)
-                            .show();
+                            }
+                        }
+                    });
+
+                    Button cancelBtn = (Button) dialog.findViewById(R.id.markCancelButton);
+                    cancelBtn.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            dialog.dismiss();
+                        }
+                    });
+                    dialog.show();
                 }
             });
             row.setTag(holder);

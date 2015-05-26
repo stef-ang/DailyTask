@@ -141,13 +141,13 @@ public class TaskDAO extends DailyTaskDBDAO {
     public Task find(int id) {
         Task task = new Task();
         Cursor cursor = database.query(DataBaseHelper.TASK_TABLE,
-                new String[] {DataBaseHelper.ID_TASK,
+                new String[]{DataBaseHelper.ID_TASK,
                         DataBaseHelper.TASK_TITLE,
                         DataBaseHelper.TASK_DATETIME,
                         DataBaseHelper.TASK_DETAILS,
                         DataBaseHelper.TASK_STATUS},
                 DataBaseHelper.ID_TASK + " = ?",
-                new String[]{id+""},
+                new String[]{id + ""},
                 null,
                 null,
                 null);
@@ -165,5 +165,19 @@ public class TaskDAO extends DailyTaskDBDAO {
             task.setStatus(cursor.getInt(4));
         }
         return task;
+    }
+
+    public long updateStatus(int id, int status) {
+        ContentValues values = new ContentValues();
+
+        values.put(DataBaseHelper.TASK_STATUS, status);
+
+        long result = database.update(DataBaseHelper.TASK_TABLE,
+                values,
+                WHERE_ID_EQUALS,
+                new String[] {id+""});
+        System.out.println("Update Result: = " + result);
+        Log.d("Update Result:", "=" + result);
+        return result;
     }
 }
