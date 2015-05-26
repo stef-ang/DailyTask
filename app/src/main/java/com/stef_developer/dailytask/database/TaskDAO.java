@@ -176,4 +176,17 @@ public class TaskDAO extends DailyTaskDBDAO {
         }
         else return -1;
     }
+    public long updateStatus(int id, int status) {
+        ContentValues values = new ContentValues();
+
+        values.put(DataBaseHelper.TASK_STATUS, status);
+
+        long result = database.update(DataBaseHelper.TASK_TABLE,
+                values,
+                WHERE_ID_EQUALS,
+                new String[] {id+""});
+        System.out.println("Update Result: = " + result);
+        Log.d("Update Result:", "=" + result);
+        return result;
+    }
 }

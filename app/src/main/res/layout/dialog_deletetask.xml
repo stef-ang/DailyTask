@@ -2,34 +2,37 @@
     android:orientation="vertical"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="@android:color/white"
-    android:layout_marginRight="30dp"
-    android:layout_marginLeft="30dp"
     android:padding="10dp"
     >
     <TextView
         style="@style/dialogTitleDefault"
         android:text="Delete Task"
+        android:layout_gravity="center"
         />
     <TextView
+        android:id="@+id/dialogDeleteTaskContent"
         style="@style/dialogContent"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:text="Are you sure you want to delete the task\n&quot;Kumpul Tugas DP&quot;?"/>
+        android:layout_marginRight="20dp"/>
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:layout_marginBottom="20dp"
         android:layout_gravity="center_horizontal"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:weightSum="6">
         <Button
+            android:id="@+id/yesDeleteBtn"
             style="@style/dialogButtonRed"
-            android:text="Yes, delte the task"
-            android:layout_marginRight="30dp"/>
+            android:text="Yes, delete the task!"
+            android:layout_marginRight="3dp"
+            android:layout_weight="3"/>
         <Button
+            android:id="@+id/noDeleteBtn"
             style="@style/dialogButtonBlue"
-            android:text="No"/>
+            android:text="No"
+            android:layout_weight="3"/>
     </LinearLayout>
 
 </LinearLayout>

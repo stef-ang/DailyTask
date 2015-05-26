@@ -42,6 +42,7 @@ public class AddTask extends AppCompatActivity {
     private EditText detail;
     private MultiAutoCompleteTextView tagInput;
     private MultiAutoCompleteTextView prereqInput;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -67,13 +68,8 @@ public class AddTask extends AppCompatActivity {
             taglists.setAdapter(adapter);
             taglists.setThreshold(0);
             taglists.setTokenizer(new MultiAutoCompleteTextView.CommaTokenizer());
-            taglists.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-                @Override
-                public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                    Toast.makeText(getBaseContext(), "You add tag" + adapterView.getItemAtPosition(i), Toast.LENGTH_LONG).show();
-                }
-            });
-            //-----------------------------------------------------------------------------------------------
+
+
             TaskDAO taskDAO = new TaskDAO(this);
             ArrayList<String> prerequisitelist = taskDAO.getTasksArray();
             String[] prerequisiteArray = prerequisitelist.toArray(new String[tagsList.size()]);

@@ -1,21 +1,18 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:layout_marginRight="30dp"
     android:layout_marginLeft="30dp"
     android:padding="10dp"
+    android:layout_marginTop="5dp"
     >
     <TextView
-        style="@style/dialogTitleDefault"
-        android:text="Mark Task"
-        />
-    <TextView
+        android:id="@+id/dialogMarkTaskContent"
         style="@style/dialogContent"
+        android:layout_marginTop="0dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:text="Marking task \n&quot;Kumpul Tugas DP&quot;?"/>
+        android:layout_marginRight="20dp"/>
     <TextView
         style="@style/dialogContentNote"
         android:text="Please mark the task as success if the task is completed successfully, or mark the task as failed otherwise."/>
@@ -25,18 +22,25 @@
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
         android:layout_gravity="center_horizontal"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:weightSum="6">
         <Button
             style="@style/dialogButtonGreen"
+            android:id="@+id/markSuccessButton"
             android:text="Success"
-            android:layout_marginRight="10dp"/>
+            android:layout_marginRight="3dp"
+            android:layout_weight="2"/>
         <Button
             style="@style/dialogButtonRed"
+            android:id="@+id/markFailedButton"
             android:text="Failed"
-            android:layout_marginRight="10dp"/>
+            android:layout_marginRight="3dp"
+            android:layout_weight="2"/>
         <Button
             style="@style/dialogButtonBlue"
-            android:text="Cancel"/>
+            android:id="@+id/markCancelButton"
+            android:text="Cancel"
+            android:layout_weight="2"/>
 
     </LinearLayout>
 
