@@ -36,8 +36,7 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        databaseSeeder = new DatabaseSeeder(this);
-        databaseSeeder.seed();
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 

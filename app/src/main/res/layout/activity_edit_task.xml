@@ -6,7 +6,7 @@
     <EditText
         style="@style/editTextDefault"
         android:hint="Task title"
-        android:id="@+id/tasktitle"
+        android:id="@+id/edittasktitle"
         android:textSize="18sp"
         android:layout_marginTop="30dp"/>
     <LinearLayout
@@ -17,7 +17,7 @@
         <EditText
             style="@style/editTextDefault"
             android:hint="Date"
-            android:id="@+id/datepicker"
+            android:id="@+id/editdatepicker"
             android:layout_weight="2"
             android:layout_marginRight="5dp"
             android:drawableRight="@drawable/ic_calendar"
@@ -27,7 +27,7 @@
         <EditText
             style="@style/editTextDefault"
             android:hint="Time"
-            android:id="@+id/timepicker"
+            android:id="@+id/edittimepicker"
             android:layout_weight="3"
             android:layout_marginLeft="5dp"
             android:drawableRight="@drawable/ic_action_name"
@@ -38,11 +38,11 @@
     <EditText
         style="@style/editTextDefault"
         android:hint="Details"
-        android:id="@+id/detail"
+        android:id="@+id/editdetail"
         android:textSize="18sp"/>
 
     <MultiAutoCompleteTextView
-        android:id="@+id/taglist"
+        android:id="@+id/edittaglist"
         style="@style/editTextDefault"
         android:hint="Tags"
         android:textSize="18sp"/>
@@ -60,7 +60,7 @@
     <MultiAutoCompleteTextView
         style="@style/editTextDefault"
         android:hint="Prerequisites"
-        android:id="@+id/prerequisites"
+        android:id="@+id/editprerequisites"
         android:textSize="18sp"/>
 
     <TextView
@@ -75,9 +75,9 @@
 
     <Button
         style="@style/buttonBlueDefault"
-        android:text="Add Task"
-        android:id="@+id/addtask_button"
-        android:onClick="addTask"
+        android:text="Update Task"
+        android:id="@+id/updatetask_button"
+        android:onClick="updateTask"
         android:layout_width="250dp"
         android:textSize="18sp"
         android:layout_marginTop="30dp"
